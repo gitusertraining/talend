@@ -14,6 +14,7 @@
     <module>jobs/process/MyRemoteJobs/demorejects_0.1</module>
     <module>jobs/process/MyRemoteJobs/sample_0.1</module>
     <module>jobs/process/MyRemoteJobs/sample2_0.1</module>
+    <module>jobs/process/MyRemoteJobs/sample3_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
