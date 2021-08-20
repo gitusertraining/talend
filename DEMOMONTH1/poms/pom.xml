@@ -19,6 +19,7 @@
     <module>jobs/process/MyRemoteJobs/demorejects_9.0</module>
     <module>jobs/process/MyRemoteJobs/demorejects_10.0</module>
     <module>jobs/process/MyRemoteJobs/testwebservice_0.1</module>
+    <module>jobs/process/BuildingJobs/printcustomers_3.0</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
