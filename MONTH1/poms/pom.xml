@@ -13,8 +13,8 @@
     <module>code/routines</module>
     <module>jobs/process/ContextVariables/extractdata_0.1</module>
     <module>jobs/process/ContextVariables/loadvariables_0.1</module>
+    <module>jobs/process/MyRemoteJobs/loadcustomerdata_0.1</module>
     <module>jobs/process/WebServices/getinfobyzip_0.1</module>
-    <module>jobs/process/loadcustomerdata_0.1</module>
     <module>jobs/process/testremotedb_0.1</module>
   </modules>
   <properties>
