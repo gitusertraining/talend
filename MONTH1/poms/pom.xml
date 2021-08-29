@@ -15,6 +15,12 @@
     <module>jobs/process/ContextVariables/loadvariables_0.1</module>
     <module>jobs/process/MyRemoteJobs/loadcustomerdata_0.1</module>
     <module>jobs/process/MyRemoteJobs/testremotedb_0.1</module>
+    <module>jobs/process/UseCaseSales/challengesales_0.1</module>
+    <module>jobs/process/UseCaseSales/loadcustomers_0.1</module>
+    <module>jobs/process/UseCaseSales/loadproducts_0.1</module>
+    <module>jobs/process/UseCaseSales/loadsales_0.1</module>
+    <module>jobs/process/UseCaseSales/retailsales_0.1</module>
+    <module>jobs/process/UseCaseSales/salesmasterjob_0.1</module>
     <module>jobs/process/WebServices/getinfobyzip_0.1</module>
   </modules>
   <properties>
