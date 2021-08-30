@@ -26,6 +26,7 @@
     <module>jobs/process/UseCaseSales/loadsales_0.1</module>
     <module>jobs/process/UseCaseSales/retailsales_0.1</module>
     <module>jobs/process/UseCaseSales/salesmasterjob_0.1</module>
+    <module>jobs/process/UseCaseSales/testloadproducts_0.1</module>
     <module>jobs/process/WebServices/getinfobyzip_0.1</module>
     <module>jobs/routes/FileTriggers/rte_file_trigger_0.1</module>
   </modules>
