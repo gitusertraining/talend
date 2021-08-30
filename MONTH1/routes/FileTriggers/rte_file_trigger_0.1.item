@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:id="_riPqMAlsEeyFTP-Fy9lXdg" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default" xmi:id="_riPqMQlsEeyFTP-Fy9lXdg">
+    <contextParameter comment="" internalId="_rpoEkAlsEeyFTP-Fy9lXdg" name="parameter_monitored_directory" prompt="parameter_monitored_directory?" promptNeeded="false" type="id_String" value="/tmp/fileTriggerTest" xmi:id="_riPqMglsEeyFTP-Fy9lXdg"/>
+  </context>
+  <parameters xmi:id="_riPqMwlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_riPqNAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0" xmi:id="_riPqNQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_riPqNglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_riPqNwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_riPqOAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_riPqOQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_riPqOglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_riPqOwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_riPqPAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_riPqPQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_riPqPglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_riPqPwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_riPqQAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_riPqQQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_riPqQglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_riPqQwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_riPqRAlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aCfl4EggEeq9z8GlqyE6KA" name="DataMasking" xmi:id="_riPqRQlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aD9lgEggEeq9z8GlqyE6KA" name="DataOperation" xmi:id="_riPqRglsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEDsIEggEeq9z8GlqyE6KA" name="Numeric" xmi:id="_riPqRwlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEGvcEggEeq9z8GlqyE6KA" name="Relational" xmi:id="_riPqSAlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aDxYQEggEeq9z8GlqyE6KA" name="DataQualityDependencies" xmi:id="_riPqSQlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aD1CoEggEeq9z8GlqyE6KA" name="DqStringHandling" xmi:id="_riPqSglsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aD3e4EggEeq9z8GlqyE6KA" name="DQTechnical" xmi:id="_riPqSwlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEJywEggEeq9z8GlqyE6KA" name="StringHandling" xmi:id="_riPqTAlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEM2EEggEeq9z8GlqyE6KA" name="TalendDataGenerator" xmi:id="_riPqTQlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aD6iMEggEeq9z8GlqyE6KA" name="SQLike" xmi:id="_riPqTglsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aETjwEggEeq9z8GlqyE6KA" name="TalendString" xmi:id="_riPqTwlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEAo0EggEeq9z8GlqyE6KA" name="Mathematical" xmi:id="_riPqUAlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEWAAEggEeq9z8GlqyE6KA" name="TalendStringUtil" xmi:id="_riPqUQlsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aDuU8EggEeq9z8GlqyE6KA" name="DataQuality" xmi:id="_riPqUglsEeyFTP-Fy9lXdg"/>
+    <routinesParameter id="_aEP5YEggEeq9z8GlqyE6KA" name="TalendDate" xmi:id="_riPqUwlsEeyFTP-Fy9lXdg"/>
+  </parameters>
+  <node componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64" xmi:id="_riPqVAlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cFile_1" xmi:id="_riPqVQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="DIRECTORY" name="URI" value="context.parameter_monitored_directory" xmi:id="_riPqVglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="NOOP" value="true" xmi:id="_riPqVwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="FLATTEN" value="false" xmi:id="_riPqWAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="AUTOCREATE" value="true" xmi:id="_riPqWQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;" xmi:id="_riPqWglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;" xmi:id="_riPqWwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM" xmi:id="_riPqXAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="FILENAME" value="&quot;&quot;" xmi:id="_riPqXQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" xmi:id="_riPqXglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_riPqXwlsEeyFTP-Fy9lXdg"/>
+  </node>
+  <node componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="64" xmi:id="_riPqYAlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_2" xmi:id="_riPqYQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="LOGGING_CATEGORY" value="&quot;rte_file_trigger.cLog_2&quot;" xmi:id="_riPqYglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN" xmi:id="_riPqYwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="NOTHING" value="false" xmi:id="_riPqZAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="GROUP_SIZE" value="false" xmi:id="_riPqZQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="1" xmi:id="_riPqZglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="GROUP_INTERVAL" value="false" xmi:id="_riPqZwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="1" xmi:id="_riPqaAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="DELAY" show="false" value="0" xmi:id="_riPqaQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="ACTIVE_ONLY" show="false" value="true" xmi:id="_riPqaglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="FORMAT" value="false" xmi:id="_riPqawlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TABLE" name="ARGUMENTS" show="false" xmi:id="_riPqbAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="USE_LOGEIP" value="true" xmi:id="_riPqbQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;${in.headers.CamelFileAbsolutePath}&quot;" xmi:id="_riPqbglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_riPqbwlsEeyFTP-Fy9lXdg"/>
+  </node>
+  <node componentName="cTalendJob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="64" xmi:id="_riPqcAlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cTalendJob_2" xmi:id="_riPqcQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="FROM_REPOSITORY_JOB" value="true" xmi:id="_riPqcglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="FROM_EXTERNAL_JAR" value="false" xmi:id="_riPqcwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="USE_SELECTED_CONTEXT" value="true" xmi:id="_riPqdAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="USE_ROUTE_CONTEXT" value="false" xmi:id="_riPqdQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="RADIO" name="USE_JOB_CONTEXT" value="false" xmi:id="_riPqdglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="ROUTE_INPUT_PROCESS_TYPE" name="SELECTED_JOB_NAME" value="tdye_route_triggered_job" xmi:id="_riPqdwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_CONTEXT" value="Default" xmi:id="_riPqeAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_PROCESS" value="_vNZtMJCJEeq3H7W89Qxi4Q" xmi:id="_riPqeQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_VERSION" value="Latest" xmi:id="_riPqeglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" show="false" value="" xmi:id="_riPqewlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="JOB" show="false" value="&quot;&quot;" xmi:id="_riPqfAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="CONTEXT" show="false" value="&quot;Default&quot;" xmi:id="_riPqfQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS" xmi:id="_riPqfglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TABLE" name="EXTERNAL_JAR_CONTEXTPARAMS" show="false" xmi:id="_riPqfwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="PROPAGATE_HEADER" value="true" xmi:id="_riPqgAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="STICKY_JOB" value="false" xmi:id="_riPqgQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_riPqgglsEeyFTP-Fy9lXdg"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64" xmi:id="_riPqgwlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_2" xmi:id="_riPqhAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="simple" xmi:id="_riPqhQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;${in.headers.CamelFileAbsolutePath}&quot;" xmi:id="_riPqhglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_riPqhwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_riPqiAlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;                 *Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;                 *Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_riPqiQlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_riPqiglsEeyFTP-Fy9lXdg"/>
+  </node>
+  <connection connectorName="ROUTE" label="route1" lineStyle="14" metaname="cFile_1" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cLog_2" xmi:id="_riPqiwlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route1" xmi:id="_riPqjAlsEeyFTP-Fy9lXdg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route3" lineStyle="14" metaname="cLog_2" offsetLabelX="0" offsetLabelY="0" source="cLog_2" target="cSetBody_2" xmi:id="_riPqjQlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route3" xmi:id="_riPqjglsEeyFTP-Fy9lXdg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route4" lineStyle="14" metaname="cSetBody_2" offsetLabelX="0" offsetLabelY="0" source="cSetBody_2" target="cTalendJob_2" xmi:id="_riPqjwlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route4" xmi:id="_riPqkAlsEeyFTP-Fy9lXdg"/>
+  </connection>
+  <subjob xmi:id="_riPqkQlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cFile_1" xmi:id="_riPqkglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_riPqkwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_riPqlAlsEeyFTP-Fy9lXdg"/>
+  </subjob>
+  <subjob xmi:id="_riPqlQlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_2" xmi:id="_riPqlglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_riPqlwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_riPqmAlsEeyFTP-Fy9lXdg"/>
+  </subjob>
+  <subjob xmi:id="_riPqmQlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cTalendJob_2" xmi:id="_riPqmglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_riPqmwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_riPqnAlsEeyFTP-Fy9lXdg"/>
+  </subjob>
+  <subjob xmi:id="_riPqnQlsEeyFTP-Fy9lXdg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_2" xmi:id="_riPqnglsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_riPqnwlsEeyFTP-Fy9lXdg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_riPqoAlsEeyFTP-Fy9lXdg"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_506e6516-d790-4e47-aed8-0d98df2dc469"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NrysrV/UwwXjf3Z9ZZYwsqWeZtSkObvzja83zSBFhCoXs9ZJuzxWKGPswhc3BY7SqQkFnJjcnEwO
+vwTxotCrRQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cee3cf90-f7f5-4c52-9388-5cc66d93ed77"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LYyARNPzOULLqvjRIKVqd2MgLFk72ikUHJvwmTbV8p8zZq7E8t1Den5RW15L9REsoLaInXNFD++O
+RlqtH1q2pg==</DigestValue></Reference></SignedInfo><SignatureValue>PVzqMZU2nwm9nkCgqrbCYDFqVgCrKDXl1Ha+cnFqBbKJ1qx7LPVtznyTmcIoFRJu5dNXJSdb79qJ
+HGghHk8WGsxCNaO6LE+hhiRgZtbk7FMGukI23PHYSHsaSI+LdQhRTJ3AM9Uhk6tYljLfd6CBymax
+6XC4h93MqcLlMc0PysT/UiIHTYUG1jwE3MY5NY3qmsRurBPbSjxjhos+sU8kNplaGif2Hfb8pqzB
+6zy+aXnkK6ocW5hTq/fM1DKvx6tcAn6L7xnO/Z7ZvEqgKuCuyh3MaE2t5FGVW5576jOENKLl4YdV
+Bb4esb1JibQ/o5JXtIbpw5DX9GiyoZrokIQqfQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cee3cf90-f7f5-4c52-9388-5cc66d93ed77" Target="#_506e6516-d790-4e47-aed8-0d98df2dc469"><Timestamp>2021-08-30 08:31:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
