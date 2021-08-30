@@ -9,22 +9,22 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.month1.job</groupId>
-  <artifactId>salesMasterJob</artifactId>
-  <version>0.1.0</version>
-  <name>MONTH1 salesMasterJob-0.1.0 (0.1,Job Designs)</name>
+  <artifactId>loadProducts</artifactId>
+  <version>3.0.0</version>
+  <name>MONTH1 loadProducts-3.0.0 (3.0,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.version>0.1</talend.job.version>
+    <talend.job.version>3.0</talend.job.version>
     <talend.project.name.lowercase>month1</talend.project.name.lowercase>
     <talend.job.path>month1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>MONTH1</talend.project.name>
     <talend.product.version>7.3.1.20210723_0711-patch</talend.product.version>
-    <talend.job.finalName>salesmasterjob_0_1</talend.job.finalName>
+    <talend.job.finalName>loadproducts_3_0</talend.job.finalName>
     <talend.pigudf.groupid>org.example.month1.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.month1.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,8 +33,8 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>salesMasterJob</talend.job.name>
-    <talend.job.id>_XDtHADnFEem9e69tilXonQ</talend.job.id>
+    <talend.job.name>loadProducts</talend.job.name>
+    <talend.job.id>_fyS0UDmwEem9e69tilXonQ</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>usecasesales/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
@@ -108,6 +108,11 @@
       <version>1.16.1</version>
     </dependency>
     <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.18</version>
+    </dependency>
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.25</version>
@@ -118,29 +123,14 @@
       <version>1.1</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.month1.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>retailSales</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>loadSales</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>loadProducts</artifactId>
-      <version>3.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>loadCustomers</artifactId>
-      <version>0.1.0</version>
     </dependency>
   </dependencies>
   <build>
