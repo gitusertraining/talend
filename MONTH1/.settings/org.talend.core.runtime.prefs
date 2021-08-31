@@ -1,3 +1,2 @@
-distribution.dynamic.repository.cdh.overrideDefaultSetup=true
-distribution.dynamic.repository.cdh.password=enc\:system.encryption.key.v1\:QmVP/UnMo+Do+t+IsG0VFJLGuxGh92cWhbX+HbYaE4GDDhnauDOpuMFxTI8\=
+distribution.dynamic.repository.cdh.password=enc\:system.encryption.key.v1\:CjAR2CwyOMwdlWE9hLkPYauN9BcleXk9IY+T2qFjoXXRriAyg6MHkwR/nFk\=
 eclipse.preferences.version=1
