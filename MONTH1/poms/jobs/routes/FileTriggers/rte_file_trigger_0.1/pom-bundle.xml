@@ -182,11 +182,6 @@
       <artifactId>beans</artifactId>
       <version>7.3.1</version>
     </dependency>
-    <dependency>
-      <groupId>org.example.month1.route</groupId>
-      <artifactId>tdye_route_triggered_job</artifactId>
-      <version>0.1.0</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
