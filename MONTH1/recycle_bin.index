@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/FileTriggers</deletedFolders>
   <deletedFolders>process/Solutions</deletedFolders>
-  <deletedItems id="_3sZU8Iu2Eeq6z5kQhg4xHQ" path="FileTriggers" type="PROCESS"/>
-  <deletedItems id="_brWCAIvXEeq6z5kQhg4xHQ" path="FileTriggers" type="PROCESS"/>
-  <deletedItems id="_vNZtMJCJEeq3H7W89Qxi4Q" path="FileTriggers" type="PROCESS"/>
 </recyclebin:RecycleBin>

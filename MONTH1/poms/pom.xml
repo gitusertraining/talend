@@ -13,9 +13,6 @@
     <module>code/routines</module>
     <module>jobs/process/ContextVariables/extractdata_0.1</module>
     <module>jobs/process/ContextVariables/loadvariables_0.1</module>
-    <module>jobs/process/FileTriggers/batch_file_trigger_poc_0.1</module>
-    <module>jobs/process/FileTriggers/tdye_file_triggered_job_0.1</module>
-    <module>jobs/process/FileTriggers/tdye_route_triggered_job_0.1</module>
     <module>jobs/process/MyRemoteJobs/loadcustomerdata_0.1</module>
     <module>jobs/process/MyRemoteJobs/testremotedb_0.1</module>
     <module>jobs/process/UseCaseSales/challengesales_0.1</module>
