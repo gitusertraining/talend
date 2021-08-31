@@ -2,5 +2,6 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/WebServices</deletedFolders>
   <deletedItems id="_VzSCwPoQEeiN-rovZB9rdA" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_aNXlQPoMEeiN-rovZB9rdA" path="" type="METADATA_FILE_DELIMITED"/>
   <deletedItems id="_RuTucDmrEem9e69tilXonQ" path="WebServices" type="PROCESS"/>
 </recyclebin:RecycleBin>
