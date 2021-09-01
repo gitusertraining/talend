@@ -15,6 +15,7 @@
     <module>jobs/process/ContextVariables/loadvariables_0.1</module>
     <module>jobs/process/MyRemoteJobs/loadcustomerdata_0.1</module>
     <module>jobs/process/MyRemoteJobs/testremotedb_0.1</module>
+    <module>jobs/process/MyRemoteJobs/testrowgenerator_0.1</module>
     <module>jobs/process/UseCaseSales/challengesales_0.1</module>
     <module>jobs/process/UseCaseSales/loadcustomers_0.1</module>
     <module>jobs/process/UseCaseSales/loadproducts_0.1</module>
