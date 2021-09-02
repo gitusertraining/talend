@@ -4,27 +4,14 @@
     "contextName" : "Default",
     "repoId" : "_bN6BYAvPEeyZlMJ95o4OZA",
     "parameterList" : [ {
-      "id" : "_bOEZcwvPEeyZlMJ95o4OZA",
-      "name" : "filename3"
+      "id" : "_bOEZcQvPEeyZlMJ95o4OZA",
+      "name" : "filename1"
     }, {
       "id" : "_bOEZcgvPEeyZlMJ95o4OZA",
       "name" : "filename2"
     }, {
-      "id" : "_bOEZcQvPEeyZlMJ95o4OZA",
-      "name" : "filename1"
-    } ]
-  }, {
-    "contextName" : "prod",
-    "repoId" : "_bN6BYAvPEeyZlMJ95o4OZA",
-    "parameterList" : [ {
       "id" : "_bOEZcwvPEeyZlMJ95o4OZA",
       "name" : "filename3"
-    }, {
-      "id" : "_bOEZcgvPEeyZlMJ95o4OZA",
-      "name" : "filename2"
-    }, {
-      "id" : "_bOEZcQvPEeyZlMJ95o4OZA",
-      "name" : "filename1"
     } ]
   } ]
 }
