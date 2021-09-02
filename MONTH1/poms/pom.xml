@@ -27,6 +27,7 @@
     <module>jobs/process/UseCaseSales/loadsales_0.1</module>
     <module>jobs/process/UseCaseSales/loadsales_2.0</module>
     <module>jobs/process/UseCaseSales/loadsales_3.0</module>
+    <module>jobs/process/UseCaseSales/loadsales_4.0</module>
     <module>jobs/process/UseCaseSales/retailsales_0.1</module>
     <module>jobs/process/UseCaseSales/salesmasterjob_0.1</module>
     <module>jobs/process/UseCaseSales/test_0.1</module>
