@@ -9,9 +9,9 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.month1.job</groupId>
-  <artifactId>salesMasterJob</artifactId>
-  <version>0.1.0</version>
-  <name>MONTH1 salesMasterJob-0.1.0 (0.1,Job Designs)</name>
+  <artifactId>loadSales</artifactId>
+  <version>3.0.0</version>
+  <name>MONTH1 loadSales-3.0.0 (3.0,Job Designs)</name>
   <properties>
     <talend.job.type>Standard</talend.job.type>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
@@ -21,9 +21,9 @@
     <talend.job.path>month1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.stat>true</talend.job.stat>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.job.id>_XDtHADnFEem9e69tilXonQ</talend.job.id>
-    <talend.job.version>0.1</talend.job.version>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Djavax.net.debug=ssl:trustmanager gave -Dfile.encoding=UTF-8 </talend.job.jvmargs>
+    <talend.job.id>_CnobgDmxEem9e69tilXonQ</talend.job.id>
+    <talend.job.version>3.0</talend.job.version>
     <talend.job.framework></talend.job.framework>
     <talend.routine.groupid>org.example.month1.code</talend.routine.groupid>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
@@ -38,8 +38,8 @@
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.name>salesMasterJob</talend.job.name>
-    <talend.job.finalName>salesmasterjob_0_1</talend.job.finalName>
+    <talend.job.name>loadSales</talend.job.name>
+    <talend.job.finalName>loadsales_3_0</talend.job.finalName>
   </properties>
   <dependencies>
     <dependency>
@@ -108,6 +108,11 @@
       <version>1.16.1</version>
     </dependency>
     <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.18</version>
+    </dependency>
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.25</version>
@@ -118,29 +123,14 @@
       <version>1.1</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.example.month1.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>loadSales</artifactId>
-      <version>3.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>retailSales</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>loadCustomers</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.month1.job</groupId>
-      <artifactId>loadProducts</artifactId>
-      <version>5.0.0</version>
     </dependency>
   </dependencies>
   <build>

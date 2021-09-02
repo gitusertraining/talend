@@ -88,6 +88,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_CnobgDmxEem9e69tilXonQ",
+    "version" : "3.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_bN6BYAvPEeyZlMJ95o4OZA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_8tcVEARBEeysJ7YCeS00qg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_8RU20O2rEeimJLseTyzfCA - SalesShopsMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_VzSCwPoQEeiN-rovZB9rdA - CustomersMetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_DVIQAAQcEeyu0bDIuUl-Ug",
     "version" : "0.1",
     "type" : "job"
