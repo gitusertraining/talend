@@ -9,13 +9,9 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "IpaasFileUtil",
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
-    "version" : "Latest",
-    "type" : "routine"
+    "type" : "context"
   } ]
 }, {
   "baseItem" : {
