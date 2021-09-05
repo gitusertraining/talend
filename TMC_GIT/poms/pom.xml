@@ -10,8 +10,10 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/filtered_logs_customers_per_movie_0.1</module>
     <module>jobs/process/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/process/testremoteengine_0.1</module>
+    <module>jobs/process/video_viewers_watch_results_log_filter_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TMC_GIT</talend.project.name>
