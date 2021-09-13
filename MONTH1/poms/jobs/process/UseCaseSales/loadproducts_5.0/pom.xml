@@ -17,7 +17,7 @@
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <talend.pigudf.groupid>org.example.month1.pigudf</talend.pigudf.groupid>
     <talend.job.folder>usecasesales/</talend.job.folder>
-    <talend.job.context>dev</talend.job.context>
+    <talend.job.context>prod</talend.job.context>
     <talend.job.path>month1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.stat>true</talend.job.stat>
