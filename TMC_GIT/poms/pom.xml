@@ -12,6 +12,7 @@
     <module>code/beans</module>
     <module>code/routines</module>
     <module>jobs/process/filtered_logs_customers_per_movie_0.1</module>
+    <module>jobs/process/getids_0.1</module>
     <module>jobs/process/printcustomers_0.1</module>
     <module>jobs/process/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/process/testremoteengine_0.1</module>
