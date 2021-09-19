@@ -10,7 +10,15 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/createcloudre_0.1</module>
+    <module>jobs/process/createplan_0.1</module>
+    <module>jobs/process/createre_0.1</module>
+    <module>jobs/process/createre_1.0</module>
+    <module>jobs/process/getids_0.1</module>
+    <module>jobs/process/mainjob_0.1</module>
     <module>jobs/process/printcustomersoncloud_0.1</module>
+    <module>jobs/process/test_0.1</module>
+    <module>jobs/process/zz_sandbox/zz_rb_test_excel_offset_dynamic_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CLOUDYAHOO</talend.project.name>
