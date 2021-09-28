@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;javax.net.debug=ssl&quot;]}"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Djavax.net.debug=ssl&quot;]}"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:mFNxxn6u6Vc8aA1HX+ti70ZNSU0FdT9AIK5Qet+/"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:eqo8SUKXH6u31Bvt8D4iMseYbKkvDRxABiNgrA8J"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SCPYmfhkTF1UVLwE8zcgx+cvXBrkmqO7VhJ+4iXP"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KJt6uNOGEk2zR9t91rdJHkvl8I1TEHa01vLEsYzL"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -125,7 +125,7 @@
     <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:N9rWC+GZK8Cq/lAWVf8nF+jEcwuClGCA09nclRyJ"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:B3TiaetivkaUXlJ+Zu4Ry5jmQFYw3uh4WqDphvS1"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -160,7 +160,7 @@
     <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:qwuVlnRzrdTQ2NWaSLY6VeNUKNK2WDNu7yOWJeyS"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:H6zQPiXh09EbUhpq9sgB1YQcPf901i6ll1QKeIfl"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -223,7 +223,7 @@
     <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:tEGLmuEeYaTDr9cynxhzsAct+8n2MPoNP61VF2K/"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:7um8jNB4fzkJQ6+d6CxsSiKxRy7C2HpLJMgivrKT"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -301,7 +301,7 @@
     <elementParameter field="CHECK" name="SET_AUTHENTICATION_DATABASE" show="false" value="false"/>
     <elementParameter field="TEXT" name="AUTHENTICATION_DATABASE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:XLXR7LZ1Keh2wpJ8+oDDPwEpfp6gMZYs3F4gdaF9"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:UuzGPvrSRav8gY7NItPxidFfonm3QNsIy4vOHajf"/>
     <elementParameter field="TEXT" name="KRB_USER_PRINCIPAL" show="false" value="&quot;mongouser@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_REALM" show="false" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="KRB_KDC" show="false" value="&quot;kdc.example.com&quot;"/>
@@ -362,11 +362,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetKeystore_1"/>
     <elementParameter field="CLOSED_LIST" name="TRUSTSTORE_TYPE" value="JKS"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;C:/OpenSSL/bin/mongoclient.truststore&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:b4Q3/n5q3qXzY8a8tMg2eT8MC31+08o+J2hfdB4SkQJAKUaeMaw="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:4CrKzqkJsiX8EQj5shRH2xGBh9omPVELCAtLPTEFy0QvFUAICW0="/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" value="false"/>
     <elementParameter field="CLOSED_LIST" name="KEYSTORE_TYPE" show="false" value="JKS"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;C:/client.keystore&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:WQ7bD7n2zbdm/TNVm30nyrj/FNYv2nn7gsInBOTAOgsGcMnzouE="/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:EfwImsWt4yeFV5U0m8DKfULQoN19wmRUjM4vm/b8/cncjIwZqN0="/>
     <elementParameter field="CHECK" name="VERIFY_NAME" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
@@ -416,13 +416,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_22e2ae52-ee5b-4bf8-b15e-1e4f87a1b9ad"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>m1iSI3FCgQANVEEco76SplKvQgYgniqlG7tfkcv+cBeosvIKcPvCnxsyjYlsAePzfk81fXNYjOc/&#13;
-oYd4KUOs3g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b53f5488-8b3d-4a65-9125-4a9aa3782074"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>l2mjc77gRlcaxRidwHBORF7oQNs8Lp3TBEpVegWOJ2CfXgae1HEBxkYGyz70TIOaIl0G/UwBEy1m&#13;
-ht9wNgv7ZA==</DigestValue></Reference></SignedInfo><SignatureValue>FWAnVpNGyIyHyzHL/4GBYXwMH/hy/xnlZ0quVEt+hqPZxx+vaEKWi2qQD+joJNwUsxC0r+IoLJu+&#13;
-q0zXtuwK4uVYXla1UB+vvMtLF26hxiDP42iZD3hMo4lBNAfBX0atVhIsT38M6rsQlZaq1bUzNgcZ&#13;
-IidRYeoBYmyz3OXxXw8Ox1CvBkLaCDIp19Vnr9N+8k5I3dJIriSXXEoKI6ehHhVEo3ZAWsuo84Iy&#13;
-G+iZks82V6HtQGbPteHVGvE/1TnWQijbQHBslV7otXWnqYdC24eQZN7K7quxjmIh2xmEoT11tLMi&#13;
-9ij4z3lMlhqnDVsVaJpA1sWBnLMU5+a2Z9wQzw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_48c5ef70-fc3f-4d73-b46d-2025a4241d20"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1FwRm7Q6XnWWtHsJgxGpM60SlKOXpSZMVUatN3BBki++dC4eYDeiZehSPbKsVNlpOrp7ILtpiZsu&#13;
+z/qTSNuf0w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_96f49bcc-ed2c-463c-bde0-8d95564d3583"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CYAaz4MTCJSr2lG3Llbym2XYPWaeAdsDtoY7s08Lroky0ROoSxYOJo63MB4cILH8Mw9ZJCJtr0cc&#13;
+4z82ECJxeA==</DigestValue></Reference></SignedInfo><SignatureValue>LYKZH1WkJws0jGytftT6onhm2w3D1WzyoGf41ZJqKKBQabn2wg13ZS4Q3haw4ut7YHoPtM1D0BeC&#13;
+uNKrFG0/mrqcJTcDaZRzbcyumj8HIEjhph3ZVlDX8H5hmHn5ZtqXfjTBKcTD/mJSiWRt2b5RJBiX&#13;
+PFmnm706VmQGepmBZhhVuIqC7qGsugrSoY7P81fIMTOGH4u2qGBZMAo1Rur0kegiwsiSIvo35Iw+&#13;
+ilRM6N1S3JoWfSiP/cZM+CHWDdIqyeh/gdLYAG+mE8D/VKc6DF0kT9HBR4mWPi+o0c4w5WMTDuNL&#13;
+keMP/8/h5CnxbP7y6uORB8pB6bYQ/CfTwRDyHQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -444,4 +444,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b53f5488-8b3d-4a65-9125-4a9aa3782074" Target="#_22e2ae52-ee5b-4bf8-b15e-1e4f87a1b9ad"><Timestamp>2021-09-28 22:13:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_96f49bcc-ed2c-463c-bde0-8d95564d3583" Target="#_48c5ef70-fc3f-4d73-b46d-2025a4241d20"><Timestamp>2021-09-28 22:14:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
