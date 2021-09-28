@@ -1,1 +1,16 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_v_G7kCBsEeyHUKLW-BmdOw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_W20fICCFEeyHUKLW-BmdOw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_W20fICCFEeyHUKLW-BmdOw - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
