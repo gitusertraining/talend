@@ -82,6 +82,49 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_TpQ8cOf8EeSecL1VY58-Ww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1dXowOf_EeSecL1VY58-Ww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "ESBProperties",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Fibonacci",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDMRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Thumbnail",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_eTjaMPnoEeut1L05m52yjw",
     "version" : "10.0",
     "type" : "job"
