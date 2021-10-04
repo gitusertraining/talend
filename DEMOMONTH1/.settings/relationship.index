@@ -225,6 +225,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - query",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
     "id" : "_05ixUCS2Eeyfusr40cPBIA - customers",
     "version" : "Latest",
     "type" : "schema"
