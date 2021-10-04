@@ -173,6 +173,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_sWj0QCUREeyanobGKptpYg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - query",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_uMZI0DavEem9e69tilXonQ",
     "version" : "0.1",
     "type" : "job"
