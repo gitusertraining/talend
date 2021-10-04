@@ -224,6 +224,10 @@
     "id" : "_05ixUCS2Eeyfusr40cPBIA",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - customers",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
