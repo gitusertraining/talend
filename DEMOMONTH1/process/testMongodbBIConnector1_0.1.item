@@ -48,7 +48,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:XBBLv5nghqFsM0zBUxBGJsR/+h7CijztMwLjrHit"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:wk5W6ODgYu0xG22auvDvsdldVRX0daim0buQwRXP"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -83,7 +83,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:MnCZU+QD8oRpIkJr3R3+Tusarl6DhRQF9InMe/ar"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NQucAT94YmkDUc504tfPyJaebK524yV0oedsmksY"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -113,8 +113,9 @@
     <routinesParameter id="_en0nIAGVEeyKYJRcqpQ59g" name="TalendStringUtil"/>
     <routinesParameter id="_entSYAGVEeyKYJRcqpQ59g" name="TalendString"/>
   </parameters>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="448">
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;mvn:org.talend.libraries/mongosql-auth-1.2.0/6.0.0-SNAPSHOT/jar&quot;"/>
     <elementParameter field="TABLE" name="HOTLIBS"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -127,9 +128,9 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3307&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;test&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=false&amp;useSSL=true&amp;authenticationPlugins=org.mongodb.mongosql.auth.plugin.MongoSqlAuthenticationPlugin&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=false&amp;useSSL=true&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;myUserAdmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N3cZsThn6pEDfa+87XjS4NnYoo+ieUaKg1MfOOrLSxyddA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9nwKe0rAp0fWaSGpc4E/MiD1NhxpVzBe6cYaS+vLWQ84Cg=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -141,7 +142,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="jdbc:mysql://127.0.0.1:3307?useSSL=false&amp;authenticationPlugins=org.mongodb.mongosql.auth.plugin.MongoSqlAuthenticationPlugin"/>
   </node>
-  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="448">
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MARIADB"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -151,7 +152,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;test&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;myUserAdmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:GdMtpWTrMdpqh5CkFsvLpTMW/nb33u7Vw/qTebvU0mKUuA=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ypwb9TpjKmk4ndJ5vm/EBChh9wtInuc2XY9jAcQnfvd0Dw=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_05ixUCS2Eeyfusr40cPBIA - customers"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers&quot;"/>
@@ -171,6 +172,7 @@
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="customers" name="tDBRow_1">
       <column comment="{ &quot;name&quot;: &quot;_id&quot;, &quot;sampledTypes&quot;: [&quot;objectId&quot;] }" key="true" length="0" name="_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="{ &quot;name&quot;: &quot;_id&quot;, &quot;sampledTypes&quot;: [&quot;objectId&quot;] }"/>
@@ -226,15 +228,24 @@
       <additionalProperties key="Comment" value="{ &quot;collectionName&quot;: &quot;customers&quot; }"/>
     </metadata>
   </node>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_2" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_2" target="tDBConnection_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
-  </connection>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;mvn:org.talend.libraries/mongosql-auth-1.2.0/6.0.0-SNAPSHOT/jar&quot;"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDBRow_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tDBConnection_2">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_2"/>
@@ -251,13 +262,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e0586afc-5b88-4eee-821d-87c333269785"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ED8vOv1IXJ/zKYAlC7EAZuWqpzJN1SP6jbzEP/XISlQ8YMLd7FiHsD9UHvgZfCtLMwfA7EZr0L4p&#13;
-7bFXT05ZMQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1ccdeb2f-c89e-4755-86b1-fd56deee6eb0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xKOJxHxRT8fB7OAWCFjfrQ4WiRfDs3fSAAdKsERz+EGYnzCnt+7Z4TFOCS/ZEvPDdcsCbAt62Azo&#13;
-FLyq48hz/w==</DigestValue></Reference></SignedInfo><SignatureValue>JgUThi0QcwLdTrZzILYIAwxd6orvGPSc8IDOaKigr0gMrFOxG0ZEmU9LoQ5dvkW5pmGwn0QNUCEb&#13;
-patme9ZI9rds1cAjukuWCOKgZUuvndO6jVSnY6u8/3MU3+reM23lS2V7gpIEIq2bia4PfnEvN7R/&#13;
-VTiV3nMvAJPe5ImbdXx+RdxoVyHgDE1llyr3hnws7uJuFG/TeexOWxpS7X+eci28x+dLHdwnE2xs&#13;
-J9L3Mn9JpCcnmMjSgs7KYa9P8Plt+H2GwgVVF0adlITXunHKi15vO22VkSf5IogaYkoF0Cd0ekkm&#13;
-WbwH8ZaO5Mgq6fGwdDDq9DyYH3WkAHZ7EcfceQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLibraryLoad_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e0eb83ec-f6f2-48c9-8765-bdbd51f76c97"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U8Hm2DnguB5yn7XbFxHmQy1prDOdMyKyEDlVAx8gTYzV/Tw2Lw5SoU7FIFtGnLXX0CQD40yls7/8&#13;
+rW7IOqy2gg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5b3e6f33-b32d-4a99-95b7-0a43ca4d1c53"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5Cas3H+vhha9bkk1E4k9w0u4GY4NidiyJw0eiZanFoCO1VuYfH930W2wLNFRvvMU8s9ybIW7/L0a&#13;
+i/4QpKmCrw==</DigestValue></Reference></SignedInfo><SignatureValue>i6Lakg8wk1LR646DMBpscH3q6zjlQIFLxkdEsFoyzjthWKFc9o9zD+Y8DclxIpEVFs9ENi9M8qaj&#13;
+MW3JEsadigFwl4D/GCZBLlXhDiV90xXFH8VXUrP0JUT8QVh9p58dJfvZ7V+Jc/BGNyLvyhKvOlAa&#13;
+B9ubEYzT1PZV6vRusUU6nFIxDyUa2qYo73aBwwPiENQETTUPahis6FM5z1qCsw8EoJhvGHGOWco4&#13;
+YAEbxrmtpm9pz9mNzTKSDH7faZTPcKBQR5tzfeBTc26qZNpPDUeVUBcJmy8NSA7ff+Sc5lzKI0Wf&#13;
+uN/DrsnmX7dlDbkAG6+IA+y7X1NUtCuW5IbKFA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -279,4 +295,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1ccdeb2f-c89e-4755-86b1-fd56deee6eb0" Target="#_e0586afc-5b88-4eee-821d-87c333269785"><Timestamp>2021-10-05 11:46:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5b3e6f33-b32d-4a99-95b7-0a43ca4d1c53" Target="#_e0eb83ec-f6f2-48c9-8765-bdbd51f76c97"><Timestamp>2021-10-05 11:54:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
