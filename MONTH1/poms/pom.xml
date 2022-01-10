@@ -12,6 +12,7 @@
     <module>code/beans</module>
     <module>code/routines</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
+    <module>jobs/process/test3_0.1</module>
     <module>jobs/process/testjarremote_0.1</module>
     <module>jobs/process/testremote_0.1</module>
   </modules>
