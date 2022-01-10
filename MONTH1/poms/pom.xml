@@ -13,6 +13,7 @@
     <module>code/routines</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/testjarremote_0.1</module>
+    <module>jobs/process/testremote_0.1</module>
   </modules>
   <properties>
     <talend.project.name>MONTH1</talend.project.name>
