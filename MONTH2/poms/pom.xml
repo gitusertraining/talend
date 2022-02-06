@@ -8,12 +8,6 @@
   <packaging>pom</packaging>
   <name>MONTH2 Codes Master</name>
   <url>http://www.talend.org/</url>
-  <modules>
-    <module>../../../master/MONTH2/poms/code/routines</module>
-    <module>code/beans</module>
-    <module>code/routines</module>
-    <module>jobs/process/test_0.1</module>
-  </modules>
   <properties>
     <talend.project.name>MONTH2</talend.project.name>
     <talend.docker.tag>${project.version}</talend.docker.tag>
