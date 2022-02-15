@@ -14,6 +14,7 @@
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/test_0.1</module>
     <module>jobs/process/test_1.0</module>
+    <module>jobs/process/testfirewall_0.1</module>
     <module>jobs/process/testrecoverycheckpoint_0.1</module>
     <module>jobs/process/testsalesforcecpq_0.1</module>
   </modules>
