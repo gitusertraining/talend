@@ -2,6 +2,8 @@
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -41,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:wMap0ncdLN838KMeL4FW/3BjG1nN5GMauKD954af"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Hxhk7+HwHwJUPB1uHPwIo/Ih4CCekqoQyC1SHmzs"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -76,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:lATKD/IyNmsE89v/tjSg0yg62nb4mosxjmUMARLC"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2GIelRisNXmlbhfB96EAfe3e/EW4nuFsz0+gvHnH"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -106,13 +108,71 @@
     <routinesParameter id="_M3Q1IAkgEeytGaJNZZBODw" name="TalendStringUtil"/>
     <routinesParameter id="_M3L8oAkgEeytGaJNZZBODw" name="TalendString"/>
   </parameters>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_38efdd5b-4427-4853-a5d9-3704bbd6390f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T2ltXFYpAZ2EhicS//TuJndamwCjkXqVRghyoGb1/mVjtuHS3+Q8rZnYqd9Sk5KsmX2ZTp6uU33M&#13;
-R2sndldtUg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e8af08ca-cf64-43fa-80c8-5c621bafb354"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g6D78/yErv8IFi1HJl/2ds7iXk2y2BFbOAeB8TUVa3JxliV1LGGWAt7fo5Yp+SEkns/tgE+76idU&#13;
-x8PbLD0CJQ==</DigestValue></Reference></SignedInfo><SignatureValue>S9l5C0p8OhsIjGGhbib6j2O5EK7xH6OPTO4MvcvaC6/SApqg+SJ0K6+2lZshGIVPgAaJMCNkfKm4&#13;
-zh6E3D/4VSxLHGdB2TOVaHCtG0V+W15+CBUE4zDYDRsjODkviMj2a3L+GOtSH/xJjr5QJuAEuRbW&#13;
-09i9xb3lQxYxK3PunlIvFGPImWyWUE5O4qeJ5vXLg3t03VI/CHcsmRMd+gNDed8MViFpYTsJSyux&#13;
-q8fUJw20OnnqDEicAhDXgLsGgSWUQLM12dmC8GRRtXpMOh/EVhPN1yY/pcO8/zWpR0P7CIwiMD5B&#13;
-hXMKs6W8YrW9Fos3FxJBfVlqNv0qXvahpIhQeQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <node componentName="tJobInstanceStart" componentVersion="8.4" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobInstanceStart_1"/>
+    <elementParameter field="CHECK" name="USE_DATA_SOURCE" value="false"/>
+    <elementParameter field="TEXT" name="DATA_SOURCE_ALIAS" show="false" value="&quot;dwh_meta&quot;"/>
+    <elementParameter field="CHECK" name="USE_DATA_SOURCE_ALIAS_AS_DBNAME" show="false" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CHECK" name="CLOSE_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="JOB_NAME" value="jobName"/>
+    <elementParameter field="TEXT" name="TASK_NAME" value="jobName"/>
+    <elementParameter field="TEXT" name="PROCESS_INSTANCE_NAME" value="jobName"/>
+    <elementParameter field="TEXT" name="JOB_WORK_ITEM" value=""/>
+    <elementParameter field="CHECK" name="EMPTY_WORK_ITEM_IS_NULL" value="false"/>
+    <elementParameter field="TEXT" name="TIME_RANGE_START" value=""/>
+    <elementParameter field="TEXT" name="TIME_RANGE_END" value=""/>
+    <elementParameter field="TEXT" name="VALUE_RANGE_START" value=""/>
+    <elementParameter field="TEXT" name="VALUE_RANGE_END" value=""/>
+    <elementParameter field="TEXT" name="CONTEXT_VAR_JOB_INSTANCE_ID" value=""/>
+    <elementParameter field="CHECK" name="SINGLETON_JOB_INSTANCE" value="false"/>
+    <elementParameter field="CHECK" name="SINGLETON_JOB_INSTANCE_FOR_WORKITEM" show="false" value="false"/>
+    <elementParameter field="LABEL" name="NOTE1" show="false" value="Note: You can use the an if trigger with the return value JOB_RUNS_ALONE (boolean) to trigger the process in case no other instance is running or let the process die by triggering a tDie"/>
+    <elementParameter field="CHECK" name="SINGLETON_JOB_INSTANCE_AVOID_JOB_STATUS" show="false" value="false"/>
+    <elementParameter field="LABEL" name="NOTE2" show="false" value="Note: You can avoid a register entry for a job which should actually not run."/>
+    <elementParameter field="CHECK" name="RETRIEVE_LAST_RUN_DATA" value="false"/>
+    <elementParameter field="CHECK" name="RETRIEVE_LAST_RUN_DATA_SUCCESSFUL" show="false" value="false"/>
+    <elementParameter field="CHECK" name="RETRIEVE_LAST_RUN_DATA_WITH_DATA" show="false" value="false"/>
+    <elementParameter field="CHECK" name="RETRIEVE_LAST_RUN_DATA_WITH_INPUT" show="false" value="false"/>
+    <elementParameter field="CHECK" name="RETRIEVE_LAST_RUN_DATA_FOR_WORKITEM" show="false" value="false"/>
+    <elementParameter field="CHECK" name="RETRIEVE_LAST_RUN_DATA_WITHIN_SAME_ROOT" show="false" value="false"/>
+    <elementParameter field="CHECK" name="COLLECT_SOURCE_INSTANCE_IDS" show="false" value="false"/>
+    <elementParameter field="TABLE" name="SOURCE_JOB_NAMES" show="false"/>
+    <elementParameter field="TEXT" name="OK_RESULT_CODES" show="false" value="&quot;0&quot;"/>
+    <elementParameter field="TEXT" name="INITIAL_PREV_JOB_INSTANCE_ID" show="false" value="0l"/>
+    <elementParameter field="TEXT" name="INITIAL_PREV_JOB_START_DATE" show="false" value="TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, &quot;1970-01-01&quot;)"/>
+    <elementParameter field="TEXT" name="INITIAL_PREV_TIME_RANGE_END" show="false" value="TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, &quot;1970-01-01&quot;)"/>
+    <elementParameter field="TEXT" name="INITIAL_PREV_VALUE_RANGE_END" show="false" value="&quot;0&quot;"/>
+    <elementParameter field="TEXT" name="INITIAL_PREV_RESULT_ITEM" show="false" value="&quot;0&quot;"/>
+    <elementParameter field="CHECK" name="SET_UTC_TIMEZONE" value="false"/>
+    <elementParameter field="CHECK" name="MEASURE_MEMORY_USAGE" value="false"/>
+    <elementParameter field="CHECK" name="SYSOUT_JOB_INSTANCE_ID" value="false"/>
+    <elementParameter field="TEXT" name="SYSOUT_JOB_INSTANCE_ID_EXPRESSION" show="false" value="&quot;Job: &quot; + jobName + &quot; job_instance_id: &quot; + ((Long) globalMap.get(&quot;tJobInstanceStart_1_JOB_INSTANCE_ID&quot;))"/>
+    <elementParameter field="TEXT" name="SCHEMA_NAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="MAX_MESSAGE_LENGTH" value="1000"/>
+    <elementParameter field="CHECK" name="USE_GENERATED_JID" value="false"/>
+    <elementParameter field="TEXT" name="HOST_INDEX" show="false" value="0"/>
+    <elementParameter field="CHECK" name="IS_AUTO_INCREMENT" value="false"/>
+    <elementParameter field="TEXT" name="SEQUENCE_EXPRESSION" value="&quot;nextval('dwh_manage.seq_job_instance_id')&quot;"/>
+    <elementParameter field="CHECK" name="REDUCE_RESUME_LOGS" value="true"/>
+    <elementParameter field="CHECK" name="ACTIVATE_JMX" value="false"/>
+    <elementParameter field="LABEL" name="RELEASE_LABEL_20211206" value="Release: 8.4 build at: 20211206"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobInstanceStart_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b65ad46c-067e-4e16-9f5a-4467bd01e7b1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cRP8zSlzChsaHML287mR+FxNocYrMVU1rHSWpeYtpLC9AVH6QFQGVuDVg2CdtT6KOoeN89rhoUYb&#13;
+ACocbMmbLA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f90560ed-aae9-4d80-a248-5724504e3c73"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9lJWJ76obVrhwMINbvRNnRZYQBgJ1oJIgI0sGSAANClt9qtd9fI7YxklL6Soy/2PMRhsoTWg2CaN&#13;
+aoqAWCCRvA==</DigestValue></Reference></SignedInfo><SignatureValue>EkzZwowT9EfLofHethHp7W2aBsePU1ZT2wXqpjKCnuAhNieLUYniX+ykHCPHKsFsL03mZ+iE96lP&#13;
+ZDQo5bOnqoo3daICV2KHZ+K7kC8N8XJUe4Y93zsXVHuooPlns8XJX2uSkHmbKsYBkY4YWthpfhBy&#13;
+8/WKmz39XAC3pwBrNcMh5obbKrBRpzS4B441Z+dYefP4Ew0D8x5JhZnE99gjK5kSA3XWAHKM2lIO&#13;
+AwTiejTXcNwC6wp0vtPLJolFLkeFeGhdleFACriGe2Y470+3vVe1xPw/HEB28yFE0EFsnqiUxorM&#13;
+7eRqveyDJ8mBGoXqfHi1aV9SxjNmI1poPxAf+A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -134,4 +194,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e8af08ca-cf64-43fa-80c8-5c621bafb354" Target="#_38efdd5b-4427-4853-a5d9-3704bbd6390f"><Timestamp>2022-03-09 21:27:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f90560ed-aae9-4d80-a248-5724504e3c73" Target="#_b65ad46c-067e-4e16-9f5a-4467bd01e7b1"><Timestamp>2022-03-09 21:29:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
