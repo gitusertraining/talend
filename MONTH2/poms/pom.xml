@@ -14,6 +14,7 @@
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/test_0.1</module>
     <module>jobs/process/test_1.0</module>
+    <module>jobs/process/testcustomcomp_0.1</module>
     <module>jobs/process/testcustomcomponent_0.1</module>
     <module>jobs/process/testfirewall_0.1</module>
     <module>jobs/process/testoracle_0.1</module>
