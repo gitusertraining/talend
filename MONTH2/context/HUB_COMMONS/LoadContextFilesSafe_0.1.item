@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Custom" xmi:id="_WFy58D8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="D:/Applications/GNU/GnuPG/gpg2.exe" xmi:id="_XKYjcD8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:1Kyaj8TifRMHiF9H2RAVKBg1ucJi/7A6e2odLByJoOffqG6c" xmi:id="_XKYjcT8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Local" xmi:id="_WFy58T8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="D:/Applications/GNU/GnuPG/gpg2.exe" xmi:id="_XKYjcj8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:DYcGXnJ5G/5Iugbi9SfkSWUqhz7Rr5acRmIXp0Y8gGKKrhFE" xmi:id="_XKYjcz8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_OWfr8D8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="/appli/hubble/scripts/myGpgDev" xmi:id="_XKYjdD8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:2T25L8fxoIEj/hQOQqkfqjoQW6D8iP57ERhLuzQIfHKgAoFq" xmi:id="_XKYjdT8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_WFy58j8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="/appli/hubble/scripts/myGpgUat" xmi:id="_XKYjdj8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:vJdmeQn8/QBdgyWEYI0E74N+DewIdKb3Fp4IeUAitBBtqaw32Z8ZRlc=" xmi:id="_XKYjdz8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="TRN" xmi:id="_WFy58z8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="/appli/hubble/scripts/myGpgTrn" xmi:id="_XKYjeD8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:wDAdLgefUmAyZapkER+aw5kQEXpZaWdKGxh0yLt85/vQr4+r6G/4W9o=" xmi:id="_XKYjeT8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PPR" xmi:id="_WFy59D8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="/appli/hubble/scripts/myGpgPpr" xmi:id="_XKYjej8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:nFuOdR4FG1PV30szBqSwRTbaUPa+KxX3Nf9SkyjXnXQKoUrcdl/LkQw=" xmi:id="_XKYjez8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_WFy59T8iEeiFGbGn7k_7XQ">
+    <contextParameter comment="The path to the gpg exe" name="gpgBinPath" prompt="gpgBinPath?" promptNeeded="false" type="id_File" value="/appli/hubble/scripts/myGpg" xmi:id="_XKYjfD8iEeiFGbGn7k_7XQ"/>
+    <contextParameter comment="The passphrase to decrypt the files" name="gpgPassphrase" prompt="gpgPassphrase?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:32txEsJ/bvCUxo4HFBWLsiH1SbFNUJKUAdLrmVPp21iOQcUba+WgK3s=" xmi:id="_XKYjfT8iEeiFGbGn7k_7XQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4f92eb3d-3db5-4a44-96b3-6721de6d5e78"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Lbl079ipB8NO8d6oaXo3R/TOsjYUxIUWT8yK1sQx/OJh7sMHpsq5s0itm0ahCPH+KPjII6zqPRYq&#13;
+56nQTyyk3w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b1072b71-939a-4527-abdf-6c6ccfe23add"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L6Xkccx8iMWYRhoqhEXrNdIwlyDAeFopnIVHjS6a5kgHapZxB1xECedYUmQjQ7bT8BzRrFJz8lsD&#13;
+kU98VTJdaA==</DigestValue></Reference></SignedInfo><SignatureValue>bQaSHwb/yHpw7lRtQkCyGcY78mnQL39DLZPE8GBi7jDyDHB2kZ1CmPl2cnKkBaIjfR/vlsMR/Rdw&#13;
+f6bhRgHyFb14Me7tXe8hO3ThF15en+Xf1VACv4TgxUlOV251uwELk8k2yIe2uFAU0renI83ZxONk&#13;
+qgEGv6ge3c/qSwi8Qlt/toWRQrqFgdz81/VGZzn2l6kKbBXuNGkrQVhDb17Z3Bt/OB9BlyogbGiG&#13;
+x7W/u/hMZDTsGLzBPUgdyCYF1EZzux0nTETlcNs5zSUjDnlc0/OwdHjpr/CVBY6Ophg8OmR4W0r3&#13;
+119a76m//t5MKxDjEyqVQbaIhZQRe3YVLlOY8Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b1072b71-939a-4527-abdf-6c6ccfe23add" Target="#_4f92eb3d-3db5-4a44-96b3-6721de6d5e78"><Timestamp>2022-03-22 15:42:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

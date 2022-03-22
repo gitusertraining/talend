@@ -11,6 +11,8 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/joblets/Joblet_Templates/Encryption/loadcryptedcontextfilesafe_0.1</module>
+    <module>jobs/process/HUB_STIM_001/Batches/STIM_001_CDL_R/stim_001_cdl_r_sender_0.1</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/test4_0.1</module>
     <module>jobs/process/test8_0.1</module>
