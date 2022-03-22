@@ -29,4 +29,19 @@
     "version" : "Latest",
     "type" : "routine"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_U3THgKl2EeyJo75Gk7B7fQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_b8oWAKl3EeyJo75Gk7B7fQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_b8oWAKl3EeyJo75Gk7B7fQ - customer",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
