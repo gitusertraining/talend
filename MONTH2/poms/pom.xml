@@ -25,6 +25,7 @@
     <module>jobs/process/testoracle_0.1</module>
     <module>jobs/process/testrecoverycheckpoint_0.1</module>
     <module>jobs/process/testsalesforcecpq_0.1</module>
+    <module>jobs/process/testtsaphana_0.1</module>
   </modules>
   <properties>
     <talend.project.name>MONTH2</talend.project.name>
