@@ -33,7 +33,7 @@
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
-    <talend.product.version>7.3.1.20210723_0711-patch</talend.product.version>
+    <talend.product.version>7.3.1.20210924_1226-patch</talend.product.version>
     <talend.project.name>MONTH1</talend.project.name>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
@@ -73,9 +73,9 @@
       <version>1.68</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>commons-codec-1.15</artifactId>
-      <version>6.0.0</version>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.15</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -173,9 +173,9 @@
       <version>30.0-jre</version>
     </dependency>
     <dependency>
-      <groupId>com.sun.istack</groupId>
-      <artifactId>istack-commons-runtime</artifactId>
-      <version>3.0.11</version>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>istack-commons-runtime-3.0.11</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -203,9 +203,9 @@
       <version>1.2.0</version>
     </dependency>
     <dependency>
-      <groupId>javax.annotation</groupId>
-      <artifactId>javax.annotation-api</artifactId>
-      <version>1.3</version>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>javax.annotation_1.2.0.v201602091430</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>javax.ws.rs</groupId>
@@ -219,7 +219,7 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>jaxb-runtime-2.3.2</artifactId>
+      <artifactId>jaxb-runtime-2.3.3</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -404,7 +404,7 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>txw2-2.3.2</artifactId>
+      <artifactId>txw2-2.3.3</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -443,9 +443,9 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.ws.xmlschema</groupId>
-      <artifactId>xmlschema-core</artifactId>
-      <version>2.2.5</version>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>xmlschema-core-2.2.5</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -487,18 +487,6 @@
                 </configuration>
               </execution>
             </executions>
-            <dependencies>
-              <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-compress</artifactId>
-                <version>1.19</version>
-              </dependency>
-              <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>1.15</version>
-              </dependency>
-            </dependencies>
           </plugin>
         </plugins>
       </build>
@@ -711,13 +699,6 @@
                 </configuration>
               </execution>
             </executions>
-            <dependencies>
-              <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-compress</artifactId>
-                <version>1.19</version>
-              </dependency>
-            </dependencies>
           </plugin>
         </plugins>
       </build>
