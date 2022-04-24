@@ -41,6 +41,7 @@
     <module>jobs/process/test1_0.1</module>
     <module>jobs/process/testdocumentation_0.1</module>
     <module>jobs/process/testmetaservlet_0.1</module>
+    <module>jobs/process/testnbline_0.1</module>
     <module>jobs/routes/FileTriggers/rte_file_trigger_0.1</module>
   </modules>
   <properties>
