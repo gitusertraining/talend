@@ -140,9 +140,19 @@
     "version" : "7.0.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.designer.core.generic.model.migration.ChangeDBConnectionToJDBCTypeMigrationTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.core.generic.model.migration.ChangeDriverJarForProjectSetting",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.core.generic.model.migration.ChangeJDBCConnectionsPropertiesMigrationTask",
+    "breaks" : "7.4.0",
+    "version" : "7.4.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.designer.core.generic.model.migration.Dataprep701MigrationTask",
@@ -370,6 +380,16 @@
     "version" : "6.0.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.designer.publish.cloud.RenameActionComponents",
+    "breaks" : "6.4.0",
+    "version" : "6.5.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.designer.publish.cloud.RenameActionRejectComponent",
+    "breaks" : "7.0.0",
+    "version" : "7.0.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.designer.spark.repository.migration.UpdateDatabricks73Version",
     "breaks" : "7.3.1",
     "version" : "7.3.1",
@@ -445,6 +465,11 @@
     "version" : "6.2.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.gitprovider.migration.DeletePomsFolder",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.hadoopcluster.migration.AdaptDeprecatedHadoopVersionsMigrationTask",
     "breaks" : "6.0.0",
     "version" : "6.1.2",
@@ -513,6 +538,11 @@
     "id" : "org.talend.repository.metadata.migration.ODBCMigrationTask",
     "breaks" : "1.0.0",
     "version" : "6.0.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.metadata.migration.RemoveDeprecateSASItemMigrationTask",
+    "breaks" : "7.4.0",
+    "version" : "7.4.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.migration.RenametFor",
@@ -815,6 +845,11 @@
     "version" : "5.2.4",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.AddHourFormatToBigqueryBulkOutput",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.AddIncludTrashFilesOnGoogleDriveListTask",
     "breaks" : "6.5.0",
     "version" : "6.5.1",
@@ -935,6 +970,11 @@
     "version" : "7.0.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.ApplySecurityAfterAdvancedKafkaProperties",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -985,6 +1025,11 @@
     "version" : "5.6.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.ChangeConnectionType4tSAPADSOInput",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.ChangeDBName4Hive",
     "breaks" : "5.2.3",
     "version" : "5.2.4",
@@ -1008,6 +1053,11 @@
     "id" : "org.talend.repository.model.migration.ChangeDBversionForSybaseIQMigrationTask",
     "breaks" : "6.3.1",
     "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeDQComponentsLicenseKeyFieldTask",
+    "breaks" : "7.3.1",
+    "version" : "7.4.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeDefaultDriver4GreenplumMigrationTask",
@@ -2275,6 +2325,11 @@
     "version" : "6.2.0",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.UpdatetPersonatorOutputSchemaTask",
+    "breaks" : "7.4.0",
+    "version" : "7.4.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.UpgradePasswordEncryptionAlg4ItemMigrationTask",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
@@ -2308,6 +2363,11 @@
     "id" : "org.talend.repository.model.migration.WriteJSONQuoteAllValuesMigrationTask",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.XSLTCheckCacheFileInMemoryTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.addQuot",
@@ -2463,6 +2523,11 @@
     "id" : "org.talend.sdk.component.studio.metadata.migration.EncryptTckMetadataMigrationTask",
     "breaks" : "7.1.0",
     "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.sdk.component.studio.metadata.migration.UpdateEncryptTckMetadataMigrationTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.testcontainer.core.ui.migration.TestCaseParentVersionMigrationTask",
