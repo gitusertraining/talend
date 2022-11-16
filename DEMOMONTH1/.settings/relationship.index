@@ -1,1 +1,305 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_4G0GYDa2Eem9e69tilXonQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5Ng1UCXREeyanobGKptpYg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_LJatEPSqEeiFhc4YRIn5Dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TpQ8cOf8EeSecL1VY58-Ww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_eTjaMPnoEeut1L05m52yjw",
+    "version" : "10.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_eTjaMPnoEeut1L05m52yjw",
+    "version" : "11.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_eTjaMPnoEeut1L05m52yjw",
+    "version" : "9.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dSbU4PoQEeiN-rovZB9rdA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ei2rUDazEem9e69tilXonQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_D0jQAOScEeaaN4bqKCHblw - StateCodesSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sWj0QCUREeyanobGKptpYg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_uMZI0DavEem9e69tilXonQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_segmwIsxEeiWJ5WzSXwHBQ - USCustomersSchema",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wP1BUCKfEeyxKJ9mVVfvmQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - query",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_05ixUCS2Eeyfusr40cPBIA - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zz1t8Da5Eem9e69tilXonQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ioK6MP-lEeiF_vXX_gB8sg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ioK6MP-lEeiF_vXX_gB8sg - SalesShopProduct",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
