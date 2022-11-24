@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_muUakMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" type="id_String" value="EDW" xmi:id="_muUakcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" type="id_String" value="DataIntegration" xmi:id="_muUaksFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUak8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" type="id_Long" value="0" xmi:id="_muUalMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobStatus" prompt="JobStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUalcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUalsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUal8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" type="id_String" value="" xmi:id="_muUamMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobType" prompt="JobType?" promptNeeded="false" type="id_String" value="Job" xmi:id="_muUamcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUamsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" type="id_String" value="" xmi:id="_muUam8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_muUanMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_muUancFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="PID" prompt="PID?" promptNeeded="false" type="id_String" value="" xmi:id="_muUansFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUan8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchJob" prompt="BatchJob?" promptNeeded="false" type="id_String" value="Y" xmi:id="_muUaoMFrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PREPROD" xmi:id="_muUaocFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" type="id_String" value="EDW" xmi:id="_muUaosFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" type="id_String" value="DataIntegration" xmi:id="_muUao8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUapMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" type="id_Long" value="0" xmi:id="_muUapcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobStatus" prompt="JobStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUapsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUap8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUaqMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" type="id_String" value="" xmi:id="_muUaqcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobType" prompt="JobType?" promptNeeded="false" type="id_String" value="Job" xmi:id="_muUaqsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUaq8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" type="id_String" value="" xmi:id="_muUarMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_muUarcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_muUarsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="PID" prompt="PID?" promptNeeded="false" type="id_String" value="" xmi:id="_muUar8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUasMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchJob" prompt="BatchJob?" promptNeeded="false" type="id_String" value="Y" xmi:id="_muUascFrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRODUCTION" xmi:id="_muUassFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" type="id_String" value="EDW" xmi:id="_muUas8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" type="id_String" value="DataIntegration" xmi:id="_muUatMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUatcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" type="id_Long" value="0" xmi:id="_muUatsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobStatus" prompt="JobStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUat8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUauMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUaucFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" type="id_String" value="" xmi:id="_muUausFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobType" prompt="JobType?" promptNeeded="false" type="id_String" value="Job" xmi:id="_muUau8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUavMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" type="id_String" value="" xmi:id="_muUavcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_muUavsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_muUav8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="PID" prompt="PID?" promptNeeded="false" type="id_String" value="" xmi:id="_muUawMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUawcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchJob" prompt="BatchJob?" promptNeeded="false" type="id_String" value="Y" xmi:id="_muUawsFrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SIT" xmi:id="_muUaw8FrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" type="id_String" value="EDW" xmi:id="_muUaxMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" type="id_String" value="DataIntegration" xmi:id="_muUaxcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUaxsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" type="id_Long" value="0" xmi:id="_muUax8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobStatus" prompt="JobStatus?" promptNeeded="false" type="id_String" value="Initialise" xmi:id="_muUayMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUaycFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUaysFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" type="id_String" value="" xmi:id="_muUay8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobType" prompt="JobType?" promptNeeded="false" type="id_String" value="Job" xmi:id="_muUazMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" type="id_String" value="" xmi:id="_muUazcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" type="id_String" value="" xmi:id="_muUazsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_muUaz8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_muUa0MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="PID" prompt="PID?" promptNeeded="false" type="id_String" value="" xmi:id="_muUa0cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_muUa0sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="BatchJob" prompt="BatchJob?" promptNeeded="false" type="id_String" value="Y" xmi:id="_muUa08FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3f3e89b9-fd4a-4e37-81dd-873791da94d3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dDD1yqtEOtEESta62UfxuXmNVOfycyoHNKl+mHTAufEj7qG9tbjfUa+12gxLRLZxE/7EmKyMaSBY&#13;
+6FeiPnqq8g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7720f802-de96-40b9-94e7-ef66b17b0bb2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uV0nqu+JFErvgY+ZHLu/KS7J53hU23XZdxdtvirykdTi3R5S2cgpPn8wTWYW7nGl7RW2AqTusSRD&#13;
+3AULtF939w==</DigestValue></Reference></SignedInfo><SignatureValue>BHAUSEzH73o7v5THVHyvBshmVyyPxJO3MYsrwIhdcTBOxttSECQwi924m5wRKSZso7Xa9GhAFGAf&#13;
+nIzFW7iwxigXHQ0IHqmDXzanwUuIDB2EOd4MmNeyjSVZkskMsIt1yYNu64wj8/p3ZBFXWyOs9BLB&#13;
+lvqLtOEOM8hs+PztguEArK5AvFghw6vovdylGJ0c0Mtkb9EHpOBlhrZQ23ZDIAMrXjIDWwsP5WLI&#13;
+sJwxRj7MN4Cd9sRfWDYJaQnGnJGOXiS46AcAna/RmN/AsQX1dD/+dkiy2P3fBaOeAjf/3zfCNF63&#13;
+L19Q3AX+JOL3+qFF0EXfwO4GiMFkd8RomP2VMQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7720f802-de96-40b9-94e7-ef66b17b0bb2" Target="#_3f3e89b9-fd4a-4e37-81dd-873791da94d3"><Timestamp>2022-11-24 22:56:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

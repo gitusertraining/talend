@@ -1,0 +1,968 @@
+{
+  "itemId" : "_aJ_ygJaNEeuJiuik2PhBhw",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_vqlfgIgnEeODKMn4d_CyNQ",
+    "parameterList" : [ {
+      "id" : "_muUaoMFrEeyx7s1JSisAwg",
+      "name" : "BatchJob"
+    }, {
+      "id" : "_muUalMFrEeyx7s1JSisAwg",
+      "name" : "BatchNumber"
+    }, {
+      "id" : "_muUamMFrEeyx7s1JSisAwg",
+      "name" : "ErrorDetail"
+    }, {
+      "id" : "_muUal8FrEeyx7s1JSisAwg",
+      "name" : "ErrorNumber"
+    }, {
+      "id" : "_muUanMFrEeyx7s1JSisAwg",
+      "name" : "FileDirectory"
+    }, {
+      "id" : "_muUalsFrEeyx7s1JSisAwg",
+      "name" : "JobName"
+    }, {
+      "id" : "_muUan8FrEeyx7s1JSisAwg",
+      "name" : "JobProcStatus"
+    }, {
+      "id" : "_muUalcFrEeyx7s1JSisAwg",
+      "name" : "JobStatus"
+    }, {
+      "id" : "_muUamcFrEeyx7s1JSisAwg",
+      "name" : "JobType"
+    }, {
+      "id" : "_muUaksFrEeyx7s1JSisAwg",
+      "name" : "MasterIntegrationName"
+    }, {
+      "id" : "_muUamsFrEeyx7s1JSisAwg",
+      "name" : "MasterJobName"
+    }, {
+      "id" : "_muUakcFrEeyx7s1JSisAwg",
+      "name" : "MasterProjectName"
+    }, {
+      "id" : "_muUak8FrEeyx7s1JSisAwg",
+      "name" : "MasterStatus"
+    }, {
+      "id" : "_muUansFrEeyx7s1JSisAwg",
+      "name" : "PID"
+    }, {
+      "id" : "_muUancFrEeyx7s1JSisAwg",
+      "name" : "SequenceNumber"
+    }, {
+      "id" : "_muUam8FrEeyx7s1JSisAwg",
+      "name" : "TriggerFilename"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S08FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S1MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S18FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S0cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S0sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S1sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S1cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWa78FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWa4cFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWa5MFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWa8MFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWa7MFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWa4sFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWa7cFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWa6MFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWa6cFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWa5sFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWa58FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWa48FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWa5cFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWa8cFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWa7sFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWa68FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWa6sFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_8FOzEHoREeiktodCaw4_Tg",
+    "parameterList" : [ {
+      "id" : "_myOqOsFrEeyx7s1JSisAwg",
+      "name" : "Email_Body"
+    }, {
+      "id" : "_myOqNcFrEeyx7s1JSisAwg",
+      "name" : "Email_Password"
+    }, {
+      "id" : "_myOqNsFrEeyx7s1JSisAwg",
+      "name" : "Email_Recipient"
+    }, {
+      "id" : "_myOqMcFrEeyx7s1JSisAwg",
+      "name" : "Email_Sender"
+    }, {
+      "id" : "_myOqM8FrEeyx7s1JSisAwg",
+      "name" : "Email_SMPT_port"
+    }, {
+      "id" : "_myOqMsFrEeyx7s1JSisAwg",
+      "name" : "Email_SMTP_host"
+    }, {
+      "id" : "_myOqOcFrEeyx7s1JSisAwg",
+      "name" : "Email_Subject"
+    }, {
+      "id" : "_myOqN8FrEeyx7s1JSisAwg",
+      "name" : "Email_To_ETL_List"
+    }, {
+      "id" : "_myOqOMFrEeyx7s1JSisAwg",
+      "name" : "Email_To_Supp_List"
+    }, {
+      "id" : "_myOqNMFrEeyx7s1JSisAwg",
+      "name" : "Email_Username"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_-K_jMFQwEeiERbk_efciYA",
+    "parameterList" : [ {
+      "id" : "_nAB1pMFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_AdditionalParams"
+    }, {
+      "id" : "_nAB1psFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Login"
+    }, {
+      "id" : "_nAB1p8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Password"
+    }, {
+      "id" : "_nAB1ocFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Port"
+    }, {
+      "id" : "_nAB1pcFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Schema"
+    }, {
+      "id" : "_nAB1o8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Server"
+    }, {
+      "id" : "_nAB1osFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Sid"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRksFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRkcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRk8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRlsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRlcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRlMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRl8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_23ueAFiSEeadrLUtyBjhjA",
+    "parameterList" : [ {
+      "id" : "_m1gnssFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_AdditionalParams"
+    }, {
+      "id" : "_m1gnscFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Login"
+    }, {
+      "id" : "_m1gns8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Password"
+    }, {
+      "id" : "_m1gntsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Port"
+    }, {
+      "id" : "_m1gntcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Schema"
+    }, {
+      "id" : "_m1gntMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Server"
+    }, {
+      "id" : "_m1gnt8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_ServiceName"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_vqlfgIgnEeODKMn4d_CyNQ",
+    "parameterList" : [ {
+      "id" : "_muUa08FrEeyx7s1JSisAwg",
+      "name" : "BatchJob"
+    }, {
+      "id" : "_muUax8FrEeyx7s1JSisAwg",
+      "name" : "BatchNumber"
+    }, {
+      "id" : "_muUay8FrEeyx7s1JSisAwg",
+      "name" : "ErrorDetail"
+    }, {
+      "id" : "_muUaysFrEeyx7s1JSisAwg",
+      "name" : "ErrorNumber"
+    }, {
+      "id" : "_muUaz8FrEeyx7s1JSisAwg",
+      "name" : "FileDirectory"
+    }, {
+      "id" : "_muUaycFrEeyx7s1JSisAwg",
+      "name" : "JobName"
+    }, {
+      "id" : "_muUa0sFrEeyx7s1JSisAwg",
+      "name" : "JobProcStatus"
+    }, {
+      "id" : "_muUayMFrEeyx7s1JSisAwg",
+      "name" : "JobStatus"
+    }, {
+      "id" : "_muUazMFrEeyx7s1JSisAwg",
+      "name" : "JobType"
+    }, {
+      "id" : "_muUaxcFrEeyx7s1JSisAwg",
+      "name" : "MasterIntegrationName"
+    }, {
+      "id" : "_muUazcFrEeyx7s1JSisAwg",
+      "name" : "MasterJobName"
+    }, {
+      "id" : "_muUaxMFrEeyx7s1JSisAwg",
+      "name" : "MasterProjectName"
+    }, {
+      "id" : "_muUaxsFrEeyx7s1JSisAwg",
+      "name" : "MasterStatus"
+    }, {
+      "id" : "_muUa0cFrEeyx7s1JSisAwg",
+      "name" : "PID"
+    }, {
+      "id" : "_muUa0MFrEeyx7s1JSisAwg",
+      "name" : "SequenceNumber"
+    }, {
+      "id" : "_muUazsFrEeyx7s1JSisAwg",
+      "name" : "TriggerFilename"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S68FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S7MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S78FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S6cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S6sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S7sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S7cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWbK8FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWbHcFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWbIMFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWbLMFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWbKMFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWbHsFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWbKcFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWbJMFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWbJcFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWbIsFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWbI8FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWbH8FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWbIcFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWbLcFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWbKsFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWbJ8FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWbJsFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_8FOzEHoREeiktodCaw4_Tg",
+    "parameterList" : [ {
+      "id" : "_myOqasFrEeyx7s1JSisAwg",
+      "name" : "Email_Body"
+    }, {
+      "id" : "_myOqZcFrEeyx7s1JSisAwg",
+      "name" : "Email_Password"
+    }, {
+      "id" : "_myOqZsFrEeyx7s1JSisAwg",
+      "name" : "Email_Recipient"
+    }, {
+      "id" : "_myOqYcFrEeyx7s1JSisAwg",
+      "name" : "Email_Sender"
+    }, {
+      "id" : "_myOqY8FrEeyx7s1JSisAwg",
+      "name" : "Email_SMPT_port"
+    }, {
+      "id" : "_myOqYsFrEeyx7s1JSisAwg",
+      "name" : "Email_SMTP_host"
+    }, {
+      "id" : "_myOqacFrEeyx7s1JSisAwg",
+      "name" : "Email_Subject"
+    }, {
+      "id" : "_myOqZ8FrEeyx7s1JSisAwg",
+      "name" : "Email_To_ETL_List"
+    }, {
+      "id" : "_myOqaMFrEeyx7s1JSisAwg",
+      "name" : "Email_To_Supp_List"
+    }, {
+      "id" : "_myOqZMFrEeyx7s1JSisAwg",
+      "name" : "Email_Username"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_-K_jMFQwEeiERbk_efciYA",
+    "parameterList" : [ {
+      "id" : "_nAB1vMFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_AdditionalParams"
+    }, {
+      "id" : "_nAB1vsFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Login"
+    }, {
+      "id" : "_nAB1v8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Password"
+    }, {
+      "id" : "_nAB1ucFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Port"
+    }, {
+      "id" : "_nAB1vcFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Schema"
+    }, {
+      "id" : "_nAB1u8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Server"
+    }, {
+      "id" : "_nAB1usFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Sid"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRqsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRqcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRq8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRrsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRrcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRrMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRr8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_23ueAFiSEeadrLUtyBjhjA",
+    "parameterList" : [ {
+      "id" : "_m1gnysFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_AdditionalParams"
+    }, {
+      "id" : "_m1gnycFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Login"
+    }, {
+      "id" : "_m1gny8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Password"
+    }, {
+      "id" : "_m1gnzsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Port"
+    }, {
+      "id" : "_m1gnzcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Schema"
+    }, {
+      "id" : "_m1gnzMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Server"
+    }, {
+      "id" : "_m1gnz8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_vqlfgIgnEeODKMn4d_CyNQ",
+    "parameterList" : [ {
+      "id" : "_muUascFrEeyx7s1JSisAwg",
+      "name" : "BatchJob"
+    }, {
+      "id" : "_muUapcFrEeyx7s1JSisAwg",
+      "name" : "BatchNumber"
+    }, {
+      "id" : "_muUaqcFrEeyx7s1JSisAwg",
+      "name" : "ErrorDetail"
+    }, {
+      "id" : "_muUaqMFrEeyx7s1JSisAwg",
+      "name" : "ErrorNumber"
+    }, {
+      "id" : "_muUarcFrEeyx7s1JSisAwg",
+      "name" : "FileDirectory"
+    }, {
+      "id" : "_muUap8FrEeyx7s1JSisAwg",
+      "name" : "JobName"
+    }, {
+      "id" : "_muUasMFrEeyx7s1JSisAwg",
+      "name" : "JobProcStatus"
+    }, {
+      "id" : "_muUapsFrEeyx7s1JSisAwg",
+      "name" : "JobStatus"
+    }, {
+      "id" : "_muUaqsFrEeyx7s1JSisAwg",
+      "name" : "JobType"
+    }, {
+      "id" : "_muUao8FrEeyx7s1JSisAwg",
+      "name" : "MasterIntegrationName"
+    }, {
+      "id" : "_muUaq8FrEeyx7s1JSisAwg",
+      "name" : "MasterJobName"
+    }, {
+      "id" : "_muUaosFrEeyx7s1JSisAwg",
+      "name" : "MasterProjectName"
+    }, {
+      "id" : "_muUapMFrEeyx7s1JSisAwg",
+      "name" : "MasterStatus"
+    }, {
+      "id" : "_muUar8FrEeyx7s1JSisAwg",
+      "name" : "PID"
+    }, {
+      "id" : "_muUarsFrEeyx7s1JSisAwg",
+      "name" : "SequenceNumber"
+    }, {
+      "id" : "_muUarMFrEeyx7s1JSisAwg",
+      "name" : "TriggerFilename"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S28FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S3MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S38FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S2cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S2sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S3sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S3cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWbA8FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWa9cFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWa-MFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWbBMFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWbAMFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWa9sFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWbAcFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWa_MFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWa_cFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWa-sFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWa-8FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWa98FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWa-cFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWbBcFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWbAsFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWa_8FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWa_sFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_8FOzEHoREeiktodCaw4_Tg",
+    "parameterList" : [ {
+      "id" : "_myOqSsFrEeyx7s1JSisAwg",
+      "name" : "Email_Body"
+    }, {
+      "id" : "_myOqRcFrEeyx7s1JSisAwg",
+      "name" : "Email_Password"
+    }, {
+      "id" : "_myOqRsFrEeyx7s1JSisAwg",
+      "name" : "Email_Recipient"
+    }, {
+      "id" : "_myOqQcFrEeyx7s1JSisAwg",
+      "name" : "Email_Sender"
+    }, {
+      "id" : "_myOqQ8FrEeyx7s1JSisAwg",
+      "name" : "Email_SMPT_port"
+    }, {
+      "id" : "_myOqQsFrEeyx7s1JSisAwg",
+      "name" : "Email_SMTP_host"
+    }, {
+      "id" : "_myOqScFrEeyx7s1JSisAwg",
+      "name" : "Email_Subject"
+    }, {
+      "id" : "_myOqR8FrEeyx7s1JSisAwg",
+      "name" : "Email_To_ETL_List"
+    }, {
+      "id" : "_myOqSMFrEeyx7s1JSisAwg",
+      "name" : "Email_To_Supp_List"
+    }, {
+      "id" : "_myOqRMFrEeyx7s1JSisAwg",
+      "name" : "Email_Username"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_-K_jMFQwEeiERbk_efciYA",
+    "parameterList" : [ {
+      "id" : "_nAB1rMFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_AdditionalParams"
+    }, {
+      "id" : "_nAB1rsFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Login"
+    }, {
+      "id" : "_nAB1r8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Password"
+    }, {
+      "id" : "_nAB1qcFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Port"
+    }, {
+      "id" : "_nAB1rcFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Schema"
+    }, {
+      "id" : "_nAB1q8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Server"
+    }, {
+      "id" : "_nAB1qsFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Sid"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRmsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRmcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRm8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRnsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRncFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRnMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRn8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_23ueAFiSEeadrLUtyBjhjA",
+    "parameterList" : [ {
+      "id" : "_m1gnusFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_AdditionalParams"
+    }, {
+      "id" : "_m1gnucFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Login"
+    }, {
+      "id" : "_m1gnu8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Password"
+    }, {
+      "id" : "_m1gnvsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Port"
+    }, {
+      "id" : "_m1gnvcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Schema"
+    }, {
+      "id" : "_m1gnvMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Server"
+    }, {
+      "id" : "_m1gnv8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_vqlfgIgnEeODKMn4d_CyNQ",
+    "parameterList" : [ {
+      "id" : "_muUawsFrEeyx7s1JSisAwg",
+      "name" : "BatchJob"
+    }, {
+      "id" : "_muUatsFrEeyx7s1JSisAwg",
+      "name" : "BatchNumber"
+    }, {
+      "id" : "_muUausFrEeyx7s1JSisAwg",
+      "name" : "ErrorDetail"
+    }, {
+      "id" : "_muUaucFrEeyx7s1JSisAwg",
+      "name" : "ErrorNumber"
+    }, {
+      "id" : "_muUavsFrEeyx7s1JSisAwg",
+      "name" : "FileDirectory"
+    }, {
+      "id" : "_muUauMFrEeyx7s1JSisAwg",
+      "name" : "JobName"
+    }, {
+      "id" : "_muUawcFrEeyx7s1JSisAwg",
+      "name" : "JobProcStatus"
+    }, {
+      "id" : "_muUat8FrEeyx7s1JSisAwg",
+      "name" : "JobStatus"
+    }, {
+      "id" : "_muUau8FrEeyx7s1JSisAwg",
+      "name" : "JobType"
+    }, {
+      "id" : "_muUatMFrEeyx7s1JSisAwg",
+      "name" : "MasterIntegrationName"
+    }, {
+      "id" : "_muUavMFrEeyx7s1JSisAwg",
+      "name" : "MasterJobName"
+    }, {
+      "id" : "_muUas8FrEeyx7s1JSisAwg",
+      "name" : "MasterProjectName"
+    }, {
+      "id" : "_muUatcFrEeyx7s1JSisAwg",
+      "name" : "MasterStatus"
+    }, {
+      "id" : "_muUawMFrEeyx7s1JSisAwg",
+      "name" : "PID"
+    }, {
+      "id" : "_muUav8FrEeyx7s1JSisAwg",
+      "name" : "SequenceNumber"
+    }, {
+      "id" : "_muUavcFrEeyx7s1JSisAwg",
+      "name" : "TriggerFilename"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S48FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S5MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S58FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S4cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S4sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S5sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S5cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWbF8FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWbCcFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWbDMFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWbGMFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWbFMFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWbCsFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWbFcFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWbEMFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWbEcFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWbDsFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWbD8FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWbC8FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWbDcFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWbGcFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWbFsFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWbE8FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWbEsFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_8FOzEHoREeiktodCaw4_Tg",
+    "parameterList" : [ {
+      "id" : "_myOqWsFrEeyx7s1JSisAwg",
+      "name" : "Email_Body"
+    }, {
+      "id" : "_myOqVcFrEeyx7s1JSisAwg",
+      "name" : "Email_Password"
+    }, {
+      "id" : "_myOqVsFrEeyx7s1JSisAwg",
+      "name" : "Email_Recipient"
+    }, {
+      "id" : "_myOqUcFrEeyx7s1JSisAwg",
+      "name" : "Email_Sender"
+    }, {
+      "id" : "_myOqU8FrEeyx7s1JSisAwg",
+      "name" : "Email_SMPT_port"
+    }, {
+      "id" : "_myOqUsFrEeyx7s1JSisAwg",
+      "name" : "Email_SMTP_host"
+    }, {
+      "id" : "_myOqWcFrEeyx7s1JSisAwg",
+      "name" : "Email_Subject"
+    }, {
+      "id" : "_myOqV8FrEeyx7s1JSisAwg",
+      "name" : "Email_To_ETL_List"
+    }, {
+      "id" : "_myOqWMFrEeyx7s1JSisAwg",
+      "name" : "Email_To_Supp_List"
+    }, {
+      "id" : "_myOqVMFrEeyx7s1JSisAwg",
+      "name" : "Email_Username"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_-K_jMFQwEeiERbk_efciYA",
+    "parameterList" : [ {
+      "id" : "_nAB1tMFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_AdditionalParams"
+    }, {
+      "id" : "_nAB1tsFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Login"
+    }, {
+      "id" : "_nAB1t8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Password"
+    }, {
+      "id" : "_nAB1scFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Port"
+    }, {
+      "id" : "_nAB1tcFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Schema"
+    }, {
+      "id" : "_nAB1s8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Server"
+    }, {
+      "id" : "_nAB1ssFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Sid"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRosFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRocFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRo8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRpsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRpcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRpMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRp8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_23ueAFiSEeadrLUtyBjhjA",
+    "parameterList" : [ {
+      "id" : "_m1gnwsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_AdditionalParams"
+    }, {
+      "id" : "_m1gnwcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Login"
+    }, {
+      "id" : "_m1gnw8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Password"
+    }, {
+      "id" : "_m1gnxsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Port"
+    }, {
+      "id" : "_m1gnxcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Schema"
+    }, {
+      "id" : "_m1gnxMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Server"
+    }, {
+      "id" : "_m1gnx8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_ServiceName"
+    } ]
+  } ]
+}

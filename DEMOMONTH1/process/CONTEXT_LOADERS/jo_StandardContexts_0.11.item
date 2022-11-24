@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="DEV" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" internalId="_IqdX4ESdEe2hO9iH6_wL7g" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdX4USdEe2hO9iH6_wL7g" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_IqdX4kSdEe2hO9iH6_wL7g" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:iG/AL+oG4CDR8w5B3B1deu10bKkHGTikvmJr0HtoUhc3E40O"/>
+    <contextParameter comment="" internalId="_IqdX40SdEe2hO9iH6_wL7g" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_IqdX5ESdEe2hO9iH6_wL7g" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_IqdX5USdEe2hO9iH6_wL7g" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_IqdX5kSdEe2hO9iH6_wL7g" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_IqdX50SdEe2hO9iH6_wL7g" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="10000"/>
+    <contextParameter comment="The business date" internalId="_IqdX6ESdEe2hO9iH6_wL7g" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_IqdX6USdEe2hO9iH6_wL7g" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_IqdX6kSdEe2hO9iH6_wL7g" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_IqdX60SdEe2hO9iH6_wL7g" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_IqdX7ESdEe2hO9iH6_wL7g" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_IqdX7USdEe2hO9iH6_wL7g" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;DEV&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_IqdX7kSdEe2hO9iH6_wL7g" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;D:\win\talend\data-services\edw\ETLTeam\Batch_Audit_Report\BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_IqdX70SdEe2hO9iH6_wL7g" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_IqdX8ESdEe2hO9iH6_wL7g" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_IqdX8USdEe2hO9iH6_wL7g" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_IqdX8kSdEe2hO9iH6_wL7g" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_IqdX80SdEe2hO9iH6_wL7g" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdX9ESdEe2hO9iH6_wL7g" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_IqdX9USdEe2hO9iH6_wL7g" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_IqdX9kSdEe2hO9iH6_wL7g" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_IqdX90SdEe2hO9iH6_wL7g" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="jobs running greater than this minute" internalId="_IqdX-ESdEe2hO9iH6_wL7g" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="120"/>
+    <contextParameter comment="" internalId="_IqdX-USdEe2hO9iH6_wL7g" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;"/>
+    <contextParameter comment="" internalId="_IqdX-kSdEe2hO9iH6_wL7g" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdX-0SdEe2hO9iH6_wL7g" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_IqdX_ESdEe2hO9iH6_wL7g" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:uoBZXVBhaOlro3+GSEsC+Bk5CL1T2rEr7jjW727n0c8JAd2d"/>
+    <contextParameter comment="" internalId="_IqdX_USdEe2hO9iH6_wL7g" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_IqdX_kSdEe2hO9iH6_wL7g" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_IqdX_0SdEe2hO9iH6_wL7g" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_IqdYAESdEe2hO9iH6_wL7g" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_IqdYAUSdEe2hO9iH6_wL7g" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="_ML6TcEqUEea5Zvht9Z-K_w" type="id_String" value="/win/talend/Config/EDW.properties"/>
+  </context>
+  <context confirmationNeeded="false" name="PREPROD">
+    <contextParameter comment="" internalId="_IqdYAkSdEe2hO9iH6_wL7g" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdYA0SdEe2hO9iH6_wL7g" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_IqdYBESdEe2hO9iH6_wL7g" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:Iey/3jFi5B5YcLRG7waeTatQAcw2wQlKl/qZea1yFmdJBKye"/>
+    <contextParameter comment="" internalId="_IqdYBUSdEe2hO9iH6_wL7g" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_IqdYBkSdEe2hO9iH6_wL7g" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_IqdYB0SdEe2hO9iH6_wL7g" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_IqdYCESdEe2hO9iH6_wL7g" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_IqdYCUSdEe2hO9iH6_wL7g" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="10000"/>
+    <contextParameter comment="The business date" internalId="_IqdYCkSdEe2hO9iH6_wL7g" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_IqdYC0SdEe2hO9iH6_wL7g" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_IqdYDESdEe2hO9iH6_wL7g" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_IqdYDUSdEe2hO9iH6_wL7g" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_IqdYDkSdEe2hO9iH6_wL7g" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_IqdYD0SdEe2hO9iH6_wL7g" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;PREPROD&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_IqdYEESdEe2hO9iH6_wL7g" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_IqdYEUSdEe2hO9iH6_wL7g" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_IqdYEkSdEe2hO9iH6_wL7g" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_IqdYE0SdEe2hO9iH6_wL7g" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_IqdYFESdEe2hO9iH6_wL7g" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_IqdYFUSdEe2hO9iH6_wL7g" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdYFkSdEe2hO9iH6_wL7g" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_IqdYF0SdEe2hO9iH6_wL7g" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_IqdYGESdEe2hO9iH6_wL7g" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_IqdYGUSdEe2hO9iH6_wL7g" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="jobs running greater than this minute" internalId="_IqdYGkSdEe2hO9iH6_wL7g" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="120"/>
+    <contextParameter comment="" internalId="_IqdYG0SdEe2hO9iH6_wL7g" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;"/>
+    <contextParameter comment="" internalId="_IqdYHESdEe2hO9iH6_wL7g" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdYHUSdEe2hO9iH6_wL7g" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_IqdYHkSdEe2hO9iH6_wL7g" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:MsdvagsngByobc6W0E4/YEjTARkN54J6B39luWdnJd4FYFOn"/>
+    <contextParameter comment="" internalId="_IqdYH0SdEe2hO9iH6_wL7g" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_IqdYIESdEe2hO9iH6_wL7g" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_IqdYIUSdEe2hO9iH6_wL7g" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_IqdYIkSdEe2hO9iH6_wL7g" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_IqdYI0SdEe2hO9iH6_wL7g" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="_ML6TcEqUEea5Zvht9Z-K_w" type="id_String" value="/win/talend/Config/EDW.properties"/>
+  </context>
+  <context confirmationNeeded="false" name="PRODUCTION">
+    <contextParameter comment="" internalId="_IqdYJESdEe2hO9iH6_wL7g" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_IqdYJUSdEe2hO9iH6_wL7g" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_IqdYJkSdEe2hO9iH6_wL7g" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:tI1ZdMc2djndX8qvmtcCYptpc3f7wGoPvSO5hk4xtsT3OkB3"/>
+    <contextParameter comment="" internalId="_IqdYJ0SdEe2hO9iH6_wL7g" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_IqdYKESdEe2hO9iH6_wL7g" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_IqdYKUSdEe2hO9iH6_wL7g" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_IqdYKkSdEe2hO9iH6_wL7g" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_IqdYK0SdEe2hO9iH6_wL7g" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="200000"/>
+    <contextParameter comment="The business date" internalId="_IqdYLESdEe2hO9iH6_wL7g" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_Iqd-8ESdEe2hO9iH6_wL7g" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_Iqd-8USdEe2hO9iH6_wL7g" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_Iqd-8kSdEe2hO9iH6_wL7g" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_Iqd-80SdEe2hO9iH6_wL7g" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_Iqd-9ESdEe2hO9iH6_wL7g" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;PROD&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_Iqd-9USdEe2hO9iH6_wL7g" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_Iqd-9kSdEe2hO9iH6_wL7g" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_Iqd-90SdEe2hO9iH6_wL7g" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_Iqd--ESdEe2hO9iH6_wL7g" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_Iqd--USdEe2hO9iH6_wL7g" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_Iqd--kSdEe2hO9iH6_wL7g" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Iqd--0SdEe2hO9iH6_wL7g" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_Iqd-_ESdEe2hO9iH6_wL7g" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_Iqd-_USdEe2hO9iH6_wL7g" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_Iqd-_kSdEe2hO9iH6_wL7g" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="jobs running greater than this minute" internalId="_Iqd-_0SdEe2hO9iH6_wL7g" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="120"/>
+    <contextParameter comment="" internalId="_Iqd_AESdEe2hO9iH6_wL7g" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;"/>
+    <contextParameter comment="" internalId="_Iqd_AUSdEe2hO9iH6_wL7g" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Iqd_AkSdEe2hO9iH6_wL7g" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_Iqd_A0SdEe2hO9iH6_wL7g" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:SIzYXX+aGX4S5M2QjIe74RYx9Lj0iNZ7Gy2vS4a1gX42J1Zq"/>
+    <contextParameter comment="" internalId="_Iqd_BESdEe2hO9iH6_wL7g" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_Iqd_BUSdEe2hO9iH6_wL7g" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_Iqd_BkSdEe2hO9iH6_wL7g" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_Iqd_B0SdEe2hO9iH6_wL7g" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_Iqd_CESdEe2hO9iH6_wL7g" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="_ML6TcEqUEea5Zvht9Z-K_w" type="id_String" value="/win/talend/Config/EDW.properties"/>
+  </context>
+  <context confirmationNeeded="false" name="SIT">
+    <contextParameter comment="" internalId="_Iqd_CUSdEe2hO9iH6_wL7g" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Iqd_CkSdEe2hO9iH6_wL7g" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_Iqd_C0SdEe2hO9iH6_wL7g" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:H+JREw3BGCXEmUdiywY0W0XQNW/oTuxUl9v3aSL6lbazuj/N"/>
+    <contextParameter comment="" internalId="_Iqd_DESdEe2hO9iH6_wL7g" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_Iqd_DUSdEe2hO9iH6_wL7g" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_Iqd_DkSdEe2hO9iH6_wL7g" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_Iqd_D0SdEe2hO9iH6_wL7g" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_Iqd_EESdEe2hO9iH6_wL7g" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="10000"/>
+    <contextParameter comment="The business date" internalId="_Iqd_EUSdEe2hO9iH6_wL7g" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_Iqd_EkSdEe2hO9iH6_wL7g" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_Iqd_E0SdEe2hO9iH6_wL7g" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_Iqd_FESdEe2hO9iH6_wL7g" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_Iqd_FUSdEe2hO9iH6_wL7g" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_Iqd_FkSdEe2hO9iH6_wL7g" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SIT&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_Iqd_F0SdEe2hO9iH6_wL7g" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_Iqd_GESdEe2hO9iH6_wL7g" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_Iqd_GUSdEe2hO9iH6_wL7g" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_Iqd_GkSdEe2hO9iH6_wL7g" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_Iqd_G0SdEe2hO9iH6_wL7g" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_Iqd_HESdEe2hO9iH6_wL7g" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Iqd_HUSdEe2hO9iH6_wL7g" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_Iqd_HkSdEe2hO9iH6_wL7g" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_Iqd_H0SdEe2hO9iH6_wL7g" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_Iqd_IESdEe2hO9iH6_wL7g" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="jobs running greater than this minute" internalId="_Iqd_IUSdEe2hO9iH6_wL7g" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="120"/>
+    <contextParameter comment="" internalId="_Iqd_IkSdEe2hO9iH6_wL7g" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;"/>
+    <contextParameter comment="" internalId="_Iqd_I0SdEe2hO9iH6_wL7g" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Iqd_JESdEe2hO9iH6_wL7g" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_Iqd_JUSdEe2hO9iH6_wL7g" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:Ssx6Iu7AL+bd1RQ222MhI9+DtirdHSULzyIiFa/UY4hFKr+7"/>
+    <contextParameter comment="" internalId="_Iqd_JkSdEe2hO9iH6_wL7g" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_Iqd_J0SdEe2hO9iH6_wL7g" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_Iqd_KESdEe2hO9iH6_wL7g" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_Iqd_KUSdEe2hO9iH6_wL7g" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_Iqd_KkSdEe2hO9iH6_wL7g" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="_ML6TcEqUEea5Zvht9Z-K_w" type="id_String" value="D:\win\talend\Config\EDW_Creds_SIT.txt"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Warn"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="64"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.TALENDCONFIG"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;=&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:jr4kCjvMx4SfREV6u4u7l5Hef1h7krR2voCD4EC2WMO4cTsEabdlFA=="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/kit/Talend-Studio-20190620_1446-V7.2.1-AR/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tOracleOutput_servername"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.TALEND_AMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.TALEND_AMC_Port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.TALEND_AMC_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.TALEND_AMC_ServiceName"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.TALEND_AMC_AdditionalParams"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.TALEND_AMC_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.TALEND_AMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9hK0PAo2jt2wGy8N4Sd7IPDDQnaRRWq1+0OsiwyCuPB/F1nZqiZLr7He7OFpDFlnZAhoq8tgyQ=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;tstatcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;tlogcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;tflowmetercatcher&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+    <routinesParameter id="_xANTkCM1Eeamhrfd0iYrSw" name="MD5HashHex"/>
+    <routinesParameter id="_ra1a0GrgEeuuNrLByfgd2A" name="TalendString"/>
+    <routinesParameter id="_rZk2kGrgEeuuNrLByfgd2A" name="Mathematical"/>
+    <routinesParameter id="_rZW0IGrgEeuuNrLByfgd2A" name="DataOperation"/>
+    <routinesParameter id="_raNIsGrgEeuuNrLByfgd2A" name="StringHandling"/>
+    <routinesParameter id="_rbC2MGrgEeuuNrLByfgd2A" name="TalendStringUtil"/>
+    <routinesParameter id="_rabLIGrgEeuuNrLByfgd2A" name="TalendDataGenerator"/>
+    <routinesParameter id="_rW9AYGrgEeuuNrLByfgd2A" name="SQLike"/>
+    <routinesParameter id="_raAUYGrgEeuuNrLByfgd2A" name="Relational"/>
+    <routinesParameter id="_rZ0uMGrgEeuuNrLByfgd2A" name="Numeric"/>
+    <routinesParameter id="_raomgGrgEeuuNrLByfgd2A" name="TalendDate"/>
+  </parameters>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_wO1GoGESEeaZMtrCuiHH0w"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.CTRL_Server"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CTRL_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CTRL_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CTRL_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.CTRL_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.CTRL_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.CTRL_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dz//iCUcj1pkmp2zJ0v7IT4PH5CB1SD0cgif+LTEVBIPi3x4/tyecJwcXVAoR5+VDQ=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;GLOBAL_PARAMETERS&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  CTRL.GLOBAL_PARAMETERS.PARAM_NAME, &#10;  CTRL.GLOBAL_PARAMETERS.PARAM_VALUE&#10;FROM CTRL.GLOBAL_PARAMETERS&#13;&#10;WHERE CTRL.GLOBAL_PARAMETERS.PROJECT_NAME = 'EDW'&#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CTRL_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARAM_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARAM_VALUE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Parameters"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="GLOBAL_ODI_PARAMETERS" name="tOracleInput_1">
+      <column comment="" key="false" length="30" name="PARAM_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4000" name="PARAM_VALUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_eQvgsLvREeeLZqwS-bnBEA-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="SplitData"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="Set1">
+      <column comment="" key="false" length="30" name="PARAM_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="PARAM_VALUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" label="Set2" name="Set2">
+      <column comment="" key="false" length="30" name="PARAM_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="PARAM_VALUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" label="Set3" name="Set3">
+      <column comment="" key="false" length="30" name="PARAM_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="PARAM_VALUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Set4">
+      <column comment="" key="false" length="30" name="PARAM_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4000" name="PARAM_VALUE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="Set1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Params.PARAM_NAME " name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Params.PARAM_VALUE " name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables name="Set2" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Params.PARAM_NAME " name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Params.PARAM_VALUE " name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables name="Set3" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Params.PARAM_NAME " name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Params.PARAM_VALUE " name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables name="Set4" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Params.PARAM_NAME" name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Params.PARAM_VALUE" name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Params" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="224" sizeX="32" sizeY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_eQvgsLvREeeLZqwS-bnBEA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Gen_Set"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="DEMO">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="SCAN_RECONG_FILE">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="COURIERSCAN_RECON_FILE">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="SEPLUS_COURIERS_FILE">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="EFS">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="P_DRV">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Talend_Config">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Wyman_Day_Range">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Wyman_File">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Invalid_TAC_Jobs_File">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="RMQ_Alert_Threshold">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="TRUSTPILOT_FILE">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="TAC_LONGRUN_THRESHOLD">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;DEMO&quot;)" name="DEMO" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Demo&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;SCAN_RECONG_FILE&quot;)" name="SCAN_RECONG_FILE" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Scan_Recong_File&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;EFFECTIVE_END_DATE&quot;)" name="COURIERSCAN_RECON_FILE" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;CourierScan_Recon_File&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;SEPLUS_COURIERS_FILE&quot;)" name="SEPLUS_COURIERS_FILE" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;SEPLUS_Couriers_File&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;EFS&quot;)" name="EFS" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;EFS&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;P_DRV&quot;)" name="P_DRV" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;P_DRV&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;TALENDCONFIG&quot;)" name="Talend_Config" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TALENDCONFIG&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;WYMAN_DAY_RANGE&quot;)" name="Wyman_Day_Range" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Wyman_Day_Range&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;WYMAN_NETWORK_FILE&quot;)" name="Wyman_File" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Wyman_Network_File&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;INVALID_TAC_JOBS_FILE&quot;)" name="Invalid_TAC_Jobs_File" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Invalid_TAC_Jobs_File&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;ALERT_THRESHOLD&quot;)" name="RMQ_Alert_Threshold" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Alert_Threshold&quot; " name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Integer.parseInt(Set1.PARAM_VALUE)" name="value" nullable="true" type="id_Integer"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;TRUSTPILOT_FILE&quot;)" name="TRUSTPILOT_FILE" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Trustpilot_File&quot; " name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE  " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set1.PARAM_NAME.equalsIgnoreCase(&quot;TAC_LONGRUN_THRESHOLD&quot;)" name="TAC_LONGRUN_THRESHOLD" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TAC_LONGRUN_THRESHOLD&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set1.PARAM_VALUE   " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Set1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1312" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_7"/>
+    <elementParameter field="TEXT" name="LABEL" value="Talend_Config"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_7">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_4"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_eQvgsLvREeeLZqwS-bnBEA-tMap_4-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_Set"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="Email_Rec">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_Sender">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_Bcc">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_cc">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_To_Etl_List">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_To_Supp_List">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Trustpilot_Email">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Trustpilot_cc">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_To_Supp_SAP_List">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_To_BO_List">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Email_To_GMB_List">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_RECIPIENT&quot;)" name="Email_Rec" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_Recipient&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_SENDER&quot;)" name="Email_Sender" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_Sender&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_BCC&quot;)" name="Email_Bcc" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_Bcc&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_CC&quot;)" name="Email_cc" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_Cc&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_TO_ETL_LIST&quot;)" name="Email_To_Etl_List" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_To_ETL_List&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_TO_ETL_SUPP_LIST&quot;)" name="Email_To_Supp_List" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_To_Supp_List&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;TRUSTPILOT_EMAIL_DL&quot;)" name="Trustpilot_Email" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Trustpilot_Email_Dl&quot; " name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE  " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;TRUSTPILOT_EMAIL_CC&quot;)" name="Trustpilot_cc" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Trustpilot_Email_Cc&quot;  " name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE   " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_TO_SUPP_SAP_LIST&quot;)" name="Email_To_Supp_SAP_List" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_To_Supp_SAP_List&quot;   " name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE    " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_TO_BO_LIST&quot;)" name="Email_To_BO_List" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_To_BO_List&quot;   " name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE    " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" columnNameFilter="" expressionFilter="Set3.PARAM_NAME.equalsIgnoreCase(&quot;EMAIL_TO_GMB_LIST&quot;)" name="Email_To_GMB_List" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;Email_To_GMB_List&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set3.PARAM_VALUE    " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Set3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_18"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_Recipient"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_18">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_19"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_Sender"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_19">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_20"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_Bcc"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_20">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_21"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_Cc"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_21">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="1120" sizeX="32" sizeY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_eQvgsLvREeeLZqwS-bnBEA-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="API_Set"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="PS_API_Summary_Controller">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="PS_API_Rest_URL">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="CDM_DAYS_COVERED">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="CDM_ROUND_COVERAGE_API_URL">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="RATE_NEGOTIATION_SERVICE_URL">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="RN_DUPLICATES_Email_To_List">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="PRNT_DAYS_TO_KEEP">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="PRNT_TYPEID_FILTER">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="BQ_DAYS_TO_REPOPULATE">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="BQ_DAYS_TO_KEEP">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="BQ_DATASET">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="BQ_PROJECT_ID">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="BQ_CREDENTIALS_PATH">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateExpressionFilter="true" columnNameFilter="" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;PS_API_PARCEL_SUMMARY_CONTROLLER&quot;)" name="PS_API_Summary_Controller" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;PS_API_PARCEL_SUMMARY_CONTROLLER&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;PS_API_REST_URL&quot;)" name="PS_API_Rest_URL" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;PS_API_REST_URL&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;CDM_DAYS_COVERED&quot;)" name="CDM_DAYS_COVERED" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;CDM_DAYS_COVERED&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;CDM_ROUND_COVERAGE_API_URL&quot;)" name="CDM_ROUND_COVERAGE_API_URL" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;CDM_ROUND_COVERAGE_API_URL&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;RATE_NEGOTIATION_SERVICE_URL&quot;)" name="RATE_NEGOTIATION_SERVICE_URL" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;RATE_NEGOTIATION_SERVICE_URL&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;RN_DUPLICATES_Email_To_List&quot;)" name="RN_DUPLICATES_Email_To_List" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;RN_DUPLICATES_Email_To_List&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;PRNT_DAYS_TO_KEEP&quot;)" name="PRNT_DAYS_TO_KEEP" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;PRNT_DAYS_TO_KEEP&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;PRNT_TYPEID_FILTER&quot;)" name="PRNT_TYPEID_FILTER" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;PRNT_TYPEID_FILTER&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;BQ_DAYS_TO_REPOPULATE&quot;)" name="BQ_DAYS_TO_REPOPULATE" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;BQ_DAYS_TO_REPOPULATE&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;BQ_DAYS_TO_KEEP&quot;)" name="BQ_DAYS_TO_KEEP" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;BQ_DAYS_TO_KEEP&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;BQ_DATASET&quot;)" name="BQ_DATASET" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;BQ_DATASET&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;BQ_PROJECT_ID&quot;)" name="BQ_PROJECT_ID" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;BQ_PROJECT_ID&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set2.PARAM_NAME.equalsIgnoreCase(&quot;BQ_CREDENTIALS_PATH&quot;)" name="BQ_CREDENTIALS_PATH" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;BQ_CREDENTIALS_PATH&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set2.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Set2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_22"/>
+    <elementParameter field="TEXT" name="LABEL" value="Invalid_TAC_Jobs_File"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_22">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_12"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_To_Etl_List"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_12">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_13"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_To_Supp_List"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_13">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1312" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_10"/>
+    <elementParameter field="TEXT" name="LABEL" value="Wyman_Network_File"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_10">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_5"/>
+    <elementParameter field="TEXT" name="LABEL" value="EFS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_5">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_9"/>
+    <elementParameter field="TEXT" name="LABEL" value="Wyman_Day_Range"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_9">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_4"/>
+    <elementParameter field="TEXT" name="LABEL" value="SEPLUS_COURIERS_FILE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_4">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_14"/>
+    <elementParameter field="TEXT" name="LABEL" value="RMQ_Alert_Threshold"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_14">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="COURIERSCAN_RECON_FILE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_2">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="SCAN_RECONG_FILE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_3">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_15"/>
+    <elementParameter field="TEXT" name="LABEL" value="TRUSTPILOT_FILE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_15">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_16"/>
+    <elementParameter field="TEXT" name="LABEL" value="Trustpilot_Email_Dl"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_16">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="928">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_17"/>
+    <elementParameter field="TEXT" name="LABEL" value="Trustpilot_Email_Cc"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_17">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_23"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_To_Supp_SAP_List"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_23">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="1056">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_24"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_To_BO_List"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_24">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="1152">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_25"/>
+    <elementParameter field="TEXT" name="LABEL" value="Email_To_GMB_List"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_25">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_26"/>
+    <elementParameter field="TEXT" name="LABEL" value="CDM_DAYS_COVERED"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_26">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="928">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_27"/>
+    <elementParameter field="TEXT" name="LABEL" value="CDM_ROUND_COVERAGE_API_URL"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_27">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1312" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_28"/>
+    <elementParameter field="TEXT" name="LABEL" value="TAC_LONGRUN_THRESHOLD"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_28">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="992">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_29"/>
+    <elementParameter field="TEXT" name="LABEL" value="RATE_NEGOTIATION_SERVICE_URL"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_29">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="1216">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_30"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRNT_DAYS_TO_KEEP"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_30">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="1152">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_31"/>
+    <elementParameter field="TEXT" name="LABEL" value="PRNT_TYPEID_FILTER"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_31">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_32"/>
+    <elementParameter field="TEXT" name="LABEL" value="BQ_DAYS_TO_REPOPULATE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_32">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1344">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_33"/>
+    <elementParameter field="TEXT" name="LABEL" value="BQ_DAYS_TO_KEEP"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_33">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1408">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_34"/>
+    <elementParameter field="TEXT" name="LABEL" value="BQ_DATASET"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_34">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1472">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_35"/>
+    <elementParameter field="TEXT" name="LABEL" value="BQ_PROJECT_ID"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_35">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1536">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_36"/>
+    <elementParameter field="TEXT" name="LABEL" value="BQ_CREDENTIALS_PATH"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_36">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="1056">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_37"/>
+    <elementParameter field="TEXT" name="LABEL" value="RN_DUPLICATES_Email_To_List"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_37">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1504" posY="1472">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_5"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_eQvgsLvREeeLZqwS-bnBEA-tMap_5-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="FileSH_Set"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="TLMT_S3_BUCKET_NAME">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="TLMT_S3_BUCKET_SOURCE_DIRECTORY">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="TLMT_S3_BUCKET_ARCHIVE_DIRECTORY">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="TLMT_DAYS_TO_KEEP">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set4.PARAM_NAME.equalsIgnoreCase(&quot;TLMT_S3_BUCKET_NAME&quot;)" name="TLMT_S3_BUCKET_NAME" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TELEMATICS_S3_BUCKET_NAME&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set4.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set4.PARAM_NAME.equalsIgnoreCase(&quot;TLMT_S3_BUCKET_SOURCE_DIRECTORY&quot;)" name="TLMT_S3_BUCKET_SOURCE_DIRECTORY" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TLMT_S3_BUCKET_SOURCE_DIRECTORY&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set4.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set4.PARAM_NAME.equalsIgnoreCase(&quot;TLMT_S3_BUCKET_ARCHIVE_DIRECTORY&quot;)" name="TLMT_S3_BUCKET_ARCHIVE_DIRECTORY" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TLMT_S3_BUCKET_ARCHIVE_DIRECTORY&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set4.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables activateExpressionFilter="true" expressionFilter="Set4.PARAM_NAME.equalsIgnoreCase(&quot;TLMT_DAYS_TO_KEEP&quot;)" name="TLMT_DAYS_TO_KEEP" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TLMT_DAYS_TO_KEEP&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Set4.PARAM_VALUE " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Set4" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="PARAM_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PARAM_VALUE" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1696" posY="1280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_38"/>
+    <elementParameter field="TEXT" name="LABEL" value="TLMT_S3_BUCKET_NAME"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_38">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1824" posY="1344">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_39"/>
+    <elementParameter field="TEXT" name="LABEL" value="TLMT_S3_BUCKET_SOURCE_DIRECTORY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_39">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1888" posY="1408">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_40"/>
+    <elementParameter field="TEXT" name="LABEL" value="TLMT_S3_BUCKET_ARCHIVE_DIRECTORY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_40">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1920" posY="1504">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_41"/>
+    <elementParameter field="TEXT" name="LABEL" value="TLMT_DAYS_TO_KEEP"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_41">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n\nPopulating Standard Context Variables&quot;);&#10;System.out.println(&quot;----------------------------------------------------------------------------&quot;);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tContextDump" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextDump_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="HIDE_PASSWORD" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextDump_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_6"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="P_Drv"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_6">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_8"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="PS_API_Summary_Controller"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_8">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="800">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_11"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="PS_API_Rest_URL"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_11">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="DEMO"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_1">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="Params" lineStyle="0" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Params"/>
+  </connection>
+  <connection connectorName="FLOW" label="Set1" lineStyle="0" metaname="Set1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Set1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Set2" lineStyle="0" metaname="Set2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_2" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Set2"/>
+  </connection>
+  <connection connectorName="FLOW" label="Set3" lineStyle="0" metaname="Set3" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_2" target="tMap_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Set3"/>
+  </connection>
+  <connection connectorName="FLOW" label="Set4" lineStyle="0" metaname="Set4" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tMap_2" target="tMap_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Set4"/>
+  </connection>
+  <connection connectorName="FLOW" label="DEMO" lineStyle="0" metaname="DEMO" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tBufferOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="DEMO"/>
+  </connection>
+  <connection connectorName="FLOW" label="SCAN_RECONG_FILE" lineStyle="0" metaname="SCAN_RECONG_FILE" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tBufferOutput_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="SCAN_RECONG_FILE"/>
+  </connection>
+  <connection connectorName="FLOW" label="COURIERSCAN_RECON_FILE" lineStyle="0" metaname="COURIERSCAN_RECON_FILE" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_1" target="tBufferOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="COURIERSCAN_RECON_FILE"/>
+  </connection>
+  <connection connectorName="FLOW" label="SEPLUS_COURIERS_FILE" lineStyle="0" metaname="SEPLUS_COURIERS_FILE" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tMap_1" target="tBufferOutput_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="SEPLUS_COURIERS_FILE"/>
+  </connection>
+  <connection connectorName="FLOW" label="EFS" lineStyle="0" metaname="EFS" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tMap_1" target="tBufferOutput_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="EFS"/>
+  </connection>
+  <connection connectorName="FLOW" label="Talend_Config" lineStyle="0" metaname="Talend_Config" offsetLabelX="0" offsetLabelY="0" outputId="6" source="tMap_1" target="tBufferOutput_7">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Talend_Config"/>
+  </connection>
+  <connection connectorName="FLOW" label="Wyman_Day_Range" lineStyle="0" metaname="Wyman_Day_Range" offsetLabelX="0" offsetLabelY="0" outputId="7" source="tMap_1" target="tBufferOutput_9">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Wyman_Day_Range"/>
+  </connection>
+  <connection connectorName="FLOW" label="Wyman_File" lineStyle="0" metaname="Wyman_File" offsetLabelX="0" offsetLabelY="0" outputId="8" source="tMap_1" target="tBufferOutput_10">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Wyman_File"/>
+  </connection>
+  <connection connectorName="FLOW" label="Invalid_TAC_Jobs_File" lineStyle="0" metaname="Invalid_TAC_Jobs_File" offsetLabelX="0" offsetLabelY="0" outputId="9" source="tMap_1" target="tBufferOutput_22">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Invalid_TAC_Jobs_File"/>
+  </connection>
+  <connection connectorName="FLOW" label="RMQ_Alert_Threshold" lineStyle="0" metaname="RMQ_Alert_Threshold" offsetLabelX="50" offsetLabelY="-50" outputId="10" source="tMap_1" target="tBufferOutput_14">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="RMQ_Alert_Threshold"/>
+  </connection>
+  <connection connectorName="FLOW" label="TRUSTPILOT_FILE" lineStyle="0" metaname="TRUSTPILOT_FILE" offsetLabelX="0" offsetLabelY="0" outputId="11" source="tMap_1" target="tBufferOutput_15">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRUSTPILOT_FILE"/>
+  </connection>
+  <connection connectorName="FLOW" label="TAC_LONGRUN_THRESHOLD" lineStyle="0" metaname="TAC_LONGRUN_THRESHOLD" offsetLabelX="0" offsetLabelY="0" outputId="12" source="tMap_1" target="tBufferOutput_28">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TAC_LONGRUN_THRESHOLD"/>
+  </connection>
+  <connection connectorName="FLOW" label="P_DRV" lineStyle="0" metaname="P_DRV" offsetLabelX="0" offsetLabelY="0" outputId="13" source="tMap_1" target="tBufferOutput_6">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="P_DRV"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_Rec" lineStyle="0" metaname="Email_Rec" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_4" target="tBufferOutput_18">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_Rec"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_Sender" lineStyle="0" metaname="Email_Sender" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_4" target="tBufferOutput_19">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_Sender"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_Bcc" lineStyle="0" metaname="Email_Bcc" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_4" target="tBufferOutput_20">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_Bcc"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_cc" lineStyle="0" metaname="Email_cc" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tMap_4" target="tBufferOutput_21">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_cc"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_To_Etl_List" lineStyle="0" metaname="Email_To_Etl_List" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tMap_4" target="tBufferOutput_12">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_To_Etl_List"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_To_Supp_List" lineStyle="0" metaname="Email_To_Supp_List" offsetLabelX="0" offsetLabelY="0" outputId="6" source="tMap_4" target="tBufferOutput_13">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_To_Supp_List"/>
+  </connection>
+  <connection connectorName="FLOW" label="Trustpilot_Email" lineStyle="0" metaname="Trustpilot_Email" offsetLabelX="0" offsetLabelY="0" outputId="7" source="tMap_4" target="tBufferOutput_16">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Trustpilot_Email"/>
+  </connection>
+  <connection connectorName="FLOW" label="Trustpilot_cc" lineStyle="0" metaname="Trustpilot_cc" offsetLabelX="0" offsetLabelY="0" outputId="8" source="tMap_4" target="tBufferOutput_17">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Trustpilot_cc"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_To_Supp_SAP_List" lineStyle="0" metaname="Email_To_Supp_SAP_List" offsetLabelX="0" offsetLabelY="0" outputId="9" source="tMap_4" target="tBufferOutput_23">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_To_Supp_SAP_List"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_To_BO_List" lineStyle="0" metaname="Email_To_BO_List" offsetLabelX="0" offsetLabelY="0" outputId="10" source="tMap_4" target="tBufferOutput_24">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_To_BO_List"/>
+  </connection>
+  <connection connectorName="FLOW" label="Email_To_GMB_List" lineStyle="0" metaname="Email_To_GMB_List" offsetLabelX="0" offsetLabelY="0" outputId="11" source="tMap_4" target="tBufferOutput_25">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Email_To_GMB_List"/>
+  </connection>
+  <connection connectorName="FLOW" label="PS_API_Summary_Controller" lineStyle="0" metaname="PS_API_Summary_Controller" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tBufferOutput_8">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="PS_API_Summary_Controller"/>
+  </connection>
+  <connection connectorName="FLOW" label="CDM_DAYS_COVERED" lineStyle="0" metaname="CDM_DAYS_COVERED" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tBufferOutput_26">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="CDM_DAYS_COVERED"/>
+  </connection>
+  <connection connectorName="FLOW" label="CDM_ROUND_COVERAGE_API_URL" lineStyle="0" metaname="CDM_ROUND_COVERAGE_API_URL" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_3" target="tBufferOutput_27">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="CDM_ROUND_COVERAGE_API_URL"/>
+  </connection>
+  <connection connectorName="FLOW" label="RATE_NEGOTIATION_SERVICE_URL" lineStyle="0" metaname="RATE_NEGOTIATION_SERVICE_URL" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tMap_3" target="tBufferOutput_29">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="RATE_NEGOTIATION_SERVICE_URL"/>
+  </connection>
+  <connection connectorName="FLOW" label="RN_DUPLICATES_Email_To_List" lineStyle="0" metaname="RN_DUPLICATES_Email_To_List" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tMap_3" target="tBufferOutput_37">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="RN_DUPLICATES_Email_To_List"/>
+  </connection>
+  <connection connectorName="FLOW" label="PRNT_DAYS_TO_KEEP" lineStyle="0" metaname="PRNT_DAYS_TO_KEEP" offsetLabelX="0" offsetLabelY="0" outputId="6" source="tMap_3" target="tBufferOutput_30">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="PRNT_DAYS_TO_KEEP"/>
+  </connection>
+  <connection connectorName="FLOW" label="PRNT_TYPEID_FILTER" lineStyle="0" metaname="PRNT_TYPEID_FILTER" offsetLabelX="0" offsetLabelY="0" outputId="7" source="tMap_3" target="tBufferOutput_31">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="PRNT_TYPEID_FILTER"/>
+  </connection>
+  <connection connectorName="FLOW" label="BQ_DAYS_TO_REPOPULATE" lineStyle="0" metaname="BQ_DAYS_TO_REPOPULATE" offsetLabelX="0" offsetLabelY="0" outputId="8" source="tMap_3" target="tBufferOutput_32">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="BQ_DAYS_TO_REPOPULATE"/>
+  </connection>
+  <connection connectorName="FLOW" label="BQ_DAYS_TO_KEEP" lineStyle="0" metaname="BQ_DAYS_TO_KEEP" offsetLabelX="0" offsetLabelY="0" outputId="9" source="tMap_3" target="tBufferOutput_33">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="BQ_DAYS_TO_KEEP"/>
+  </connection>
+  <connection connectorName="FLOW" label="BQ_DATASET" lineStyle="0" metaname="BQ_DATASET" offsetLabelX="0" offsetLabelY="0" outputId="10" source="tMap_3" target="tBufferOutput_34">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="BQ_DATASET"/>
+  </connection>
+  <connection connectorName="FLOW" label="BQ_PROJECT_ID" lineStyle="0" metaname="BQ_PROJECT_ID" offsetLabelX="0" offsetLabelY="0" outputId="11" source="tMap_3" target="tBufferOutput_35">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="BQ_PROJECT_ID"/>
+  </connection>
+  <connection connectorName="FLOW" label="BQ_CREDENTIALS_PATH" lineStyle="0" metaname="BQ_CREDENTIALS_PATH" offsetLabelX="0" offsetLabelY="0" outputId="12" source="tMap_3" target="tBufferOutput_36">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="BQ_CREDENTIALS_PATH"/>
+  </connection>
+  <connection connectorName="FLOW" label="PS_API_Rest_URL" lineStyle="0" metaname="PS_API_Rest_URL" offsetLabelX="0" offsetLabelY="0" outputId="13" source="tMap_3" target="tBufferOutput_11">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="PS_API_Rest_URL"/>
+  </connection>
+  <connection connectorName="FLOW" label="TLMT_S3_BUCKET_NAME" lineStyle="0" metaname="TLMT_S3_BUCKET_NAME" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_5" target="tBufferOutput_38">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TLMT_S3_BUCKET_NAME"/>
+  </connection>
+  <connection connectorName="FLOW" label="TLMT_S3_BUCKET_SOURCE_DIRECTORY" lineStyle="0" metaname="TLMT_S3_BUCKET_SOURCE_DIRECTORY" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_5" target="tBufferOutput_39">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TLMT_S3_BUCKET_SOURCE_DIRECTORY"/>
+  </connection>
+  <connection connectorName="FLOW" label="TLMT_S3_BUCKET_ARCHIVE_DIRECTORY" lineStyle="0" metaname="TLMT_S3_BUCKET_ARCHIVE_DIRECTORY" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_5" target="tBufferOutput_40">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TLMT_S3_BUCKET_ARCHIVE_DIRECTORY"/>
+  </connection>
+  <connection connectorName="FLOW" label="TLMT_DAYS_TO_KEEP" lineStyle="0" metaname="TLMT_DAYS_TO_KEEP" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tMap_5" target="tBufferOutput_41">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TLMT_DAYS_TO_KEEP"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tContextDump_1" offsetLabelX="0" offsetLabelY="0" source="tContextDump_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextDump_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_8"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_11"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_29f6a6d3-6463-46b5-9e4b-c80591b2872c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eS/Lzw8r1MTOMPGQTe2XXVDe4cYeg/+mvfKyniKx9TfRB+WaXBfH0XdBQWXUxOvW59d9zobM0KpM&#13;
+WmELEbH/cQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6591a03d-fedf-4fbb-8c7f-2e313f2df572"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>V6O9yT5/TdeHw2v5pco/ovgwNSW6EW963vyWoSWWHOFO5D3eO8bZ625be4qwjNtnuloCKuaCXnen&#13;
+hS3GA3Z2yA==</DigestValue></Reference></SignedInfo><SignatureValue>LlapQwnkqm0czsfwRHtMFRZpo9tSOVtkDj31w3YehdGhjUs4E5mhq+Bwr1C/zOn3VYiWRNymLknc&#13;
+lfg5MlXU5//vs9UV6rll7RqEpAYTrssNt5j+uG5Zw9KvXyoY2AIHLqiyapDmmF/W7mjPCX/jjY9/&#13;
+v4kwHaN5/Ldk9omEAfJwP+3RJhbP7fYgWQPq8NnRWJEaEAJ58pUO9Qw6XIdhpBaFVYyT2UvsRktr&#13;
+Dga+dHnsZc5hzqwb5syTRWqFSNK71mQ0DZtvmGKIfiuLF2V2eBAGdXImDdjQNXvAK9WjfRO2hWW+&#13;
+K1YZjhCl/ckK0l8cNR1iUhfs7yzqPwFm+ABn9A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6591a03d-fedf-4fbb-8c7f-2e313f2df572" Target="#_29f6a6d3-6463-46b5-9e4b-c80591b2872c"><Timestamp>2022-11-24 22:56:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

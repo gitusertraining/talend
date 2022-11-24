@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_mo3S0MFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_mo3S0cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S0sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_mo3S08FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S1MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_mo3S1cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com" xmi:id="_mo3S1sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:myo1fh+913uh2McEMRaAUIVeXI4rFtFUkjnJTt8dEN8+eVPc" xmi:id="_mo3S18FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PREPROD" xmi:id="_mo3S2MFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_mo3S2cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S2sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_mo3S28FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S3MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_mo3S3cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" type="id_String" value="hmedwtalendpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com" xmi:id="_mo3S3sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:un5Ocy0LVu3NHz/YtKude40PCAEyWOgdf5pK4tSkOAfy80Wn" xmi:id="_mo3S38FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRODUCTION" xmi:id="_mo3S4MFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_mo3S4cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S4sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_mo3S48FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S5MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_mo3S5cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com" xmi:id="_mo3S5sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:e75HncTT9wqaw/8m96cNpBENSW5NRfwCrZuwfxjYxXtq/0sq" xmi:id="_mo3S58FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SIT" xmi:id="_mo3S6MFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_mo3S6cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S6sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_mo3S68FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" type="id_String" value="CTRL" xmi:id="_mo3S7MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_mo3S7cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" type="id_String" value="hmedwtalendsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com" xmi:id="_mo3S7sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:so7wV0+xAU6urvvR/D6oAnhreE5b8HoC9XHZbZNWeJHNckiK" xmi:id="_mo3S78FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bff0f348-65c2-44e6-be24-0df4d860ceac"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CgWQ2wUAomwF4l4vUAsWZCwvGbviKnUtkGddc1Zp5BhRqO4GWY9hQRAur8km9XuA+I/E4W4j99pN&#13;
+uLLUsSDTSw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_66d38aa6-8ab5-4fc3-b264-41f6b890db5d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2qFBJDb1eFpNEhQKND1yCE0r3RfDyvGdEsftoqjzp0XhhoJoZZm419NA55fDKtasrujtetHyWOKF&#13;
+ZZbPngo4ig==</DigestValue></Reference></SignedInfo><SignatureValue>lcK5XDlB2K/vOw+XU/MrNngjzQlwe9J9wRMSG1s+Megrvng5vJqjMxVxqs4XQmh1414PJbDwIJhC&#13;
+1QEF7BkaQ4yn4Eq695WpBDPfUudOhppx+w921YpnNdldkLitcBmZm3losFXKOZc8eef4r74HpjDK&#13;
+chdJUMtVN4xSYqJ6LFx9SKaab5etvKFWC/bvAJdV3uFMkClzbB7gebg5KJkQAACj4gzD70z/f5Oy&#13;
+XBtK7O2IPhkixjqpAZQxt4pNBv8M+nfdOuXINi4UWJfORqMqX95YT3iKk9UQi6FlCnyn+i8YkQuK&#13;
+o9Ghyn/hlXNRhlFhdnOf1okxoJpCDXrXuCzvrg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_66d38aa6-8ab5-4fc3-b264-41f6b890db5d" Target="#_bff0f348-65c2-44e6-be24-0df4d860ceac"><Timestamp>2022-11-24 22:56:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

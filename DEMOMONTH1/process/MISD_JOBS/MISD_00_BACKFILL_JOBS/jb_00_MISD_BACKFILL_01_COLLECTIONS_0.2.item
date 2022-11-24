@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="DEV" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" internalId="_B4I_sN_5Eey96uNRPSeoDw" name="BatchJob" prompt="BatchJob?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Y"/>
+    <contextParameter comment="" internalId="_B4I_sd_5Eey96uNRPSeoDw" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Long" value="0"/>
+    <contextParameter comment="" internalId="_B4I_st_5Eey96uNRPSeoDw" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4I_s9_5Eey96uNRPSeoDw" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4I_tN_5Eey96uNRPSeoDw" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4I_td_5Eey96uNRPSeoDw" name="JobName" prompt="JobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4I_tt_5Eey96uNRPSeoDw" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4I_t9_5Eey96uNRPSeoDw" name="JobStatus" prompt="JobStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4I_uN_5Eey96uNRPSeoDw" name="JobType" prompt="JobType?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Job"/>
+    <contextParameter comment="" internalId="_B4I_ud_5Eey96uNRPSeoDw" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="DataIntegration"/>
+    <contextParameter comment="" internalId="_B4I_ut_5Eey96uNRPSeoDw" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4I_u9_5Eey96uNRPSeoDw" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="EDW"/>
+    <contextParameter comment="" internalId="_B4I_vN_5Eey96uNRPSeoDw" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4I_vd_5Eey96uNRPSeoDw" name="PID" prompt="PID?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4I_vt_5Eey96uNRPSeoDw" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_B4I_v9_5Eey96uNRPSeoDw" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4JmwN_5Eey96uNRPSeoDw" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Jmwd_5Eey96uNRPSeoDw" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4Jmwt_5Eey96uNRPSeoDw" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:+sIyPPIOOQ2deiO+9th1h683QPTI9olNSt3plYQ9OH5Fpo/A"/>
+    <contextParameter comment="" internalId="_B4Jmw9_5Eey96uNRPSeoDw" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4JmxN_5Eey96uNRPSeoDw" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4Jmxd_5Eey96uNRPSeoDw" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4Jmxt_5Eey96uNRPSeoDw" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4Jmx9_5Eey96uNRPSeoDw" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="10000"/>
+    <contextParameter comment="The business date" internalId="_B4JmyN_5Eey96uNRPSeoDw" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_B4Jmyd_5Eey96uNRPSeoDw" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_B4Jmyt_5Eey96uNRPSeoDw" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4Jmy9_5Eey96uNRPSeoDw" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_B4JmzN_5Eey96uNRPSeoDw" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_B4Jmzd_5Eey96uNRPSeoDw" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;DEV&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_B4Jmzt_5Eey96uNRPSeoDw" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;D:\win\talend\data-services\edw\ETLTeam\Batch_Audit_Report\BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_B4Jmz9_5Eey96uNRPSeoDw" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_B4Jm0N_5Eey96uNRPSeoDw" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_B4Jm0d_5Eey96uNRPSeoDw" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_B4Jm0t_5Eey96uNRPSeoDw" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_B4Jm09_5Eey96uNRPSeoDw" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Jm1N_5Eey96uNRPSeoDw" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4Jm1d_5Eey96uNRPSeoDw" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_B4Jm1t_5Eey96uNRPSeoDw" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_B4Jm19_5Eey96uNRPSeoDw" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Jm2N_5Eey96uNRPSeoDw" name="Email_Body" prompt="Email_Body?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Jm2d_5Eey96uNRPSeoDw" name="Email_Password" prompt="Email_Password?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa"/>
+    <contextParameter comment="" internalId="_B4Jm2t_5Eey96uNRPSeoDw" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4Jm29_5Eey96uNRPSeoDw" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="DataServices@Hermes-europe.co.uk"/>
+    <contextParameter comment="" internalId="_B4Jm3N_5Eey96uNRPSeoDw" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="587"/>
+    <contextParameter comment="" internalId="_B4Jm3d_5Eey96uNRPSeoDw" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="email-smtp.eu-west-1.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4Jm3t_5Eey96uNRPSeoDw" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="ETL DEV Email List" internalId="_B4Jm39_5Eey96uNRPSeoDw" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;pradeep.balan@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4Jm4N_5Eey96uNRPSeoDw" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4Jm4d_5Eey96uNRPSeoDw" name="Email_Username" prompt="Email_Username?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="AKIAX7RFKVATYTZP3P56"/>
+    <contextParameter comment="" internalId="_B4KN0N_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_AdditionalParams" prompt="ORA_MISD_HEDW_STAGE_AdditionalParams?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN0d_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Login" prompt="ORA_MISD_HEDW_STAGE_Login?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="hedw_stage"/>
+    <contextParameter comment="" internalId="_B4KN0t_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Password" prompt="ORA_MISD_HEDW_STAGE_Password?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_Password" value="enc:system.encryption.key.v1:G2ofasB8sewSzKUQtcgCl55rx27LxcVD3XDRBuR3MVPo5imbqSA="/>
+    <contextParameter comment="" internalId="_B4KN09_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Port" prompt="ORA_MISD_HEDW_STAGE_Port?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4KN1N_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Schema" prompt="ORA_MISD_HEDW_STAGE_Schema?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="HEDW_STAGE"/>
+    <contextParameter comment="" internalId="_B4KN1d_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Server" prompt="ORA_MISD_HEDW_STAGE_Server?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="rtt-stage.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4KN1t_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Sid" prompt="ORA_MISD_HEDW_STAGE_Sid?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="ORCL"/>
+    <contextParameter comment="" internalId="_B4KN19_5Eey96uNRPSeoDw" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN2N_5Eey96uNRPSeoDw" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4KN2d_5Eey96uNRPSeoDw" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:xZNoFKl7fuhM2v3W0mYZoaOb/PCkyuY+L4wi1BOdq00PeH+U"/>
+    <contextParameter comment="" internalId="_B4KN2t_5Eey96uNRPSeoDw" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4KN29_5Eey96uNRPSeoDw" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4KN3N_5Eey96uNRPSeoDw" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4KN3d_5Eey96uNRPSeoDw" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4KN3t_5Eey96uNRPSeoDw" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN39_5Eey96uNRPSeoDw" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="talend_ops"/>
+    <contextParameter comment="" internalId="_B4KN4N_5Eey96uNRPSeoDw" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_Password" value="enc:system.encryption.key.v1:YEfz4eHxiW04J8DdwKVTBZi2ZgCPGIWz+zHG7Rs+bXu05dO9"/>
+    <contextParameter comment="" internalId="_B4KN4d_5Eey96uNRPSeoDw" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4KN4t_5Eey96uNRPSeoDw" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND_OPS"/>
+    <contextParameter comment="" internalId="_B4KN49_5Eey96uNRPSeoDw" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4KN5N_5Eey96uNRPSeoDw" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_bIvtoNEZEey1Q_cy3cJIzA" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/win/talend/Config/EDW.properties"/>
+  </context>
+  <context confirmationNeeded="false" name="SIT">
+    <contextParameter comment="" internalId="_B4KN5d_5Eey96uNRPSeoDw" name="BatchJob" prompt="BatchJob?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Y"/>
+    <contextParameter comment="" internalId="_B4KN5t_5Eey96uNRPSeoDw" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Long" value="0"/>
+    <contextParameter comment="" internalId="_B4KN59_5Eey96uNRPSeoDw" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN6N_5Eey96uNRPSeoDw" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4KN6d_5Eey96uNRPSeoDw" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN6t_5Eey96uNRPSeoDw" name="JobName" prompt="JobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN69_5Eey96uNRPSeoDw" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4KN7N_5Eey96uNRPSeoDw" name="JobStatus" prompt="JobStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4KN7d_5Eey96uNRPSeoDw" name="JobType" prompt="JobType?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Job"/>
+    <contextParameter comment="" internalId="_B4KN7t_5Eey96uNRPSeoDw" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="DataIntegration"/>
+    <contextParameter comment="" internalId="_B4KN79_5Eey96uNRPSeoDw" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN8N_5Eey96uNRPSeoDw" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="EDW"/>
+    <contextParameter comment="" internalId="_B4KN8d_5Eey96uNRPSeoDw" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4KN8t_5Eey96uNRPSeoDw" name="PID" prompt="PID?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN89_5Eey96uNRPSeoDw" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_B4KN9N_5Eey96uNRPSeoDw" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN9d_5Eey96uNRPSeoDw" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4KN9t_5Eey96uNRPSeoDw" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4K04N_5Eey96uNRPSeoDw" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:RHKtL4J7fRxkaS9EJm+foijGgR3ES9wviQw/n1648q0ejl8H"/>
+    <contextParameter comment="" internalId="_B4K04d_5Eey96uNRPSeoDw" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K04t_5Eey96uNRPSeoDw" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4K049_5Eey96uNRPSeoDw" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K05N_5Eey96uNRPSeoDw" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4K05d_5Eey96uNRPSeoDw" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="10000"/>
+    <contextParameter comment="The business date" internalId="_B4K05t_5Eey96uNRPSeoDw" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_B4K059_5Eey96uNRPSeoDw" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_B4K06N_5Eey96uNRPSeoDw" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4K06d_5Eey96uNRPSeoDw" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_B4K06t_5Eey96uNRPSeoDw" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_B4K069_5Eey96uNRPSeoDw" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SIT&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_B4K07N_5Eey96uNRPSeoDw" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_B4K07d_5Eey96uNRPSeoDw" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_B4K07t_5Eey96uNRPSeoDw" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_B4K079_5Eey96uNRPSeoDw" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_B4K08N_5Eey96uNRPSeoDw" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_B4K08d_5Eey96uNRPSeoDw" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K08t_5Eey96uNRPSeoDw" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4K089_5Eey96uNRPSeoDw" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_B4K09N_5Eey96uNRPSeoDw" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_B4K09d_5Eey96uNRPSeoDw" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K09t_5Eey96uNRPSeoDw" name="Email_Body" prompt="Email_Body?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K099_5Eey96uNRPSeoDw" name="Email_Password" prompt="Email_Password?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa"/>
+    <contextParameter comment="" internalId="_B4K0-N_5Eey96uNRPSeoDw" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;Pradeep.Balan@hermes-europe.co.uk;Robert.Broadley@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk;Narendra.Thallapureddy@hermes-europe.co.uk;Abdul.Rao@hermes-europe.co.uk;Neha.Mistri@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4K0-d_5Eey96uNRPSeoDw" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="DataServices@Hermes-europe.co.uk"/>
+    <contextParameter comment="" internalId="_B4K0-t_5Eey96uNRPSeoDw" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="587"/>
+    <contextParameter comment="" internalId="_B4K0-9_5Eey96uNRPSeoDw" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="email-smtp.eu-west-1.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K0_N_5Eey96uNRPSeoDw" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="ETL DEV Email List" internalId="_B4K0_d_5Eey96uNRPSeoDw" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ETLEngineers@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4K0_t_5Eey96uNRPSeoDw" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ETLEngineers@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4K0_9_5Eey96uNRPSeoDw" name="Email_Username" prompt="Email_Username?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="AKIAX7RFKVATYTZP3P56"/>
+    <contextParameter comment="" internalId="_B4K1AN_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_AdditionalParams" prompt="ORA_MISD_HEDW_STAGE_AdditionalParams?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Ad_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Login" prompt="ORA_MISD_HEDW_STAGE_Login?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="hukdba"/>
+    <contextParameter comment="" internalId="_B4K1At_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Password" prompt="ORA_MISD_HEDW_STAGE_Password?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_Password" value="enc:system.encryption.key.v1:tVaJ3iDpVf+56Iwmo8UAYNr86lxqlqwWBFtb6GGGqjTF9/em"/>
+    <contextParameter comment="" internalId="_B4K1A9_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Port" prompt="ORA_MISD_HEDW_STAGE_Port?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1BN_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Schema" prompt="ORA_MISD_HEDW_STAGE_Schema?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="HEDW_STAGE"/>
+    <contextParameter comment="" internalId="_B4K1Bd_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Server" prompt="ORA_MISD_HEDW_STAGE_Server?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="rtt-stage.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1Bt_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Sid" prompt="ORA_MISD_HEDW_STAGE_Sid?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="ORCL"/>
+    <contextParameter comment="" internalId="_B4K1B9_5Eey96uNRPSeoDw" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1CN_5Eey96uNRPSeoDw" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4K1Cd_5Eey96uNRPSeoDw" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:SN/Jb7rMUPJJ/P5ymRI2ZyHDfrrWNcZEVKCY0QtAjCHUk7li"/>
+    <contextParameter comment="" internalId="_B4K1Ct_5Eey96uNRPSeoDw" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1C9_5Eey96uNRPSeoDw" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4K1DN_5Eey96uNRPSeoDw" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1Dd_5Eey96uNRPSeoDw" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4K1Dt_5Eey96uNRPSeoDw" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1D9_5Eey96uNRPSeoDw" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="talend_ops"/>
+    <contextParameter comment="" internalId="_B4K1EN_5Eey96uNRPSeoDw" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_Password" value="enc:system.encryption.key.v1:jeVqdEhMx5SbbGwpuskuQDm0nNQ0YW2RtanU97NQMbkxBVuL"/>
+    <contextParameter comment="" internalId="_B4K1Ed_5Eey96uNRPSeoDw" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1Et_5Eey96uNRPSeoDw" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND_OPS"/>
+    <contextParameter comment="" internalId="_B4K1E9_5Eey96uNRPSeoDw" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="hmedwtalendlinuxsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1FN_5Eey96uNRPSeoDw" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_bIvtodEZEey1Q_cy3cJIzA" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:\win\talend\Config\Config_edw\EDW_Creds_ppd.txt"/>
+  </context>
+  <context confirmationNeeded="false" name="PREPROD">
+    <contextParameter comment="" internalId="_B4K1Fd_5Eey96uNRPSeoDw" name="BatchJob" prompt="BatchJob?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Y"/>
+    <contextParameter comment="" internalId="_B4K1Ft_5Eey96uNRPSeoDw" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Long" value="0"/>
+    <contextParameter comment="" internalId="_B4K1F9_5Eey96uNRPSeoDw" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1GN_5Eey96uNRPSeoDw" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4K1Gd_5Eey96uNRPSeoDw" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Gt_5Eey96uNRPSeoDw" name="JobName" prompt="JobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1G9_5Eey96uNRPSeoDw" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4K1HN_5Eey96uNRPSeoDw" name="JobStatus" prompt="JobStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4K1Hd_5Eey96uNRPSeoDw" name="JobType" prompt="JobType?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Job"/>
+    <contextParameter comment="" internalId="_B4K1Ht_5Eey96uNRPSeoDw" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="DataIntegration"/>
+    <contextParameter comment="" internalId="_B4K1H9_5Eey96uNRPSeoDw" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1IN_5Eey96uNRPSeoDw" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="EDW"/>
+    <contextParameter comment="" internalId="_B4K1Id_5Eey96uNRPSeoDw" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4K1It_5Eey96uNRPSeoDw" name="PID" prompt="PID?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1I9_5Eey96uNRPSeoDw" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_B4K1JN_5Eey96uNRPSeoDw" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Jd_5Eey96uNRPSeoDw" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Jt_5Eey96uNRPSeoDw" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4K1J9_5Eey96uNRPSeoDw" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:g1lkucSp3Zrkf4fttEIUQI7ZuUoBElWcgOe0jvFuoBumZSJs"/>
+    <contextParameter comment="" internalId="_B4K1KN_5Eey96uNRPSeoDw" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1Kd_5Eey96uNRPSeoDw" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4K1Kt_5Eey96uNRPSeoDw" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1K9_5Eey96uNRPSeoDw" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4K1LN_5Eey96uNRPSeoDw" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="10000"/>
+    <contextParameter comment="The business date" internalId="_B4K1Ld_5Eey96uNRPSeoDw" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_B4K1Lt_5Eey96uNRPSeoDw" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_B4K1L9_5Eey96uNRPSeoDw" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4K1MN_5Eey96uNRPSeoDw" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_B4K1Md_5Eey96uNRPSeoDw" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_B4K1Mt_5Eey96uNRPSeoDw" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;PREPROD&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_B4K1M9_5Eey96uNRPSeoDw" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_B4K1NN_5Eey96uNRPSeoDw" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_B4K1Nd_5Eey96uNRPSeoDw" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_B4K1Nt_5Eey96uNRPSeoDw" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_B4K1N9_5Eey96uNRPSeoDw" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_B4K1ON_5Eey96uNRPSeoDw" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Od_5Eey96uNRPSeoDw" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4K1Ot_5Eey96uNRPSeoDw" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_B4K1O9_5Eey96uNRPSeoDw" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_B4K1PN_5Eey96uNRPSeoDw" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Pd_5Eey96uNRPSeoDw" name="Email_Body" prompt="Email_Body?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Pt_5Eey96uNRPSeoDw" name="Email_Password" prompt="Email_Password?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa"/>
+    <contextParameter comment="" internalId="_B4K1P9_5Eey96uNRPSeoDw" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;Pradeep.Balan@hermes-europe.co.uk;Robert.Broadley@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk;Narendra.Thallapureddy@hermes-europe.co.uk;Abdul.Rao@hermes-europe.co.uk;Neha.Mistri@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4K1QN_5Eey96uNRPSeoDw" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="DataServices@Hermes-europe.co.uk"/>
+    <contextParameter comment="" internalId="_B4K1Qd_5Eey96uNRPSeoDw" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="587"/>
+    <contextParameter comment="" internalId="_B4K1Qt_5Eey96uNRPSeoDw" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="email-smtp.eu-west-1.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1Q9_5Eey96uNRPSeoDw" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="ETL DEV Email List" internalId="_B4K1RN_5Eey96uNRPSeoDw" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;pradeep.balan@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4K1Rd_5Eey96uNRPSeoDw" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;pradeep.balan@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4K1Rt_5Eey96uNRPSeoDw" name="Email_Username" prompt="Email_Username?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="AKIAX7RFKVATYTZP3P56"/>
+    <contextParameter comment="" internalId="_B4K1R9_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_AdditionalParams" prompt="ORA_MISD_HEDW_STAGE_AdditionalParams?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1SN_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Login" prompt="ORA_MISD_HEDW_STAGE_Login?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="hedw_stage"/>
+    <contextParameter comment="" internalId="_B4K1Sd_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Password" prompt="ORA_MISD_HEDW_STAGE_Password?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_Password" value="enc:system.encryption.key.v1:5V3/9KnCnxpy4n4ceV1I9Co9WiVdckeWqvIs341ddwCqP4L2DJpGT2cz"/>
+    <contextParameter comment="" internalId="_B4K1St_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Port" prompt="ORA_MISD_HEDW_STAGE_Port?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1S9_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Schema" prompt="ORA_MISD_HEDW_STAGE_Schema?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="HEDW_STAGE"/>
+    <contextParameter comment="" internalId="_B4K1TN_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Server" prompt="ORA_MISD_HEDW_STAGE_Server?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="10.130.7.41"/>
+    <contextParameter comment="" internalId="_B4K1Td_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Sid" prompt="ORA_MISD_HEDW_STAGE_Sid?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="MISDPRE"/>
+    <contextParameter comment="" internalId="_B4K1Tt_5Eey96uNRPSeoDw" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1T9_5Eey96uNRPSeoDw" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4K1UN_5Eey96uNRPSeoDw" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:XOBXeIuUE+u4RdmtM6dctsyILPNWGVfd1/XZKX5AmvAh2fRZ"/>
+    <contextParameter comment="" internalId="_B4K1Ud_5Eey96uNRPSeoDw" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1Ut_5Eey96uNRPSeoDw" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4K1U9_5Eey96uNRPSeoDw" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1VN_5Eey96uNRPSeoDw" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4K1Vd_5Eey96uNRPSeoDw" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Vt_5Eey96uNRPSeoDw" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="talend_ops"/>
+    <contextParameter comment="" internalId="_B4K1V9_5Eey96uNRPSeoDw" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_Password" value="enc:system.encryption.key.v1:W+ZFun3lW3sllm/i9xzJcuioc+Ou/855+Ak0InWXgMkodGXK"/>
+    <contextParameter comment="" internalId="_B4K1WN_5Eey96uNRPSeoDw" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4K1Wd_5Eey96uNRPSeoDw" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND_OPS"/>
+    <contextParameter comment="" internalId="_B4K1Wt_5Eey96uNRPSeoDw" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="hmedwtalendlinuxpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4K1W9_5Eey96uNRPSeoDw" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_bIvtotEZEey1Q_cy3cJIzA" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/win/talend/Config/EDW.properties"/>
+  </context>
+  <context confirmationNeeded="false" name="PRODUCTION">
+    <contextParameter comment="" internalId="_B4K1XN_5Eey96uNRPSeoDw" name="BatchJob" prompt="BatchJob?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Y"/>
+    <contextParameter comment="" internalId="_B4K1Xd_5Eey96uNRPSeoDw" name="BatchNumber" prompt="BatchNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Long" value="0"/>
+    <contextParameter comment="" internalId="_B4K1Xt_5Eey96uNRPSeoDw" name="ErrorDetail" prompt="ErrorDetail?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1X9_5Eey96uNRPSeoDw" name="ErrorNumber" prompt="ErrorNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4K1YN_5Eey96uNRPSeoDw" name="FileDirectory" prompt="FileDirectory?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4K1Yd_5Eey96uNRPSeoDw" name="JobName" prompt="JobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Lb8N_5Eey96uNRPSeoDw" name="JobProcStatus" prompt="JobProcStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_B4Lb8d_5Eey96uNRPSeoDw" name="JobStatus" prompt="JobStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4Lb8t_5Eey96uNRPSeoDw" name="JobType" prompt="JobType?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Job"/>
+    <contextParameter comment="" internalId="_B4Lb89_5Eey96uNRPSeoDw" name="MasterIntegrationName" prompt="MasterIntegrationName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="DataIntegration"/>
+    <contextParameter comment="" internalId="_B4Lb9N_5Eey96uNRPSeoDw" name="MasterJobName" prompt="MasterJobName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Lb9d_5Eey96uNRPSeoDw" name="MasterProjectName" prompt="MasterProjectName?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="EDW"/>
+    <contextParameter comment="" internalId="_B4Lb9t_5Eey96uNRPSeoDw" name="MasterStatus" prompt="MasterStatus?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value="Initialise"/>
+    <contextParameter comment="" internalId="_B4Lb99_5Eey96uNRPSeoDw" name="PID" prompt="PID?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Lb-N_5Eey96uNRPSeoDw" name="SequenceNumber" prompt="SequenceNumber?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_B4Lb-d_5Eey96uNRPSeoDw" name="TriggerFilename" prompt="TriggerFilename?" promptNeeded="false" repositoryContextId="_vqlfgIgnEeODKMn4d_CyNQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Lb-t_5Eey96uNRPSeoDw" name="CTRL_AdditionalParams" prompt="CTRL_AdditionalParams?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4Lb-9_5Eey96uNRPSeoDw" name="CTRL_Login" prompt="CTRL_Login?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4Lb_N_5Eey96uNRPSeoDw" name="CTRL_Password" prompt="CTRL_Password?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_Password" value="enc:system.encryption.key.v1:GOPpkrIToGKllpf/se290U/4wm5WwdKGstwkgF4SyUQmRfe+"/>
+    <contextParameter comment="" internalId="_B4Lb_d_5Eey96uNRPSeoDw" name="CTRL_Port" prompt="CTRL_Port?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4Lb_t_5Eey96uNRPSeoDw" name="CTRL_Schema" prompt="CTRL_Schema?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="CTRL"/>
+    <contextParameter comment="" internalId="_B4Lb_9_5Eey96uNRPSeoDw" name="CTRL_Server" prompt="CTRL_Server?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4LcAN_5Eey96uNRPSeoDw" name="CTRL_ServiceName" prompt="CTRL_ServiceName?" promptNeeded="false" repositoryContextId="_CYQxMGETEeaZMtrCuiHH0w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4LcAd_5Eey96uNRPSeoDw" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Integer" value="200000"/>
+    <contextParameter comment="The business date" internalId="_B4LcAt_5Eey96uNRPSeoDw" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Date version of BusinessDate" internalId="_B4LcA9_5Eey96uNRPSeoDw" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_Date" value="dd-MM-yyyy;01-01-2400"/>
+    <contextParameter comment="" internalId="_B4LcBN_5Eey96uNRPSeoDw" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4LcBd_5Eey96uNRPSeoDw" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;Hermes_Departments_&quot;"/>
+    <contextParameter comment="Highest date range" internalId="_B4LcBt_5Eey96uNRPSeoDw" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;23990101&quot;"/>
+    <contextParameter comment="" internalId="_B4LcB9_5Eey96uNRPSeoDw" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;PROD&quot;"/>
+    <contextParameter comment="CSV file for Invalid TAC info" internalId="_B4LcCN_5Eey96uNRPSeoDw" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" internalId="_B4LcCd_5Eey96uNRPSeoDw" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="Log File Directory" internalId="_B4LcCt_5Eey96uNRPSeoDw" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" internalId="_B4LcC9_5Eey96uNRPSeoDw" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="The next business date" internalId="_B4LcDN_5Eey96uNRPSeoDw" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;00000000&quot;"/>
+    <contextParameter comment="Not Sure?" internalId="_B4LcDd_5Eey96uNRPSeoDw" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4LcDt_5Eey96uNRPSeoDw" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;"/>
+    <contextParameter comment="" internalId="_B4LcD9_5Eey96uNRPSeoDw" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="&quot;SEplusCouriersWeekly&quot;"/>
+    <contextParameter comment="Sleep duration for looping component" internalId="_B4LcEN_5Eey96uNRPSeoDw" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value="1"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" internalId="_B4LcEd_5Eey96uNRPSeoDw" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" repositoryContextId="_qXTQkE2gEeadErxqioUdlg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4LcEt_5Eey96uNRPSeoDw" name="Email_Body" prompt="Email_Body?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4LcE9_5Eey96uNRPSeoDw" name="Email_Password" prompt="Email_Password?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa"/>
+    <contextParameter comment="" internalId="_B4LcFN_5Eey96uNRPSeoDw" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;Pradeep.Balan@hermes-europe.co.uk;Robert.Broadley@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk;Narendra.Thallapureddy@hermes-europe.co.uk;Abdul.Rao@hermes-europe.co.uk;Neha.Mistri@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4LcFd_5Eey96uNRPSeoDw" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="DataServices@Hermes-europe.co.uk"/>
+    <contextParameter comment="" internalId="_B4LcFt_5Eey96uNRPSeoDw" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="587"/>
+    <contextParameter comment="" internalId="_B4LcF9_5Eey96uNRPSeoDw" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="email-smtp.eu-west-1.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4LcGN_5Eey96uNRPSeoDw" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value=""/>
+    <contextParameter comment="ETL DEV Email List" internalId="_B4LcGd_5Eey96uNRPSeoDw" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ETLEngineers@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4LcGt_5Eey96uNRPSeoDw" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;ETLEngineers@hermes-europe.co.uk&quot;"/>
+    <contextParameter comment="" internalId="_B4LcG9_5Eey96uNRPSeoDw" name="Email_Username" prompt="Email_Username?" promptNeeded="false" repositoryContextId="_8FOzEHoREeiktodCaw4_Tg" type="id_String" value="AKIAX7RFKVATYTZP3P56"/>
+    <contextParameter comment="" internalId="_B4LcHN_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_AdditionalParams" prompt="ORA_MISD_HEDW_STAGE_AdditionalParams?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4LcHd_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Login" prompt="ORA_MISD_HEDW_STAGE_Login?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="hedw_stage"/>
+    <contextParameter comment="" internalId="_B4LcHt_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Password" prompt="ORA_MISD_HEDW_STAGE_Password?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_Password" value="enc:system.encryption.key.v1:PsvB3ZG/CU84Fg3qRaUd1Riv8eOsM/9haLX7fXhBWPXLWkKOmpD7mrdJ"/>
+    <contextParameter comment="" internalId="_B4LcH9_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Port" prompt="ORA_MISD_HEDW_STAGE_Port?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4LcIN_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Schema" prompt="ORA_MISD_HEDW_STAGE_Schema?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="HEDW_STAGE"/>
+    <contextParameter comment="" internalId="_B4LcId_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Server" prompt="ORA_MISD_HEDW_STAGE_Server?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="oci-misd02.hermescloud.co.uk"/>
+    <contextParameter comment="" internalId="_B4LcIt_5Eey96uNRPSeoDw" name="ORA_MISD_HEDW_STAGE_Sid" prompt="ORA_MISD_HEDW_STAGE_Sid?" promptNeeded="false" repositoryContextId="_-K_jMFQwEeiERbk_efciYA" type="id_String" value="MISDPDB"/>
+    <contextParameter comment="" internalId="_B4LcI9_5Eey96uNRPSeoDw" name="TALEND_AMC_AdditionalParams" prompt="TALEND_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4LcJN_5Eey96uNRPSeoDw" name="TALEND_AMC_Login" prompt="TALEND_AMC_Login?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4LcJd_5Eey96uNRPSeoDw" name="TALEND_AMC_Password" prompt="TALEND_AMC_Password?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_Password" value="enc:system.encryption.key.v1:E3yQyWdZ3tA1qyTqPDRl/W4r3goNFzNyhAEA6aA2gPZZtAvM"/>
+    <contextParameter comment="" internalId="_B4LcJt_5Eey96uNRPSeoDw" name="TALEND_AMC_Port" prompt="TALEND_AMC_Port?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4LcJ9_5Eey96uNRPSeoDw" name="TALEND_AMC_Schema" prompt="TALEND_AMC_Schema?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND_AMC"/>
+    <contextParameter comment="" internalId="_B4LcKN_5Eey96uNRPSeoDw" name="TALEND_AMC_Server" prompt="TALEND_AMC_Server?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4LcKd_5Eey96uNRPSeoDw" name="TALEND_AMC_ServiceName" prompt="TALEND_AMC_ServiceName?" promptNeeded="false" repositoryContextId="_xdTQsEpwEea5Zvht9Z-K_w" type="id_String" value="TALEND"/>
+    <contextParameter comment="" internalId="_B4LcKt_5Eey96uNRPSeoDw" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_B4LcK9_5Eey96uNRPSeoDw" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="talend_ops"/>
+    <contextParameter comment="" internalId="_B4LcLN_5Eey96uNRPSeoDw" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_Password" value="enc:system.encryption.key.v1:LNC5c+YG4+pcQA8sR6tUnHso3YyXhM3tDhigkLtXSFbhnUHy"/>
+    <contextParameter comment="" internalId="_B4LcLd_5Eey96uNRPSeoDw" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_B4LcLt_5Eey96uNRPSeoDw" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND_OPS"/>
+    <contextParameter comment="" internalId="_B4LcL9_5Eey96uNRPSeoDw" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_B4LcMN_5Eey96uNRPSeoDw" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" repositoryContextId="_23ueAFiSEeadrLUtyBjhjA" type="id_String" value="TALEND"/>
+    <contextParameter comment="Property file contains DB credentials" internalId="_bIvto9EZEey1Q_cy3cJIzA" name="TALENDCONFIG" prompt="TALENDCONFIG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/win/talend/Config/EDW.properties"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.TALENDCONFIG"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;=&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ojGKFE31K/ccrsHmb6Yjl2JicH/+TDrhDdQV+a88wGH7k396AowOiw=="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/kit/Talend-Studio-20190620_1446-V7.2.1-AR/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tOracleOutput_servername"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.TALEND_AMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.TALEND_AMC_Port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.TALEND_AMC_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.TALEND_AMC_ServiceName"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.TALEND_AMC_AdditionalParams"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.TALEND_AMC_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.TALEND_AMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/6pUYbpBbgNMd8sra/n8UQi9+fxCd5i68zlUq6R7IMkagg/qkkE8Jlj5cwE/L1zidC3gjGwDDA=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;tstatcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;tlogcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;tflowmetercatcher&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_rZW0IGrgEeuuNrLByfgd2A" name="DataOperation"/>
+    <routinesParameter id="_raomgGrgEeuuNrLByfgd2A" name="TalendDate"/>
+    <routinesParameter id="_rZk2kGrgEeuuNrLByfgd2A" name="Mathematical"/>
+    <routinesParameter id="_raNIsGrgEeuuNrLByfgd2A" name="StringHandling"/>
+    <routinesParameter id="_ra1a0GrgEeuuNrLByfgd2A" name="TalendString"/>
+    <routinesParameter id="_raAUYGrgEeuuNrLByfgd2A" name="Relational"/>
+    <routinesParameter id="_rW9AYGrgEeuuNrLByfgd2A" name="SQLike"/>
+    <routinesParameter id="_rZ0uMGrgEeuuNrLByfgd2A" name="Numeric"/>
+    <routinesParameter id="_rbC2MGrgEeuuNrLByfgd2A" name="TalendStringUtil"/>
+    <routinesParameter id="_rabLIGrgEeuuNrLByfgd2A" name="TalendDataGenerator"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_zQOSYCO7EeiQ5PCAZKrgCA"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.ORA_MISD_HEDW_STAGE_Server"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.ORA_MISD_HEDW_STAGE_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" value="context.ORA_MISD_HEDW_STAGE_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.ORA_MISD_HEDW_STAGE_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ORA_MISD_HEDW_STAGE_Sid"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ORA_MISD_HEDW_STAGE_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.ORA_MISD_HEDW_STAGE_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CQzvQFijrSl6jZ2HR7Fgn5ZhdkWCYHIqj6YPlZ9vF3a/RHLHbH1oLoGtkE5ieI6hnpBS17RTOSEynBtTHqOQJg=="/>
+    <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:xxuCf2dPEh9sFAqPuyIlnfe8sKYRd9U789RwNrdv"/>
+    <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
+    <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:36Uu3Zg9J+KODseVJyFSWq/LJN3nUPGFeE8O8yga"/>
+    <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.ORA_MISD_HEDW_STAGE_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:HXK3eIVhnMKC5D+PiO6u5fLV/a8Kvcj2hURmVCTj"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;BEGIN  &#13;&#10;HEDW_STAGE.PR_MISD_DEDUPLICATE_CLNS;  &#13;&#10;HEDW_STAGE.PR_MISD_MISSING_CLNS_FROM_SCNS;   &#13;&#10;END;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
+    <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="CALL_PROCS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="jo_StandardContexts"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="DEV"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="EDW_DEMO:_eQvgsLvREeeLZqwS-bnBEA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="ControlContexts"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextLoad_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="jlet_Error_Handler" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="jlet_Error_Handler_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="jlet_Error_Handler"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JobControl_NEW"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="EDW_DEMO:_gf1-YBhWEeuxSLZRsMMyzQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="JobName"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="jobName"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="JobStatus"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Failed&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="ErrorDetail"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="globalMap.get(&quot;ErrorDetail&quot;)"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JobControl_NEW"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="DEV"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="EDW_DEMO:_gf1-YBhWEeuxSLZRsMMyzQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="JobName"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="jobName"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="JobStatus"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Initialise&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="BatchJob"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.BatchJob"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3">
+      <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_2"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="ControlContexts"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextLoad_2">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JobControl_NEW"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="DEV"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="EDW_DEMO:_gf1-YBhWEeuxSLZRsMMyzQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="JobName"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="jobName"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="JobStatus"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Successful&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="BatchJob"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.BatchJob"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_4"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.BatchJob = &quot;N&quot;;&#10;&#10;System.out.println(&quot;Extracted:Context&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Check_Job_Type"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="&#10;System.out.println(&quot;Extracted:Context_ORA_MISD_HEDW_STAGE_Server&quot;+context.ORA_MISD_HEDW_STAGE_Server);&#10;&#10;System.out.println(&quot;Extracted:Context_ORA_MISD_HEDW_STAGE_Sid&quot;+context.ORA_MISD_HEDW_STAGE_Sid);&#10;&#10;System.out.println(&quot;Extracted:Context_ORA_MISD_HEDW_STAGE_Login&quot;+context.ORA_MISD_HEDW_STAGE_Login);&#10;&#10;System.out.println(&quot;Extracted:Context_ORA_MISD_HEDW_STAGE_Schema&quot;+context.ORA_MISD_HEDW_STAGE_Schema);&#10;System.out.println(&quot;Extracted:Context_ORA_MISD_HEDW_STAGE_Password&quot;+context.ORA_MISD_HEDW_STAGE_Password);&#10;&#10;System.out.println(&quot;Extracted:Context_ORA_MISD_HEDW_STAGE_Port&quot;+context.ORA_MISD_HEDW_STAGE_Port);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Check_Job_Type"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tRunJob_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tContextLoad_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnComponentOk (TRIGGER_OUTPUT_1)" lineStyle="3" metaname="jlet_Error_Handler_1" offsetLabelX="0" offsetLabelY="0" source="jlet_Error_Handler_1" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Contexts" lineStyle="0" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tContextLoad_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="key"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="value"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Contexts"/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk7"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="jlet_Error_Handler_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_656b9ba2-a949-4066-8fab-b6aa16ae896d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lHqwJF22O1qGVfDyjQtOj6+UCwyaI1XIVdPVof+iLdnxNh4paaElZMkzvHMlQLgLYBX3NvVG8nFL&#13;
+Zt0amocsrg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cbf6906d-34b7-49cc-9db1-68060902ae2f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Akta+ZonQcOOLKLdA7X3Mk6pHrnllu55nMP+XUDQC5ytEtZFZ1cWR6T69t2BKVSMIxxtvYFJrRT7&#13;
+JVjviT+bpQ==</DigestValue></Reference></SignedInfo><SignatureValue>lt+Is0Y51eu6QViRPNGz80UCQAPRaJ/7ztQL0ic/OIE01Q8CLlDO5JKsYlGK6Qa1jcVYNH8sI/Ad&#13;
+Uv/U4vtJqCX72fA+vI52dUFYzYEAfgCpVw2hXnBTHgTHJJUsDAumsalg7BKVHUQ8D9mmkCR7Uy74&#13;
+F8TJZdmNv3cX9LjqiPDy6Omp0LYoesyEup88PX50rmmhJIbw/IuvaWnAHmicdY08QjTFc5aFy09N&#13;
+faLoLNGxN4FCOLP1rLFD4QICCnx3YVzUxWzVE35lfjBrInPj5ejlfgSAJW+c/K8k4tb34eswm4Qt&#13;
+ZnwxYIUGrbS2YE/+gcOPRTurDA93WAhTJ1WSVA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cbf6906d-34b7-49cc-9db1-68060902ae2f" Target="#_656b9ba2-a949-4066-8fab-b6aa16ae896d"><Timestamp>2022-11-24 22:56:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_m1gnsMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" type="id_String" value="talend_ops" xmi:id="_m1gnscFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_m1gnssFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:DxmeWIK0xNHwMrz64QOSNTprPD/veRdJFqzJLclL1PcIoHMG" xmi:id="_m1gns8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" type="id_String" value="hmedwtalendlinuxdev01.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com" xmi:id="_m1gntMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" type="id_String" value="TALEND_OPS" xmi:id="_m1gntcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_m1gntsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_m1gnt8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PREPROD" xmi:id="_m1gnuMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" type="id_String" value="talend_ops" xmi:id="_m1gnucFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_m1gnusFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:SHp91LWyvpw6jwfSfi3DcdsjJIga5N1U/cuvKHpHiKqblIRG" xmi:id="_m1gnu8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" type="id_String" value="hmedwtalendlinuxpreprod00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com" xmi:id="_m1gnvMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" type="id_String" value="TALEND_OPS" xmi:id="_m1gnvcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_m1gnvsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_m1gnv8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRODUCTION" xmi:id="_m1gnwMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" type="id_String" value="talend_ops" xmi:id="_m1gnwcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_m1gnwsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:NYhv/zyu4XfeUe32cUDFHvmUkTb8yNhdg3DL013WqhrnUpO0" xmi:id="_m1gnw8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" type="id_String" value="hmedwtalendlinuxprod00.cr3wfbsym0sg.eu-west-1.rds.amazonaws.com" xmi:id="_m1gnxMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" type="id_String" value="TALEND_OPS" xmi:id="_m1gnxcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_m1gnxsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_m1gnx8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SIT" xmi:id="_m1gnyMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="TALEND_OPS_Login" prompt="TALEND_OPS_Login?" promptNeeded="false" type="id_String" value="talend_ops" xmi:id="_m1gnycFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_AdditionalParams" prompt="TALEND_OPS_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_m1gnysFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Password" prompt="TALEND_OPS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:aTq9udwajXzRY8z8zkkbqLpqTiU2HAgfD54ep+ucPvQ1Ju8A" xmi:id="_m1gny8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Server" prompt="TALEND_OPS_Server?" promptNeeded="false" type="id_String" value="hmedwtalendlinuxsit00.cfsnfndbvwbh.eu-west-1.rds.amazonaws.com" xmi:id="_m1gnzMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Schema" prompt="TALEND_OPS_Schema?" promptNeeded="false" type="id_String" value="TALEND_OPS" xmi:id="_m1gnzcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_Port" prompt="TALEND_OPS_Port?" promptNeeded="false" type="id_String" value="1521" xmi:id="_m1gnzsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="TALEND_OPS_ServiceName" prompt="TALEND_OPS_ServiceName?" promptNeeded="false" type="id_String" value="TALEND" xmi:id="_m1gnz8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3e342082-560f-48f5-b39d-9a253bbd87ee"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DqMkVOyLExK8OKJIzKG564ef3jtmH3mHd4eTI8BO1dN2DJ4kJW4Fk5Vy+RoJ2CF+i1novQtmr6Uu&#13;
+Ob1YH6U2hw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5dfc0178-fedc-488a-8094-8f882978df54"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xkG/mO14+q7A9Ivc+KCKv6VDAF1do/RG8yNySS6w877acI4DlYbHdYMH1WhSmyRLrTL2vq7ck/Ip&#13;
+ocw0zkzCAQ==</DigestValue></Reference></SignedInfo><SignatureValue>BO4qoqzVsQk4U8m85xSdMKDLcJUrUI3Vjy3b7wXJERXdGEDq3d6E6k9b3vLlpegydU8yie6lnbxB&#13;
+oEU2juTwvAYeSypQsy0LEAw0J2X2x9I1glRV15z3zGSN2ZX8D4q/Q86LAivDn5R+x8c4IvjURuAr&#13;
+hUvfd0OeHhgYGsdf2l5cfDEX8ye8VRMqPIMfRIeF/Ubz9ZJCSz7J8w8+ownMWHbVIjLy+3d3ZNSS&#13;
+LR3VDCtZw+aS/geOOF7iSgb669k2P580q+CoX7sSlCTvI4hwuPtYYGgnFY+3r/Lh6BO3qTIn/KpI&#13;
+ku12tIzIhE52A4HpwP3RSsWKaqc/B68SBVnJqw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5dfc0178-fedc-488a-8094-8f882978df54" Target="#_3e342082-560f-48f5-b39d-9a253bbd87ee"><Timestamp>2022-11-24 22:56:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

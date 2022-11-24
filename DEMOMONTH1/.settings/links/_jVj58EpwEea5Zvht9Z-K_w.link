@@ -1,0 +1,29 @@
+{
+  "itemId" : "_jVj58EpwEea5Zvht9Z-K_w",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRkcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRksFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRk8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRlMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRlcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRlsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRl8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  } ]
+}

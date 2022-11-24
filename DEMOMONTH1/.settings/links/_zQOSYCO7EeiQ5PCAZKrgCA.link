@@ -1,0 +1,29 @@
+{
+  "itemId" : "_zQOSYCO7EeiQ5PCAZKrgCA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_-K_jMFQwEeiERbk_efciYA",
+    "parameterList" : [ {
+      "id" : "_nAB1ocFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Port"
+    }, {
+      "id" : "_nAB1osFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Sid"
+    }, {
+      "id" : "_nAB1o8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Server"
+    }, {
+      "id" : "_nAB1pMFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_AdditionalParams"
+    }, {
+      "id" : "_nAB1pcFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Schema"
+    }, {
+      "id" : "_nAB1psFrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Login"
+    }, {
+      "id" : "_nAB1p8FrEeyx7s1JSisAwg",
+      "name" : "ORA_MISD_HEDW_STAGE_Password"
+    } ]
+  } ]
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_mwWa4MFrEeyx7s1JSisAwg">
+    <contextParameter comment="The business date" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWa4cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Highest date range" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" type="id_String" value="&quot;23990101&quot;" xmi:id="_mwWa4sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="The next business date" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWa48FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Date version of BusinessDate" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" type="id_Date" value="dd-MM-yyyy;01-01-2400" xmi:id="_mwWa5MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Not Sure?" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa5cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Log File Directory" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;" xmi:id="_mwWa5sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa58FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="CSV file for Invalid TAC info" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" type="id_String" value="&quot;D:\win\talend\data-services\edw\ETLTeam\Batch_Audit_Report\BatchAuditReport.csv&quot;" xmi:id="_mwWa6MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa6cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa6sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Sleep duration for looping component" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" type="id_String" value="1" xmi:id="_mwWa68FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" type="id_String" value="&quot;Hermes_Departments_&quot;" xmi:id="_mwWa7MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" type="id_String" value="&quot;DEV&quot;" xmi:id="_mwWa7cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" type="id_String" value="&quot;SEplusCouriersWeekly&quot;" xmi:id="_mwWa7sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_mwWa78FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;" xmi:id="_mwWa8MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;" xmi:id="_mwWa8cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;" xmi:id="_mwWa8sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jobs running greater than this minute" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" type="id_String" value="120" xmi:id="_mwWa88FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PREPROD" xmi:id="_mwWa9MFrEeyx7s1JSisAwg">
+    <contextParameter comment="The business date" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWa9cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Highest date range" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" type="id_String" value="&quot;23990101&quot;" xmi:id="_mwWa9sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="The next business date" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWa98FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Date version of BusinessDate" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" type="id_Date" value="dd-MM-yyyy;01-01-2400" xmi:id="_mwWa-MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Not Sure?" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa-cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Log File Directory" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;" xmi:id="_mwWa-sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa-8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="CSV file for Invalid TAC info" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;" xmi:id="_mwWa_MFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa_cFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWa_sFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Sleep duration for looping component" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" type="id_String" value="1" xmi:id="_mwWa_8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" type="id_String" value="&quot;Hermes_Departments_&quot;" xmi:id="_mwWbAMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" type="id_String" value="&quot;PREPROD&quot;" xmi:id="_mwWbAcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" type="id_String" value="&quot;SEplusCouriersWeekly&quot;" xmi:id="_mwWbAsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_mwWbA8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;" xmi:id="_mwWbBMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;" xmi:id="_mwWbBcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;" xmi:id="_mwWbBsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jobs running greater than this minute" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" type="id_String" value="120" xmi:id="_mwWbB8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRODUCTION" xmi:id="_mwWbCMFrEeyx7s1JSisAwg">
+    <contextParameter comment="The business date" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWbCcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Highest date range" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" type="id_String" value="&quot;23990101&quot;" xmi:id="_mwWbCsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="The next business date" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWbC8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Date version of BusinessDate" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" type="id_Date" value="dd-MM-yyyy;01-01-2400" xmi:id="_mwWbDMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Not Sure?" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbDcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Log File Directory" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;" xmi:id="_mwWbDsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbD8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="CSV file for Invalid TAC info" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;" xmi:id="_mwWbEMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbEcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbEsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Sleep duration for looping component" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" type="id_String" value="1" xmi:id="_mwWbE8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" type="id_String" value="&quot;Hermes_Departments_&quot;" xmi:id="_mwWbFMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" type="id_String" value="&quot;PROD&quot;" xmi:id="_mwWbFcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" type="id_String" value="&quot;SEplusCouriersWeekly&quot;" xmi:id="_mwWbFsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" type="id_Integer" value="200000" xmi:id="_mwWbF8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;" xmi:id="_mwWbGMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;" xmi:id="_mwWbGcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;" xmi:id="_mwWbGsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jobs running greater than this minute" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" type="id_String" value="120" xmi:id="_mwWbG8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SIT" xmi:id="_mwWbHMFrEeyx7s1JSisAwg">
+    <contextParameter comment="The business date" name="BusinessDate" prompt="BusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWbHcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Highest date range" name="Eff_to_date" prompt="Eff_to_date?" promptNeeded="false" type="id_String" value="&quot;23990101&quot;" xmi:id="_mwWbHsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="The next business date" name="NextBusinessDate" prompt="NextBusinessDate?" promptNeeded="false" type="id_String" value="&quot;00000000&quot;" xmi:id="_mwWbH8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Date version of BusinessDate" name="BusinessDateDT" prompt="BusinessDateDT?" promptNeeded="false" type="id_Date" value="dd-MM-yyyy;01-01-2400" xmi:id="_mwWbIMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Not Sure?" name="ODSLoadDateCheck" prompt="ODSLoadDateCheck?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbIcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Log File Directory" name="LOG_FILE_DIR" prompt="LOG_FILE_DIR?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/TalendJobServersFiles/jobexecutions/logs&quot;" xmi:id="_mwWbIsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Number of errors counted in the log file extracts" name="LogFileErrorCount" prompt="LogFileErrorCount?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbI8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="CSV file for Invalid TAC info" name="Invalid_TAC_Jobs_File" prompt="Invalid_TAC_Jobs_File?" promptNeeded="false" type="id_String" value="&quot;/srv/talend/logs/temp_logs/BatchAuditReport.csv&quot;" xmi:id="_mwWbJMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="File Prefix for the OPENHR source file" name="Lms_Source_File_Prefix" prompt="Lms_Source_File_Prefix?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbJcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jb_043_LMS_Department_File_Output" name="SOURCE_FILE" prompt="SOURCE_FILE?" promptNeeded="false" type="id_String" value="" xmi:id="_mwWbJsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="Sleep duration for looping component" name="SLEEP_DURATION" prompt="SLEEP_DURATION?" promptNeeded="false" type="id_String" value="1" xmi:id="_mwWbJ8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Dept_Source_File" prompt="Dept_Source_File?" promptNeeded="false" type="id_String" value="&quot;Hermes_Departments_&quot;" xmi:id="_mwWbKMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" type="id_String" value="&quot;SIT&quot;" xmi:id="_mwWbKcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="SEPLUS_Couriers_File" prompt="SEPLUS_Couriers_File?" promptNeeded="false" type="id_String" value="&quot;SEplusCouriersWeekly&quot;" xmi:id="_mwWbKsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Alert_Threshold" prompt="Alert_Threshold?" promptNeeded="false" type="id_Integer" value="10000" xmi:id="_mwWbK8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="CourierScan_Recon_File" prompt="CourierScan_Recon_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-CourierScansRecon.xls&quot;" xmi:id="_mwWbLMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Scan_Recong_File" prompt="Scan_Recong_File?" promptNeeded="false" type="id_String" value="&quot;HANA-DB2-All_Scans_24hrs_ReconG.xls&quot;" xmi:id="_mwWbLcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_File" prompt="Trustpilot_File?" promptNeeded="false" type="id_String" value="&quot;Trustpilot_Data_Extract_&quot;" xmi:id="_mwWbLsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="jobs running greater than this minute" name="TAC_LONGRUN_THRESHOLD" prompt="TAC_LONGRUN_THRESHOLD?" promptNeeded="false" type="id_String" value="120" xmi:id="_mwWbL8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_185babe9-7dad-4443-a006-37419feef2f5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hTSqDdhuuWoi4bvEfOW+MiOuGqOVqddz3i/17GGjLOqdey5N7bSTBO+nzhBboBa+/s7YK400eRXG&#13;
+m/rc3aoycA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4b6c18cc-16ff-485f-bccc-6f5eb78feb79"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LdSLv3V1WkzaHuOJ1FtDlTn4qIhuiqPHflGkmJIjq5rzVGyWSsybjyxU8n/g7KhjScVZCGudmcFP&#13;
+ga+FcBYlAw==</DigestValue></Reference></SignedInfo><SignatureValue>QzQ6Ofcrcq/x6xsvIcz3usRpPGi+IZg3LHv3M5zfqTPjpciRwyAtb11LAFSj+Ypygj8/suZKFaT8&#13;
+C63UPaMBjwdgrg0Iuzls0nc/hGlQmtvKMBMCSEB+Pq/r7iGJlsCVNumSIogOSd/EWHWO4UCq3EvY&#13;
+RNdG42qfgUoMKWJ5rrP7lvMxxzHBrRbkJpq/Bc7PZH5wxwSgXK5u8Z5CCgZanw74SewH/Nt6s5DZ&#13;
+yFcEc3ytYC4bw6Sv9g2pOHinsuKRoohC/S9gPzRVbWTS4PCnx03nmu1PCBF05zLlDF6qJfA3eJ1t&#13;
+YWvIlarTKOq/ut/iWnTsD4VTi+ZOzFMvMiwkug==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4b6c18cc-16ff-485f-bccc-6f5eb78feb79" Target="#_185babe9-7dad-4443-a006-37419feef2f5"><Timestamp>2022-11-24 22:56:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

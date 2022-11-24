@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_myOqMMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" type="id_String" value="DataServices@Hermes-europe.co.uk" xmi:id="_myOqMcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" type="id_String" value="email-smtp.eu-west-1.amazonaws.com" xmi:id="_myOqMsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" type="id_String" value="587" xmi:id="_myOqM8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Username" prompt="Email_Username?" promptNeeded="false" type="id_String" value="AKIAX7RFKVATYTZP3P56" xmi:id="_myOqNMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa" xmi:id="_myOqNcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;" xmi:id="_myOqNsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="ETL DEV Email List" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" type="id_String" value="&quot;pradeep.balan@hermes-europe.co.uk&quot;" xmi:id="_myOqN8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;" xmi:id="_myOqOMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqOcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Body" prompt="Email_Body?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqOsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Dl" prompt="Trustpilot_Email_Dl?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqO8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Cc" prompt="Trustpilot_Email_Cc?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqPMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_BO_List" prompt="Email_To_BO_List?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqPcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_SAP_List" prompt="Email_To_Supp_SAP_List?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqPsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_GMB_List" prompt="Email_To_GMB_List?" promptNeeded="false" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;" xmi:id="_myOqP8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PREPROD" xmi:id="_myOqQMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" type="id_String" value="DataServices@Hermes-europe.co.uk" xmi:id="_myOqQcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" type="id_String" value="email-smtp.eu-west-1.amazonaws.com" xmi:id="_myOqQsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" type="id_String" value="587" xmi:id="_myOqQ8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Username" prompt="Email_Username?" promptNeeded="false" type="id_String" value="AKIAX7RFKVATYTZP3P56" xmi:id="_myOqRMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa" xmi:id="_myOqRcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;Pradeep.Balan@hermes-europe.co.uk;Robert.Broadley@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk;Narendra.Thallapureddy@hermes-europe.co.uk;Abdul.Rao@hermes-europe.co.uk;Neha.Mistri@hermes-europe.co.uk&quot;" xmi:id="_myOqRsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="ETL DEV Email List" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" type="id_String" value="&quot;pradeep.balan@hermes-europe.co.uk&quot;" xmi:id="_myOqR8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" type="id_String" value="&quot;pradeep.balan@hermes-europe.co.uk&quot;" xmi:id="_myOqSMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqScFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Body" prompt="Email_Body?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqSsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Dl" prompt="Trustpilot_Email_Dl?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqS8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Cc" prompt="Trustpilot_Email_Cc?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqTMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_BO_List" prompt="Email_To_BO_List?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqTcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_SAP_List" prompt="Email_To_Supp_SAP_List?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqTsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_GMB_List" prompt="Email_To_GMB_List?" promptNeeded="false" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;" xmi:id="_myOqT8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRODUCTION" xmi:id="_myOqUMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" type="id_String" value="DataServices@Hermes-europe.co.uk" xmi:id="_myOqUcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" type="id_String" value="email-smtp.eu-west-1.amazonaws.com" xmi:id="_myOqUsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" type="id_String" value="587" xmi:id="_myOqU8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Username" prompt="Email_Username?" promptNeeded="false" type="id_String" value="AKIAX7RFKVATYTZP3P56" xmi:id="_myOqVMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa" xmi:id="_myOqVcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;Pradeep.Balan@hermes-europe.co.uk;Robert.Broadley@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk;Narendra.Thallapureddy@hermes-europe.co.uk;Abdul.Rao@hermes-europe.co.uk;Neha.Mistri@hermes-europe.co.uk&quot;" xmi:id="_myOqVsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="ETL DEV Email List" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" type="id_String" value="&quot;ETLEngineers@hermes-europe.co.uk&quot;" xmi:id="_myOqV8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;ETLEngineers@hermes-europe.co.uk&quot;" xmi:id="_myOqWMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqWcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Body" prompt="Email_Body?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqWsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Dl" prompt="Trustpilot_Email_Dl?" promptNeeded="false" type="id_String" value="&quot;Kerry.Arscott@hermes-europe.co.uk;Nikki.Watmough@hermes-europe.co.uk;Kayley.Worsley@hermes-europe.co.uk&quot;" xmi:id="_myOqW8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Cc" prompt="Trustpilot_Email_Cc?" promptNeeded="false" type="id_String" value="&quot;Priya.Nair@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk&quot;" xmi:id="_myOqXMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_BO_List" prompt="Email_To_BO_List?" promptNeeded="false" type="id_String" value="&quot;SAPEngineers@hermes-europe.co.uk&quot;" xmi:id="_myOqXcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_SAP_List" prompt="Email_To_Supp_SAP_List?" promptNeeded="false" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;SAPEngineers@hermes-europe.co.uk&quot;" xmi:id="_myOqXsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_GMB_List" prompt="Email_To_GMB_List?" promptNeeded="false" type="id_String" value="&quot;Dean.Wedgner@stickyeyes.com&quot;" xmi:id="_myOqX8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SIT" xmi:id="_myOqYMFrEeyx7s1JSisAwg">
+    <contextParameter comment="" name="Email_Sender" prompt="Email_Sender?" promptNeeded="false" type="id_String" value="DataServices@Hermes-europe.co.uk" xmi:id="_myOqYcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMTP_host" prompt="Email_SMTP_host?" promptNeeded="false" type="id_String" value="email-smtp.eu-west-1.amazonaws.com" xmi:id="_myOqYsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_SMPT_port" prompt="Email_SMPT_port?" promptNeeded="false" type="id_String" value="587" xmi:id="_myOqY8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Username" prompt="Email_Username?" promptNeeded="false" type="id_String" value="AKIAX7RFKVATYTZP3P56" xmi:id="_myOqZMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="BO30mH9IOogz7BElpIZi0uGRnQ3UTbdaHvWj1nfwolUa" xmi:id="_myOqZcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Recipient" prompt="Email_Recipient?" promptNeeded="false" type="id_String" value="&quot;ApplicationSupport@hermes-europe.co.uk;Pradeep.Balan@hermes-europe.co.uk;Robert.Broadley@hermes-europe.co.uk;Sadeep.Shetty@hermes-europe.co.uk;Narendra.Thallapureddy@hermes-europe.co.uk;Abdul.Rao@hermes-europe.co.uk;Neha.Mistri@hermes-europe.co.uk&quot;" xmi:id="_myOqZsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="ETL DEV Email List" name="Email_To_ETL_List" prompt="Email_To_ETL_List?" promptNeeded="false" type="id_String" value="&quot;ETLEngineers@hermes-europe.co.uk&quot;" xmi:id="_myOqZ8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_List" prompt="Email_To_Supp_List?" promptNeeded="false" type="id_String" value="&quot;ETLEngineers@hermes-europe.co.uk&quot;" xmi:id="_myOqaMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Subject" prompt="Email_Subject?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqacFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_Body" prompt="Email_Body?" promptNeeded="false" type="id_String" value="" xmi:id="_myOqasFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Dl" prompt="Trustpilot_Email_Dl?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqa8FrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Trustpilot_Email_Cc" prompt="Trustpilot_Email_Cc?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqbMFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_BO_List" prompt="Email_To_BO_List?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqbcFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_Supp_SAP_List" prompt="Email_To_Supp_SAP_List?" promptNeeded="false" type="id_String" value="&quot;priya.nair@hermes-europe.co.uk&quot;" xmi:id="_myOqbsFrEeyx7s1JSisAwg"/>
+    <contextParameter comment="" name="Email_To_GMB_List" prompt="Email_To_GMB_List?" promptNeeded="false" type="id_String" value="&quot;abdul.rao@hermes-europe.co.uk&quot;" xmi:id="_myOqb8FrEeyx7s1JSisAwg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_22dcac18-63e6-46aa-993b-de8361d8e0e8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YO/3+P5ZHJCux4GMvhHIMlwdaeoKpYQFHY+WZ3ZNTanbH3GBvru5/dGbgu4xQpRXypwrQ2WikLdM&#13;
+MilfDkoOdw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f8365c94-5cd6-45ca-968b-b05b165b8dbc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nHjTJyiapBqZCb6rEQS6QoQLQk+BFe2NTHEtOfJWgSdJdIJrj969WA4bw00GTnShfvAGL3FFQnMN&#13;
+eDHPEt3+LQ==</DigestValue></Reference></SignedInfo><SignatureValue>e8U8bHnTshv7Zv6C7Ej14pjc/IK4wqgKFwssCTderxIiDCC35tTBzX9GXp3hnc5y0o8xyNAbZ2Fx&#13;
+7CMUHI670CSQveXYarEQtYUwjXGCwmaJoHzcS1kycNJaDSsgHpYzv2zwREdTIyfs9PKZvF+EdUs9&#13;
+5nzfNSOHuAoqGy1m3wxxDpfrLgeQvUvYC5Z0+cutrbCnUJPnTDEw3pYfS07dqqL26xMZWb6m+u3A&#13;
+G3ynt6/S4zv2rOPWgiq38hGZKLzSpXumo8n+i8s/okuySRad5WXqLn9efFg5EwTzAQbdTgJme+0g&#13;
+IDoXI/CkePQFYAN1BcVRYUELXHIIdMX9sQNK+w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f8365c94-5cd6-45ca-968b-b05b165b8dbc" Target="#_22dcac18-63e6-46aa-993b-de8361d8e0e8"><Timestamp>2022-11-24 22:56:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

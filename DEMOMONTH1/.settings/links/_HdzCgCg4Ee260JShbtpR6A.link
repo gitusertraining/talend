@@ -1,0 +1,29 @@
+{
+  "itemId" : "_HdzCgCg4Ee260JShbtpR6A",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_23ueAFiSEeadrLUtyBjhjA",
+    "parameterList" : [ {
+      "id" : "_m1gnscFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Login"
+    }, {
+      "id" : "_m1gnssFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_AdditionalParams"
+    }, {
+      "id" : "_m1gns8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Password"
+    }, {
+      "id" : "_m1gntMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Server"
+    }, {
+      "id" : "_m1gntcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Schema"
+    }, {
+      "id" : "_m1gntsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_Port"
+    }, {
+      "id" : "_m1gnt8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_OPS_ServiceName"
+    } ]
+  } ]
+}

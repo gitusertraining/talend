@@ -1,0 +1,476 @@
+{
+  "itemId" : "_eQvgsLvREeeLZqwS-bnBEA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S08FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S1MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S18FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S0cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S0sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S1sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S1cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWa78FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWa4cFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWa5MFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWa8MFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWa7MFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWa4sFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWa7cFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWa6MFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWa6cFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWa5sFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWa58FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWa48FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWa5cFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWa8cFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWa7sFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWa68FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWa6sFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    }, {
+      "id" : "_mwWa88FrEeyx7s1JSisAwg",
+      "name" : "TAC_LONGRUN_THRESHOLD"
+    }, {
+      "id" : "_mwWa8sFrEeyx7s1JSisAwg",
+      "name" : "Trustpilot_File"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRksFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRkcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRk8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRlsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRlcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRlMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRl8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_ML6TcEqUEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_mzP94cFrEeyx7s1JSisAwg",
+      "name" : "TALENDCONFIG"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S28FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S3MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S38FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S2cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S2sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S3sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S3cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWbA8FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWa9cFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWa-MFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWbBMFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWbAMFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWa9sFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWbAcFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWa_MFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWa_cFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWa-sFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWa-8FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWa98FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWa-cFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWbBcFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWbAsFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWa_8FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWa_sFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    }, {
+      "id" : "_mwWbB8FrEeyx7s1JSisAwg",
+      "name" : "TAC_LONGRUN_THRESHOLD"
+    }, {
+      "id" : "_mwWbBsFrEeyx7s1JSisAwg",
+      "name" : "Trustpilot_File"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRmsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRmcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRm8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRnsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRncFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRnMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRn8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PREPROD",
+    "repoId" : "_ML6TcEqUEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_mzP948FrEeyx7s1JSisAwg",
+      "name" : "TALENDCONFIG"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S48FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S5MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S58FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S4cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S4sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S5sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S5cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWbF8FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWbCcFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWbDMFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWbGMFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWbFMFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWbCsFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWbFcFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWbEMFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWbEcFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWbDsFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWbD8FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWbC8FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWbDcFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWbGcFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWbFsFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWbE8FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWbEsFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    }, {
+      "id" : "_mwWbG8FrEeyx7s1JSisAwg",
+      "name" : "TAC_LONGRUN_THRESHOLD"
+    }, {
+      "id" : "_mwWbGsFrEeyx7s1JSisAwg",
+      "name" : "Trustpilot_File"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRosFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRocFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRo8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRpsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRpcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRpMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRp8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "PRODUCTION",
+    "repoId" : "_ML6TcEqUEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_mzP95cFrEeyx7s1JSisAwg",
+      "name" : "TALENDCONFIG"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_CYQxMGETEeaZMtrCuiHH0w",
+    "parameterList" : [ {
+      "id" : "_mo3S68FrEeyx7s1JSisAwg",
+      "name" : "CTRL_AdditionalParams"
+    }, {
+      "id" : "_mo3S7MFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Login"
+    }, {
+      "id" : "_mo3S78FrEeyx7s1JSisAwg",
+      "name" : "CTRL_Password"
+    }, {
+      "id" : "_mo3S6cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Port"
+    }, {
+      "id" : "_mo3S6sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Schema"
+    }, {
+      "id" : "_mo3S7sFrEeyx7s1JSisAwg",
+      "name" : "CTRL_Server"
+    }, {
+      "id" : "_mo3S7cFrEeyx7s1JSisAwg",
+      "name" : "CTRL_ServiceName"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_qXTQkE2gEeadErxqioUdlg",
+    "parameterList" : [ {
+      "id" : "_mwWbK8FrEeyx7s1JSisAwg",
+      "name" : "Alert_Threshold"
+    }, {
+      "id" : "_mwWbHcFrEeyx7s1JSisAwg",
+      "name" : "BusinessDate"
+    }, {
+      "id" : "_mwWbIMFrEeyx7s1JSisAwg",
+      "name" : "BusinessDateDT"
+    }, {
+      "id" : "_mwWbLMFrEeyx7s1JSisAwg",
+      "name" : "CourierScan_Recon_File"
+    }, {
+      "id" : "_mwWbKMFrEeyx7s1JSisAwg",
+      "name" : "Dept_Source_File"
+    }, {
+      "id" : "_mwWbHsFrEeyx7s1JSisAwg",
+      "name" : "Eff_to_date"
+    }, {
+      "id" : "_mwWbKcFrEeyx7s1JSisAwg",
+      "name" : "Environment"
+    }, {
+      "id" : "_mwWbJMFrEeyx7s1JSisAwg",
+      "name" : "Invalid_TAC_Jobs_File"
+    }, {
+      "id" : "_mwWbJcFrEeyx7s1JSisAwg",
+      "name" : "Lms_Source_File_Prefix"
+    }, {
+      "id" : "_mwWbIsFrEeyx7s1JSisAwg",
+      "name" : "LOG_FILE_DIR"
+    }, {
+      "id" : "_mwWbI8FrEeyx7s1JSisAwg",
+      "name" : "LogFileErrorCount"
+    }, {
+      "id" : "_mwWbH8FrEeyx7s1JSisAwg",
+      "name" : "NextBusinessDate"
+    }, {
+      "id" : "_mwWbIcFrEeyx7s1JSisAwg",
+      "name" : "ODSLoadDateCheck"
+    }, {
+      "id" : "_mwWbLcFrEeyx7s1JSisAwg",
+      "name" : "Scan_Recong_File"
+    }, {
+      "id" : "_mwWbKsFrEeyx7s1JSisAwg",
+      "name" : "SEPLUS_Couriers_File"
+    }, {
+      "id" : "_mwWbJ8FrEeyx7s1JSisAwg",
+      "name" : "SLEEP_DURATION"
+    }, {
+      "id" : "_mwWbJsFrEeyx7s1JSisAwg",
+      "name" : "SOURCE_FILE"
+    }, {
+      "id" : "_mwWbL8FrEeyx7s1JSisAwg",
+      "name" : "TAC_LONGRUN_THRESHOLD"
+    }, {
+      "id" : "_mwWbLsFrEeyx7s1JSisAwg",
+      "name" : "Trustpilot_File"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_xdTQsEpwEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_m0RRqsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_AdditionalParams"
+    }, {
+      "id" : "_m0RRqcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Login"
+    }, {
+      "id" : "_m0RRq8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Password"
+    }, {
+      "id" : "_m0RRrsFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Port"
+    }, {
+      "id" : "_m0RRrcFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Schema"
+    }, {
+      "id" : "_m0RRrMFrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_Server"
+    }, {
+      "id" : "_m0RRr8FrEeyx7s1JSisAwg",
+      "name" : "TALEND_AMC_ServiceName"
+    } ]
+  }, {
+    "contextName" : "SIT",
+    "repoId" : "_ML6TcEqUEea5Zvht9Z-K_w",
+    "parameterList" : [ {
+      "id" : "_mzP958FrEeyx7s1JSisAwg",
+      "name" : "TALENDCONFIG"
+    } ]
+  } ]
+}
