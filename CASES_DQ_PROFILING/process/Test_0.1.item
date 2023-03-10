@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_-dpBsL0FEe2U3dxM-FjLHA" name="Start" prompt="Start?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_-dpBsb0FEe2U3dxM-FjLHA" name="Size" prompt="Size?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:bMNhOPqqYlpv12puTAvgKkl0Gr0U4wYwQbHQ32TZ"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/adm.kp1pizzoch/talend731/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8CLZHgSBXK0c2Z7qbd/v3irAmfgTQN72tHg0s5IY"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_CfgUCWzKEe2P8c4nxAl42w" name="DQTechnical"/>
+    <routinesParameter id="_B3IFYGzKEe2P8c4nxAl42w" name="DataMasking"/>
+    <routinesParameter id="_CfqFBmzKEe2P8c4nxAl42w" name="DataOperation"/>
+    <routinesParameter id="_CfNZGWzKEe2P8c4nxAl42w" name="DataQualityDependencies"/>
+    <routinesParameter id="_CfEPJmzKEe2P8c4nxAl42w" name="DataQuality"/>
+    <routinesParameter id="_CfXKG2zKEe2P8c4nxAl42w" name="DqStringHandling"/>
+    <routinesParameter id="_Cfz2BmzKEe2P8c4nxAl42w" name="Mathematical"/>
+    <routinesParameter id="_Cfz2EGzKEe2P8c4nxAl42w" name="Numeric"/>
+    <routinesParameter id="_Cf8_-WzKEe2P8c4nxAl42w" name="Relational"/>
+    <routinesParameter id="_Cg2X0GzKEe2P8c4nxAl42w" name="SQLike"/>
+    <routinesParameter id="_CgGw-WzKEe2P8c4nxAl42w" name="StringHandling"/>
+    <routinesParameter id="_CgQh9mzKEe2P8c4nxAl42w" name="TalendDataGenerator"/>
+    <routinesParameter id="_CgZr6WzKEe2P8c4nxAl42w" name="TalendDate"/>
+    <routinesParameter id="_Cgsm0GzKEe2P8c4nxAl42w" name="TalendStringUtil"/>
+    <routinesParameter id="_Cgjc6WzKEe2P8c4nxAl42w" name="TalendString"/>
+    <routinesParameter id="_8O5_EKuHEe2uzJERDk2CyQ" name="SuperVariable"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_2OR5gIB-Ee2gJPcgVCuTxA - metadata"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/opt/talend/talend_data/LOGISTIC_PROJECT/TrackingLabels2SAP/20230307164344/Tyres/TyresPalletsDocuments.csv&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.Start"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value="context.Size"/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/Users/adm.kp1pizzoch/talend801/Talend-Studio-20221003_1400-V8.0.1/workspace&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" show="false" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreIpCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyrePlantCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyrePalletID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreDocumentID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreDOT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreWarehouseID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreBlockedFlag"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreClaimedFlag"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreInsertedAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreUpdatedAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreStatusID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreInboundDocument"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreIsScrap"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreIsGround"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreLocationCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreParentBarCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreSGTIN96"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithPNCS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithSensor"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsColored"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithQR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ModifiedBy3pl"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CuringProcess"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreQrCodeInside"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreQrCodeOutside"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsOEBlocked"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithRFID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsPCSBlocked"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SensorCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KitIpCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SelectiveSolderingDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletTypeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletNumber"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletYear"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletInsertedAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletIpCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletDOT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletQuantity"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsReceived"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="InboundDocumentID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WarehouseID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LocationCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentInsertedAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentReceivedAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsUpdated"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsSentToCustomer"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TickCount"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IpUpdated"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentQuantity"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastSentAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesOrg"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IndIsUpdated"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IndLastSentAt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IndTickCount"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BusinessUnit"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FlowType"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyresHistoryUpdated"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentStatus"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithDelivery"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreIpCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyrePlantCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyrePalletID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreDocumentID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreDOT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreWarehouseID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreBlockedFlag"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreClaimedFlag"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreInsertedAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreUpdatedAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreStatusID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreInboundDocument"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreIsScrap"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreIsGround"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreLocationCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreParentBarCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreSGTIN96"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithPNCS"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithSensor"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsColored"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithQR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ModifiedBy3pl"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CuringProcess"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreQrCodeInside"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyreQrCodeOutside"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsOEBlocked"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithRFID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsPCSBlocked"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SensorCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KitIpCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SelectiveSolderingDate"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletTypeID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletNumber"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletYear"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletInsertedAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletIpCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletDOT"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PalletQuantity"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsReceived"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="InboundDocumentID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WarehouseID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LocationCode"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentInsertedAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentReceivedAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsUpdated"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsSentToCustomer"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TickCount"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IpUpdated"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentQuantity"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastSentAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SalesOrg"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IndIsUpdated"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IndLastSentAt"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IndTickCount"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BusinessUnit"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FlowType"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TyresHistoryUpdated"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DocumentStatus"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WithDelivery"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="ReadTyres"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="10" name="TyreID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="TyreIpCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TyrePlantCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="TyrePalletID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TyreDocumentID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TyreDOT" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TyreWarehouseID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreBlockedFlag" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreClaimedFlag" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="TyreInsertedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="TyreUpdatedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="TyreStatusID" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TyreInboundDocument" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreIsScrap" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreIsGround" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="TyreLocationCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TyreParentBarCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="TyreSGTIN96" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithPNCS" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithSensor" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsColored" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithQR" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="ModifiedBy3pl" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CuringProcess" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="280" name="TyreQrCodeInside" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="280" name="TyreQrCodeOutside" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsOEBlocked" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithRFID" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsPCSBlocked" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="90" name="SensorCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="KitIpCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="SelectiveSolderingDate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="PalletID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="PalletTypeID" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="PalletNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="PalletYear" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="PalletInsertedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="PalletIpCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PalletDOT" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="PalletQuantity" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DocumentID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsReceived" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="InboundDocumentID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="WarehouseID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="LocationCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="DocumentInsertedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="DocumentReceivedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="IsUpdated" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsSentToCustomer" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TickCount" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IpUpdated" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="DocumentQuantity" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="LastSentAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="SalesOrg" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="IndIsUpdated" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="IndLastSentAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IndTickCount" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="BusinessUnit" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="FlowType" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="TyresHistoryUpdated" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="DocumentStatus" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithDelivery" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="10" name="TyreID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="TyreIpCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TyrePlantCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="TyrePalletID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TyreDocumentID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TyreDOT" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="TyreWarehouseID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreBlockedFlag" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreClaimedFlag" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="TyreInsertedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="TyreUpdatedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="TyreStatusID" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TyreInboundDocument" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreIsScrap" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="TyreIsGround" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="TyreLocationCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TyreParentBarCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="TyreSGTIN96" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithPNCS" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithSensor" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsColored" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithQR" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="ModifiedBy3pl" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CuringProcess" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="280" name="TyreQrCodeInside" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="280" name="TyreQrCodeOutside" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsOEBlocked" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithRFID" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsPCSBlocked" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="90" name="SensorCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="KitIpCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="SelectiveSolderingDate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="PalletID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="PalletTypeID" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="PalletNumber" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="PalletYear" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="PalletInsertedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="PalletIpCode" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PalletDOT" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="PalletQuantity" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DocumentID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsReceived" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="InboundDocumentID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="WarehouseID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="LocationCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="DocumentInsertedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="DocumentReceivedAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="IsUpdated" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IsSentToCustomer" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TickCount" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="IpUpdated" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="DocumentQuantity" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="LastSentAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="SalesOrg" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="IndIsUpdated" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="IndLastSentAt" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="SMALLDATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IndTickCount" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="BusinessUnit" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="FlowType" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="TyresHistoryUpdated" nullable="true" pattern="" precision="0" sourceType="TINYINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="DocumentStatus" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="WithDelivery" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="FillDoc"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Tyres2" name="Tyres2">
+      <column comment="" key="false" length="-1" name="Document" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="Tyres1">
+        <nodes name="TyreID" nullable="false" outgoingConnections="//@node.1/@nodeData/@connections.14 //@node.1/@nodeData/@connections.22 //@node.1/@nodeData/@connections.36" type="id_String" xpath="Tyres1/TyreID"/>
+        <nodes name="TyreIpCode" nullable="false" outgoingConnections="//@node.1/@nodeData/@connections.15" type="id_String" xpath="Tyres1/TyreIpCode"/>
+        <nodes name="TyrePlantCode" outgoingConnections="//@node.1/@nodeData/@connections.16" type="id_String" xpath="Tyres1/TyrePlantCode"/>
+        <nodes name="TyrePalletID" outgoingConnections="//@node.1/@nodeData/@connections.17" type="id_String" xpath="Tyres1/TyrePalletID"/>
+        <nodes name="TyreDocumentID" outgoingConnections="//@node.1/@nodeData/@connections.18" type="id_String" xpath="Tyres1/TyreDocumentID"/>
+        <nodes name="TyreDOT" outgoingConnections="//@node.1/@nodeData/@connections.19" type="id_String" xpath="Tyres1/TyreDOT"/>
+        <nodes name="TyreWarehouseID" outgoingConnections="//@node.1/@nodeData/@connections.20" type="id_String" xpath="Tyres1/TyreWarehouseID"/>
+        <nodes name="TyreBlockedFlag" outgoingConnections="//@node.1/@nodeData/@connections.63" type="id_Boolean" xpath="Tyres1/TyreBlockedFlag"/>
+        <nodes name="TyreClaimedFlag" outgoingConnections="//@node.1/@nodeData/@connections.64" type="id_Boolean" xpath="Tyres1/TyreClaimedFlag"/>
+        <nodes name="TyreInsertedAt" outgoingConnections="//@node.1/@nodeData/@connections.40 //@node.1/@nodeData/@connections.41" type="id_Date" xpath="Tyres1/TyreInsertedAt"/>
+        <nodes name="TyreUpdatedAt" outgoingConnections="//@node.1/@nodeData/@connections.65 //@node.1/@nodeData/@connections.66" type="id_Date" xpath="Tyres1/TyreUpdatedAt"/>
+        <nodes name="TyreStatusID" nullable="false" outgoingConnections="//@node.1/@nodeData/@connections.67" type="id_Short" xpath="Tyres1/TyreStatusID"/>
+        <nodes name="TyreInboundDocument" outgoingConnections="//@node.1/@nodeData/@connections.23" type="id_String" xpath="Tyres1/TyreInboundDocument"/>
+        <nodes name="TyreIsScrap" outgoingConnections="//@node.1/@nodeData/@connections.68" type="id_Boolean" xpath="Tyres1/TyreIsScrap"/>
+        <nodes name="TyreIsGround" outgoingConnections="//@node.1/@nodeData/@connections.69" type="id_Boolean" xpath="Tyres1/TyreIsGround"/>
+        <nodes name="TyreLocationCode" outgoingConnections="//@node.1/@nodeData/@connections.24" type="id_String" xpath="Tyres1/TyreLocationCode"/>
+        <nodes name="TyreParentBarCode" outgoingConnections="//@node.1/@nodeData/@connections.25" type="id_String" xpath="Tyres1/TyreParentBarCode"/>
+        <nodes name="TyreSGTIN96" outgoingConnections="//@node.1/@nodeData/@connections.26" type="id_String" xpath="Tyres1/TyreSGTIN96"/>
+        <nodes name="WithPNCS" outgoingConnections="//@node.1/@nodeData/@connections.70" type="id_Boolean" xpath="Tyres1/WithPNCS"/>
+        <nodes name="WithSensor" outgoingConnections="//@node.1/@nodeData/@connections.71" type="id_Boolean" xpath="Tyres1/WithSensor"/>
+        <nodes name="IsColored" outgoingConnections="//@node.1/@nodeData/@connections.72" type="id_Boolean" xpath="Tyres1/IsColored"/>
+        <nodes name="WithQR" outgoingConnections="//@node.1/@nodeData/@connections.73" type="id_Boolean" xpath="Tyres1/WithQR"/>
+        <nodes name="ModifiedBy3pl" outgoingConnections="//@node.1/@nodeData/@connections.74" type="id_Boolean" xpath="Tyres1/ModifiedBy3pl"/>
+        <nodes name="CuringProcess" outgoingConnections="//@node.1/@nodeData/@connections.27" type="id_String" xpath="Tyres1/CuringProcess"/>
+        <nodes name="TyreQrCodeInside" outgoingConnections="//@node.1/@nodeData/@connections.28" type="id_String" xpath="Tyres1/TyreQrCodeInside"/>
+        <nodes name="TyreQrCodeOutside" outgoingConnections="//@node.1/@nodeData/@connections.29" type="id_String" xpath="Tyres1/TyreQrCodeOutside"/>
+        <nodes name="IsOEBlocked" outgoingConnections="//@node.1/@nodeData/@connections.75" type="id_Boolean" xpath="Tyres1/IsOEBlocked"/>
+        <nodes name="WithRFID" outgoingConnections="//@node.1/@nodeData/@connections.76" type="id_Boolean" xpath="Tyres1/WithRFID"/>
+        <nodes name="IsPCSBlocked" outgoingConnections="//@node.1/@nodeData/@connections.77" type="id_Boolean" xpath="Tyres1/IsPCSBlocked"/>
+        <nodes name="SensorCode" outgoingConnections="//@node.1/@nodeData/@connections.30" type="id_String" xpath="Tyres1/SensorCode"/>
+        <nodes name="KitIpCode" outgoingConnections="//@node.1/@nodeData/@connections.31" type="id_String" xpath="Tyres1/KitIpCode"/>
+        <nodes name="SelectiveSolderingDate" outgoingConnections="//@node.1/@nodeData/@connections.32" type="id_String" xpath="Tyres1/SelectiveSolderingDate"/>
+        <nodes name="PalletID" nullable="false" outgoingConnections="//@node.1/@nodeData/@connections.10 //@node.1/@nodeData/@connections.21" type="id_String" xpath="Tyres1/PalletID"/>
+        <nodes name="PalletTypeID" nullable="false" outgoingConnections="//@node.1/@nodeData/@connections.58" type="id_Short" xpath="Tyres1/PalletTypeID"/>
+        <nodes name="PalletNumber" outgoingConnections="//@node.1/@nodeData/@connections.11" type="id_String" xpath="Tyres1/PalletNumber"/>
+        <nodes name="PalletYear" outgoingConnections="//@node.1/@nodeData/@connections.59" type="id_Short" xpath="Tyres1/PalletYear"/>
+        <nodes name="PalletInsertedAt" outgoingConnections="//@node.1/@nodeData/@connections.60 //@node.1/@nodeData/@connections.61" type="id_Date" xpath="Tyres1/PalletInsertedAt"/>
+        <nodes name="PalletIpCode" outgoingConnections="//@node.1/@nodeData/@connections.12" type="id_String" xpath="Tyres1/PalletIpCode"/>
+        <nodes name="PalletDOT" outgoingConnections="//@node.1/@nodeData/@connections.13" type="id_String" xpath="Tyres1/PalletDOT"/>
+        <nodes name="PalletQuantity" outgoingConnections="//@node.1/@nodeData/@connections.62" type="id_Short" xpath="Tyres1/PalletQuantity"/>
+        <nodes name="DocumentID" nullable="false" outgoingConnections="//@node.1/@nodeData/@connections.4 //@node.1/@nodeData/@connections.34 //@node.1/@nodeData/@connections.37" type="id_String" xpath="Tyres1/DocumentID"/>
+        <nodes name="IsReceived" outgoingConnections="//@node.1/@nodeData/@connections.78" type="id_Boolean" xpath="Tyres1/IsReceived"/>
+        <nodes name="InboundDocumentID" outgoingConnections="//@node.1/@nodeData/@connections.5" type="id_String" xpath="Tyres1/InboundDocumentID"/>
+        <nodes name="WarehouseID" outgoingConnections="//@node.1/@nodeData/@connections.6" type="id_String" xpath="Tyres1/WarehouseID"/>
+        <nodes name="LocationCode" outgoingConnections="//@node.1/@nodeData/@connections.7" type="id_String" xpath="Tyres1/LocationCode"/>
+        <nodes name="DocumentInsertedAt" outgoingConnections="//@node.1/@nodeData/@connections.38 //@node.1/@nodeData/@connections.39" type="id_Date" xpath="Tyres1/DocumentInsertedAt"/>
+        <nodes name="DocumentReceivedAt" outgoingConnections="//@node.1/@nodeData/@connections.42 //@node.1/@nodeData/@connections.43" type="id_Date" xpath="Tyres1/DocumentReceivedAt"/>
+        <nodes name="IsUpdated" outgoingConnections="//@node.1/@nodeData/@connections.44" type="id_Short" xpath="Tyres1/IsUpdated"/>
+        <nodes name="IsSentToCustomer" outgoingConnections="//@node.1/@nodeData/@connections.45" type="id_Boolean" xpath="Tyres1/IsSentToCustomer"/>
+        <nodes name="TickCount" outgoingConnections="//@node.1/@nodeData/@connections.46" type="id_Integer" xpath="Tyres1/TickCount"/>
+        <nodes name="IpUpdated" outgoingConnections="//@node.1/@nodeData/@connections.47" type="id_Boolean" xpath="Tyres1/IpUpdated"/>
+        <nodes name="DocumentQuantity" outgoingConnections="//@node.1/@nodeData/@connections.48" type="id_Integer" xpath="Tyres1/DocumentQuantity"/>
+        <nodes name="LastSentAt" outgoingConnections="//@node.1/@nodeData/@connections.49 //@node.1/@nodeData/@connections.50" type="id_Date" xpath="Tyres1/LastSentAt"/>
+        <nodes name="SalesOrg" outgoingConnections="//@node.1/@nodeData/@connections.8" type="id_String" xpath="Tyres1/SalesOrg"/>
+        <nodes name="IndIsUpdated" outgoingConnections="//@node.1/@nodeData/@connections.51" type="id_Short" xpath="Tyres1/IndIsUpdated"/>
+        <nodes name="IndLastSentAt" outgoingConnections="//@node.1/@nodeData/@connections.53 //@node.1/@nodeData/@connections.54" type="id_Date" xpath="Tyres1/IndLastSentAt"/>
+        <nodes name="IndTickCount" outgoingConnections="//@node.1/@nodeData/@connections.52" type="id_Integer" xpath="Tyres1/IndTickCount"/>
+        <nodes name="BusinessUnit" outgoingConnections="//@node.1/@nodeData/@connections.9" type="id_String" xpath="Tyres1/BusinessUnit"/>
+        <nodes name="FlowType" outgoingConnections="//@node.1/@nodeData/@connections.33" type="id_String" xpath="Tyres1/FlowType"/>
+        <nodes name="TyresHistoryUpdated" outgoingConnections="//@node.1/@nodeData/@connections.55" type="id_Short" xpath="Tyres1/TyresHistoryUpdated"/>
+        <nodes name="DocumentStatus" outgoingConnections="//@node.1/@nodeData/@connections.56" type="id_Integer" xpath="Tyres1/DocumentStatus"/>
+        <nodes name="WithDelivery" outgoingConnections="//@node.1/@nodeData/@connections.57" type="id_Boolean" xpath="Tyres1/WithDelivery"/>
+      </inputTrees>
+      <outputTrees activateCondensedTool="true" allInOne="true" enableEmptyElement="false" expressionFilter="" name="Tyres2">
+        <nodes expression="" name="Document" pattern="" type="id_Document" xpath="Tyres2/Document">
+          <children main="true" name="ZTLB_MIGRATION" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION" xsi:type="TalendXMLMap:OutputTreeNode">
+            <children name="INPUT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/INPUT" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children expression="&quot;MigrateTyres&quot;" name="IM_OPERATION" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/INPUT/IM_OPERATION" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            </children>
+            <children loop="true" main="true" name="TABLES" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES" xsi:type="TalendXMLMap:OutputTreeNode">
+              <children name="DELIVERY_INFO" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children expression="" name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="DOCUMENTID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DOCUMENTID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="INBDOCID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/INBDOCID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="SHIPPINGNUMBER" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/SHIPPINGNUMBER" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="DELINSDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELINSDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="DELINSTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELINSTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="DELUPDDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELUPDDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="" name="DELUPDTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELUPDTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="DOCUMENTS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children expression=" Var.mandtDocs" incomingConnections="//@node.1/@nodeData/@connections.3" name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.DocumentID" incomingConnections="//@node.1/@nodeData/@connections.4" name="DOCUMENTID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCUMENTID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.InboundDocumentID" incomingConnections="//@node.1/@nodeData/@connections.5" name="INBDOCID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INBDOCID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.WarehouseID" incomingConnections="//@node.1/@nodeData/@connections.6" name="WAREHOUSEID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/WAREHOUSEID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.LocationCode" incomingConnections="//@node.1/@nodeData/@connections.7" name="LOCATIONCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/LOCATIONCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.DocumentInsertedAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.DocumentInsertedAt) " incomingConnections="//@node.1/@nodeData/@connections.38" name="DOCINSDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCINSDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.DocumentInsertedAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.DocumentInsertedAt) " incomingConnections="//@node.1/@nodeData/@connections.39" name="DOCINSTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCINSTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.DocumentReceivedAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.DocumentReceivedAt) " incomingConnections="//@node.1/@nodeData/@connections.42" name="DOCRECDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCRECDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.DocumentReceivedAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.DocumentReceivedAt) " incomingConnections="//@node.1/@nodeData/@connections.43" name="DOCRECTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCRECTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IsUpdated" incomingConnections="//@node.1/@nodeData/@connections.44" name="ISUPDATED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/ISUPDATED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IsSentToCustomer" incomingConnections="//@node.1/@nodeData/@connections.45" name="ISSENTTOCUSTOMER" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/ISSENTTOCUSTOMER" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TickCount" incomingConnections="//@node.1/@nodeData/@connections.46" name="TICKCOUNT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/TICKCOUNT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IpUpdated" incomingConnections="//@node.1/@nodeData/@connections.47" name="IPUPDATED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/IPUPDATED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.DocumentQuantity" incomingConnections="//@node.1/@nodeData/@connections.48" name="DOCUMENTQUANTITY" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCUMENTQUANTITY" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.LastSentAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.LastSentAt) " incomingConnections="//@node.1/@nodeData/@connections.49" name="LASTSENTDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/LASTSENTDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.LastSentAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.LastSentAt) " incomingConnections="//@node.1/@nodeData/@connections.50" name="LASTSENTTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/LASTSENTTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.SalesOrg" incomingConnections="//@node.1/@nodeData/@connections.8" name="SALESORG" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/SALESORG" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IndIsUpdated" incomingConnections="//@node.1/@nodeData/@connections.51" name="INDISUPDATED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDISUPDATED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.IndLastSentAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.IndLastSentAt) " incomingConnections="//@node.1/@nodeData/@connections.53" name="INDLASTSENTDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDLASTSENTDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.IndLastSentAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.IndLastSentAt) " incomingConnections="//@node.1/@nodeData/@connections.54" name="INDLASTSENTTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDLASTSENTTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IndTickCount" incomingConnections="//@node.1/@nodeData/@connections.52" name="INDTICKCOUNT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDTICKCOUNT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.BusinessUnit" incomingConnections="//@node.1/@nodeData/@connections.9" name="BUSINESSUNIT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/BUSINESSUNIT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.FlowType" incomingConnections="//@node.1/@nodeData/@connections.33" name="FLOWTYPE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/FLOWTYPE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyresHistoryUpdated" incomingConnections="//@node.1/@nodeData/@connections.55" name="TYRESHISTORYUPDATED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/TYRESHISTORYUPDATED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.DocumentStatus" incomingConnections="//@node.1/@nodeData/@connections.56" name="DOCUMENTSTATUS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCUMENTSTATUS" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.WithDelivery" incomingConnections="//@node.1/@nodeData/@connections.57" name="WITHDELIVERY" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/WITHDELIVERY" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="PALLETS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children expression="Var.mandtPallets" incomingConnections="//@node.1/@nodeData/@connections.1" name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.PalletID" incomingConnections="//@node.1/@nodeData/@connections.10" name="PALLETID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PALLETID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.PalletTypeID" incomingConnections="//@node.1/@nodeData/@connections.58" name="PLTYPEID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLTYPEID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.PalletNumber" incomingConnections="//@node.1/@nodeData/@connections.11" name="PLNUMBER" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLNUMBER" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.PalletYear" incomingConnections="//@node.1/@nodeData/@connections.59" name="PLYEAR" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLYEAR" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.PalletInsertedAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.PalletInsertedAt) " incomingConnections="//@node.1/@nodeData/@connections.60" name="PLINSDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLINSDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.PalletInsertedAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.PalletInsertedAt) " incomingConnections="//@node.1/@nodeData/@connections.61" name="PLINSTIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLINSTIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.PalletIpCode" incomingConnections="//@node.1/@nodeData/@connections.12" name="PLIPCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLIPCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.PalletDOT" incomingConnections="//@node.1/@nodeData/@connections.13" name="PLDOT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLDOT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.PalletQuantity" incomingConnections="//@node.1/@nodeData/@connections.62" name="PLQUANTITY" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLQUANTITY" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="RETURN" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children name="TYPE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/TYPE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="ID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/ID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="NUMBER" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/NUMBER" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="MESSAGE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="LOG_NO" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/LOG_NO" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="LOG_MSG_NO" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/LOG_MSG_NO" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="MESSAGE_V1" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V1" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="MESSAGE_V2" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V2" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="MESSAGE_V3" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V3" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="MESSAGE_V4" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V4" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="PARAMETER" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/PARAMETER" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="ROW" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/ROW" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="FIELD" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/FIELD" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="SYSTEM" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/SYSTEM" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="TYRES" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children expression="Var.mandtPallets" incomingConnections="//@node.1/@nodeData/@connections.0" name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreID" incomingConnections="//@node.1/@nodeData/@connections.14" name="TYID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreIpCode" incomingConnections="//@node.1/@nodeData/@connections.15" name="TYIPCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYIPCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyrePlantCode" incomingConnections="//@node.1/@nodeData/@connections.16" name="TYPLANTCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYPLANTCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyrePalletID" incomingConnections="//@node.1/@nodeData/@connections.17" name="TYPALLETID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYPALLETID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreDocumentID" incomingConnections="//@node.1/@nodeData/@connections.18" name="TYDOCID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYDOCID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreDOT" incomingConnections="//@node.1/@nodeData/@connections.19" name="TYDOT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYDOT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreWarehouseID" incomingConnections="//@node.1/@nodeData/@connections.20" name="TYWAREHOUSEID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWAREHOUSEID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreBlockedFlag" incomingConnections="//@node.1/@nodeData/@connections.63" name="TYBLOCKEDFLAG" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYBLOCKEDFLAG" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreClaimedFlag" incomingConnections="//@node.1/@nodeData/@connections.64" name="TYCLAIMEDFLAG" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYCLAIMEDFLAG" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreInsertedAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.TyreInsertedAt) " incomingConnections="//@node.1/@nodeData/@connections.40" name="TYINSERTEDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYINSERTEDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreInsertedAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.TyreInsertedAt) " incomingConnections="//@node.1/@nodeData/@connections.41" name="TYINSERTETIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYINSERTETIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreUpdatedAt == null ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,Tyres1.TyreUpdatedAt) " incomingConnections="//@node.1/@nodeData/@connections.65" name="TYUPDATEDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYUPDATEDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreUpdatedAt == null ? null : TalendDate.formatDate(&quot;HHmmss&quot;,Tyres1.TyreUpdatedAt) " incomingConnections="//@node.1/@nodeData/@connections.66" name="TYUPDATETIME" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYUPDATETIME" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreStatusID" incomingConnections="//@node.1/@nodeData/@connections.67" name="TYSTATUSID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYSTATUSID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreInboundDocument" incomingConnections="//@node.1/@nodeData/@connections.23" name="TYINBDOCID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYINBDOCID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreIsScrap" incomingConnections="//@node.1/@nodeData/@connections.68" name="TYISSCRAP" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISSCRAP" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreIsGround" incomingConnections="//@node.1/@nodeData/@connections.69" name="TYISGROUND" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISGROUND" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreLocationCode" incomingConnections="//@node.1/@nodeData/@connections.24" name="TYLOCATIONCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYLOCATIONCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreParentBarCode" incomingConnections="//@node.1/@nodeData/@connections.25" name="TYPARENTBCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYPARENTBCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreSGTIN96" incomingConnections="//@node.1/@nodeData/@connections.26" name="TYSGTIN96" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYSGTIN96" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.WithPNCS" incomingConnections="//@node.1/@nodeData/@connections.70" name="TYWITHPNCS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHPNCS" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.WithSensor" incomingConnections="//@node.1/@nodeData/@connections.71" name="TYWITHSENSOR" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHSENSOR" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IsColored" incomingConnections="//@node.1/@nodeData/@connections.72" name="TYISCOLORED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISCOLORED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.WithQR" incomingConnections="//@node.1/@nodeData/@connections.73" name="TYWITHQR" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHQR" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.ModifiedBy3pl" incomingConnections="//@node.1/@nodeData/@connections.74" name="TYMODIFIEDBY3PL" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYMODIFIEDBY3PL" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.CuringProcess" incomingConnections="//@node.1/@nodeData/@connections.27" name="TYCURINGPROCESS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYCURINGPROCESS" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreQrCodeInside" incomingConnections="//@node.1/@nodeData/@connections.28" name="TYQRCODEINSIDE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYQRCODEINSIDE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.TyreQrCodeOutside" incomingConnections="//@node.1/@nodeData/@connections.29" name="TYQRCODEOUTSIDE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYQRCODEOUTSIDE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IsOEBlocked" incomingConnections="//@node.1/@nodeData/@connections.75" name="TYISOEBLOCKED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISOEBLOCKED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.WithRFID" incomingConnections="//@node.1/@nodeData/@connections.76" name="TYWITHRFID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHRFID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IsPCSBlocked" incomingConnections="//@node.1/@nodeData/@connections.77" name="ISPCSBLOCKED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/ISPCSBLOCKED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.SensorCode" incomingConnections="//@node.1/@nodeData/@connections.30" name="SENSORCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/SENSORCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.KitIpCode" incomingConnections="//@node.1/@nodeData/@connections.31" name="KITIPCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/KITIPCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression="Tyres1.SelectiveSolderingDate" incomingConnections="//@node.1/@nodeData/@connections.32" name="SELSOLDERINGDATE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/SELSOLDERINGDATE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="TYRES_DOCUMENTS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children expression=" Var.mandtDocs" incomingConnections="//@node.1/@nodeData/@connections.35" name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.DocumentID" incomingConnections="//@node.1/@nodeData/@connections.37" name="DOCUMENTID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/DOCUMENTID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreID" incomingConnections="//@node.1/@nodeData/@connections.36" name="TYREID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/TYREID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.IsReceived" incomingConnections="//@node.1/@nodeData/@connections.78" name="ISRECEIVED" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/ISRECEIVED" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="TYRES_HISTORY" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYTIMESTAMP" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYTIMESTAMP" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYSTATUSDESC" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYSTATUSDESC" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYWAREHOUSEID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYWAREHOUSEID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYDOCUMENTID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYDOCUMENTID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYSTATUSID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYSTATUSID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYINBDOCID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYINBDOCID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYLOCATIONCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYLOCATIONCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYIPCODE" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYIPCODE" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYDOT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYDOT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="TYBU" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYBU" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children name="ERDAT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/ERDAT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+              <children name="TYRES_PALLETS" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS" xsi:type="TalendXMLMap:OutputTreeNode">
+                <children name="item" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item" xsi:type="TalendXMLMap:OutputTreeNode">
+                  <children expression="Var.mandtPallets" incomingConnections="//@node.1/@nodeData/@connections.2" name="MANDT" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item/MANDT" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.TyreID" incomingConnections="//@node.1/@nodeData/@connections.22" name="TYID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item/TYID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                  <children expression=" Tyres1.PalletID" incomingConnections="//@node.1/@nodeData/@connections.21" name="PLID" type="id_String" xpath="Tyres2.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item/PLID" xsi:type="TalendXMLMap:OutputTreeNode"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var">
+        <nodes expression="&quot;210&quot;" name="mandtPallets" outgoingConnections="//@node.1/@nodeData/@connections.0 //@node.1/@nodeData/@connections.1 //@node.1/@nodeData/@connections.2" type="id_String"/>
+        <nodes expression="Tyres1.DocumentID == null || Tyres1.DocumentID.equals(&quot;&quot;) ? null : &quot;210&quot; " incomingConnections="//@node.1/@nodeData/@connections.34" name="mandtDocs" outgoingConnections="//@node.1/@nodeData/@connections.3 //@node.1/@nodeData/@connections.35" type="id_String"/>
+      </varTables>
+      <connections source="//@node.1/@nodeData/@varTables.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@varTables.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@varTables.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.7/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@varTables.0/@nodes.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.40" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.42" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.43" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.44" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.53" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.16" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.57" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.21" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.32" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.34" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.37" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.38" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.8" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.2" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.3" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.4" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.5" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.6" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.32" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.7/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.7/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.12" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.15" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.18" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.16" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.19" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.17" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.20" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.23" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.26" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.24" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.27" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.25" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.28" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.29" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.32" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.30" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.33" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.31" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.34" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.58" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.22" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.40" target="//@node.1/@nodeData/@varTables.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@varTables.0/@nodes.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.5/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.5/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.40" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.5/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.45" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.45" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.9" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.9" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.46" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.46" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.8" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.47" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.48" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.49" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.50" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.51" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.52" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.52" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.15" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.54" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.17" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.56" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.20" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.55" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.18" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.55" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.19" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.59" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.23" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.60" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.24" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.61" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.1/@children.0/@children.25" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.33" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.35" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.36" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.36" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.39" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.2/@children.0/@children.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.7" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.8" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.8" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.10" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.10" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.11" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.14" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.13" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.16" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.14" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.17" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.18" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.21" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.19" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.22" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.20" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.23" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.21" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.24" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.22" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.25" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.26" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.29" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.27" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.30" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.28" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.4/@children.0/@children.31" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.41" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1/@children.5/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tSAPBapi" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPBapi_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tSAPConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" show="false" value="MessageServer"/>
+    <elementParameter field="TEXT" name="CLIENT" show="false" value="&quot;210&quot;"/>
+    <elementParameter field="TEXT" name="USERID" show="false" value="&quot;talend&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:ZJiNFmyyasoAxuL+gSQ2iOX01B+k1FB6nIFC2rirRZZqyCmEt0yt"/>
+    <elementParameter field="TEXT" name="LANGUAGE" show="false" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" show="false" value="&quot;elisa.group.pirelli.com&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" show="false" value="&quot;01&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;R20&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;prod&quot;"/>
+    <elementParameter field="TEXT" name="SAP_FUNCTION" value="&quot;ZTLB_MIGRATION&quot;"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+    <elementParameter field="TABLE" name="MAPPING_INPUT" show="false"/>
+    <elementParameter field="TABLE" name="SCHEMAS" show="false"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES" show="false">
+      <elementValue elementRef="PROPERTY" value="&quot;jco.client.saprouter&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;/H/g70.group.pirelli.com&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;jco.server.worker_thread_min_count&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;20&quot;"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="CallFM"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSAPBapi_1">
+      <column comment="" key="false" length="-1" name="Document" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Start: &quot; + context.Start);&#10;System.out.println(&quot;Size: &quot; + context.Size);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tSAPCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tSAPConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSAPCommit_1"/>
+  </node>
+  <node componentName="tSAPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPConnection_1"/>
+    <elementParameter field="LABEL" name="NOTE3" show="false" value="The selected SAP JCO version allows you to share this SAP connection only with tSAPInput and tSAPOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="TALENDSAP"/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="MessageServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;210&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;talend&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value=""/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;host&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" show="false" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" value="&quot;sid&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" value="&quot;group&quot;"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;jco.client.saprouter&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;/H/g70.group.pirelli.com&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;jco.server.worker_thread_min_count&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;1&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;jco.server.connection_count&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;20&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;jco.cpic_maxconv&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;2000&quot;"/>
+      <elementValue elementRef="PROPERTY" value="&quot;jco.client.max_pool_size&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;2000&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="FTP_HTTP_FUNCTION" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="OpenSAP"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="ReadDoc"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Return2" name="Return2">
+      <column comment="" key="false" length="-1" name="Type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="tSAPBapi_1">
+        <nodes expression="" name="Document" type="id_Document" xpath="tSAPBapi_1/Document">
+          <children main="true" name="ZTLB_MIGRATION" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION">
+            <children loop="true" main="true" name="TABLES" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES">
+              <children name="DELIVERY_INFO" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/MANDT"/>
+                  <children name="DOCUMENTID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DOCUMENTID"/>
+                  <children name="INBDOCID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/INBDOCID"/>
+                  <children name="SHIPPINGNUMBER" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/SHIPPINGNUMBER"/>
+                  <children name="DELINSDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELINSDATE"/>
+                  <children name="DELINSTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELINSTIME"/>
+                  <children name="DELUPDDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELUPDDATE"/>
+                  <children name="DELUPDTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DELIVERY_INFO/item/DELUPDTIME"/>
+                </children>
+              </children>
+              <children name="DOCUMENTS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/MANDT"/>
+                  <children name="DOCUMENTID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCUMENTID"/>
+                  <children name="INBDOCID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INBDOCID"/>
+                  <children name="WAREHOUSEID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/WAREHOUSEID"/>
+                  <children name="LOCATIONCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/LOCATIONCODE"/>
+                  <children name="DOCINSDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCINSDATE"/>
+                  <children name="DOCINSTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCINSTIME"/>
+                  <children name="DOCRECDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCRECDATE"/>
+                  <children name="DOCRECTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCRECTIME"/>
+                  <children name="ISUPDATED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/ISUPDATED"/>
+                  <children name="ISSENTTOCUSTOMER" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/ISSENTTOCUSTOMER"/>
+                  <children name="TICKCOUNT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/TICKCOUNT"/>
+                  <children name="IPUPDATED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/IPUPDATED"/>
+                  <children name="DOCUMENTQUANTITY" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCUMENTQUANTITY"/>
+                  <children name="LASTSENTDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/LASTSENTDATE"/>
+                  <children name="LASTSENTTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/LASTSENTTIME"/>
+                  <children name="SALESORG" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/SALESORG"/>
+                  <children name="INDISUPDATED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDISUPDATED"/>
+                  <children name="INDLASTSENTDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDLASTSENTDATE"/>
+                  <children name="INDLASTSENTTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDLASTSENTTIME"/>
+                  <children name="INDTICKCOUNT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/INDTICKCOUNT"/>
+                  <children name="BUSINESSUNIT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/BUSINESSUNIT"/>
+                  <children name="FLOWTYPE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/FLOWTYPE"/>
+                  <children name="TYRESHISTORYUPDATED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/TYRESHISTORYUPDATED"/>
+                  <children name="DOCUMENTSTATUS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/DOCUMENTSTATUS"/>
+                  <children name="WITHDELIVERY" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/DOCUMENTS/item/WITHDELIVERY"/>
+                </children>
+              </children>
+              <children name="PALLETS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/MANDT"/>
+                  <children name="PALLETID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PALLETID"/>
+                  <children name="PLTYPEID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLTYPEID"/>
+                  <children name="PLNUMBER" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLNUMBER"/>
+                  <children name="PLYEAR" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLYEAR"/>
+                  <children name="PLINSDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLINSDATE"/>
+                  <children name="PLINSTIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLINSTIME"/>
+                  <children name="PLIPCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLIPCODE"/>
+                  <children name="PLDOT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLDOT"/>
+                  <children name="PLQUANTITY" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/PALLETS/item/PLQUANTITY"/>
+                </children>
+              </children>
+              <children name="RETURN" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item">
+                  <children name="TYPE" outgoingConnections="//@node.6/@nodeData/@connections.0" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/TYPE"/>
+                  <children name="ID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/ID"/>
+                  <children name="NUMBER" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/NUMBER"/>
+                  <children name="MESSAGE" outgoingConnections="//@node.6/@nodeData/@connections.1" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE"/>
+                  <children name="LOG_NO" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/LOG_NO"/>
+                  <children name="LOG_MSG_NO" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/LOG_MSG_NO"/>
+                  <children name="MESSAGE_V1" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V1"/>
+                  <children name="MESSAGE_V2" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V2"/>
+                  <children name="MESSAGE_V3" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V3"/>
+                  <children name="MESSAGE_V4" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE_V4"/>
+                  <children name="PARAMETER" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/PARAMETER"/>
+                  <children name="ROW" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/ROW"/>
+                  <children name="FIELD" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/FIELD"/>
+                  <children name="SYSTEM" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/SYSTEM"/>
+                </children>
+              </children>
+              <children name="TYRES" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/MANDT"/>
+                  <children name="TYID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYID"/>
+                  <children name="TYIPCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYIPCODE"/>
+                  <children name="TYPLANTCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYPLANTCODE"/>
+                  <children name="TYPALLETID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYPALLETID"/>
+                  <children name="TYDOCID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYDOCID"/>
+                  <children name="TYDOT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYDOT"/>
+                  <children name="TYWAREHOUSEID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWAREHOUSEID"/>
+                  <children name="TYBLOCKEDFLAG" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYBLOCKEDFLAG"/>
+                  <children name="TYCLAIMEDFLAG" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYCLAIMEDFLAG"/>
+                  <children name="TYINSERTEDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYINSERTEDATE"/>
+                  <children name="TYINSERTETIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYINSERTETIME"/>
+                  <children name="TYUPDATEDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYUPDATEDATE"/>
+                  <children name="TYUPDATETIME" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYUPDATETIME"/>
+                  <children name="TYSTATUSID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYSTATUSID"/>
+                  <children name="TYINBDOCID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYINBDOCID"/>
+                  <children name="TYISSCRAP" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISSCRAP"/>
+                  <children name="TYISGROUND" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISGROUND"/>
+                  <children name="TYLOCATIONCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYLOCATIONCODE"/>
+                  <children name="TYPARENTBCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYPARENTBCODE"/>
+                  <children name="TYSGTIN96" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYSGTIN96"/>
+                  <children name="TYWITHPNCS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHPNCS"/>
+                  <children name="TYWITHSENSOR" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHSENSOR"/>
+                  <children name="TYISCOLORED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISCOLORED"/>
+                  <children name="TYWITHQR" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHQR"/>
+                  <children name="TYMODIFIEDBY3PL" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYMODIFIEDBY3PL"/>
+                  <children name="TYCURINGPROCESS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYCURINGPROCESS"/>
+                  <children name="TYQRCODEINSIDE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYQRCODEINSIDE"/>
+                  <children name="TYQRCODEOUTSIDE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYQRCODEOUTSIDE"/>
+                  <children name="TYISOEBLOCKED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYISOEBLOCKED"/>
+                  <children name="TYWITHRFID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/TYWITHRFID"/>
+                  <children name="ISPCSBLOCKED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/ISPCSBLOCKED"/>
+                  <children name="SENSORCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/SENSORCODE"/>
+                  <children name="KITIPCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/KITIPCODE"/>
+                  <children name="SELSOLDERINGDATE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES/item/SELSOLDERINGDATE"/>
+                </children>
+              </children>
+              <children name="TYRES_DOCUMENTS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/MANDT"/>
+                  <children name="DOCUMENTID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/DOCUMENTID"/>
+                  <children name="TYREID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/TYREID"/>
+                  <children name="ISRECEIVED" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_DOCUMENTS/item/ISRECEIVED"/>
+                </children>
+              </children>
+              <children name="TYRES_HISTORY" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/MANDT"/>
+                  <children name="TYID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYID"/>
+                  <children name="TYTIMESTAMP" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYTIMESTAMP"/>
+                  <children name="TYSTATUSDESC" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYSTATUSDESC"/>
+                  <children name="TYWAREHOUSEID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYWAREHOUSEID"/>
+                  <children name="TYDOCUMENTID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYDOCUMENTID"/>
+                  <children name="TYSTATUSID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYSTATUSID"/>
+                  <children name="TYINBDOCID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYINBDOCID"/>
+                  <children name="TYLOCATIONCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYLOCATIONCODE"/>
+                  <children name="TYIPCODE" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYIPCODE"/>
+                  <children name="TYDOT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYDOT"/>
+                  <children name="TYBU" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/TYBU"/>
+                  <children name="ERDAT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_HISTORY/item/ERDAT"/>
+                </children>
+              </children>
+              <children name="TYRES_PALLETS" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS">
+                <children name="item" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item">
+                  <children name="MANDT" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item/MANDT"/>
+                  <children name="TYID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item/TYID"/>
+                  <children name="PLID" type="id_String" xpath="tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/TYRES_PALLETS/item/PLID"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees name="Return2">
+        <nodes expression="[tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/TYPE]" incomingConnections="//@node.6/@nodeData/@connections.0" name="Type" pattern="" type="id_String" xpath="Return2/Type"/>
+        <nodes expression="[tSAPBapi_1.Document:/ZTLB_MIGRATION/TABLES/RETURN/item/MESSAGE]" incomingConnections="//@node.6/@nodeData/@connections.1" name="Message" pattern="" type="id_String" xpath="Return2/Message"/>
+      </outputTrees>
+      <varTables minimized="true" name="Var"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.3/@children.0/@children.0" target="//@node.6/@nodeData/@outputTrees.0/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.3/@children.0/@children.3" target="//@node.6/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_START" value=""/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="System.out.println(&quot;Return:&quot; + Return2.Type + &quot; --&gt; &quot; + Return2.Message);&#10;&#10;if (Return2.Type.equals(&quot;E&quot;)) {&#10;        throw new Exception(Return2.Message);&#10;    }&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_END" value=""/>
+    <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
+    <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
+    <elementParameter field="CHECK" name="Version_V4.0" show="false" value="true"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Throw"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="Return2" name="tJavaFlex_1">
+      <column comment="" key="false" length="-1" name="Type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="Tyres1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Tyres1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tSAPCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="Tyres2" lineStyle="10" mergeOrder="1" metaname="Tyres2" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tSAPBapi_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Tyres2"/>
+  </connection>
+  <connection connectorName="FLOW" label="tSAPBapi_1" lineStyle="0" metaname="tSAPBapi_1" offsetLabelX="0" offsetLabelY="0" source="tSAPBapi_1" target="tXMLMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPBapi_1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tSAPConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Return2" lineStyle="0" metaname="Return2" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_2" target="tJavaFlex_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Return2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f8512217-01b3-4885-860c-f856f188ed98"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GzsgX8JYuWN3/FyjI39YTAEJhHiu+NyiAkwTWzhhMBR9xtW6Wq6WVsvPv7wpvxEonr4q18oj3Aus&#13;
+Mm65IBoH+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c974c088-c226-4fcd-95dc-ab7c487011be"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iNv7AL8a3XKoPZsLmK+hR0G3lSmHwNza7Do+oi8vsXJwi83eUDgWX60LpHrtR1O/oeZlqL7ZRW6M&#13;
+1ZIEnPhJNA==</DigestValue></Reference></SignedInfo><SignatureValue>YvNyTV1+6lFanRWhwMOnYEF00GrakOfcpQ6Xn4rzqflX6d+O5H8CHPOOub/mOg1uVUDprLxXvNg1&#13;
+9N8oTit/nlb/yn7/XWCCab6v8JiN/c2Ln5ih0JvxxJdyN6LZtEpESJ5dUFXFIOoAJzqTlBEUCSbk&#13;
+8MhkkJQ8Gr8wSW32onc86ERTSydT/M5rznJJH+ubSGunJFhwuRUEIlqfO6E8TSBHKldY5SoQjU35&#13;
+jz5Vq4oZj6Xg6dvTQ/8GHEcshBvG0EkyuUptHUUev4RKqtTEnQPDfG58oZMbqtddwbA0fzL93QIq&#13;
+Ot+PXdrEArVhFEi+zr+QlwyQ1S/2zGcln0rBdg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c974c088-c226-4fcd-95dc-ab7c487011be" Target="#_f8512217-01b3-4885-860c-f856f188ed98"><Timestamp>2023-03-10 13:00:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_2OSgkYB-Ee2gJPcgVCuTxA" label="connectionLabel" xmi:id="_2OSgkIB-Ee2gJPcgVCuTxA"/>
+  <TalendMetadata:GenericPackage dataManager="_2OSgkIB-Ee2gJPcgVCuTxA" xmi:id="_2OSgkYB-Ee2gJPcgVCuTxA">
+    <ownedElement id="_1bO2gIB_Ee2gJPcgVCuTxA" label="metadata" xmi:id="_2OSgkoB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataTable">
+      <feature id="2000" label="TyreID" length="10" name="TyreID" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgk4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSglIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2001" label="TyreIpCode" length="7" name="TyreIpCode" sourceType="CHAR" talendType="id_String" xmi:id="_2OSglYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgloB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2002" label="TyrePlantCode" length="4" name="TyrePlantCode" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgl4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgmIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2003" label="TyrePalletID" length="23" name="TyrePalletID" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgmYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgmoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2004" label="TyreDocumentID" length="10" name="TyreDocumentID" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgm4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgnIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2005" label="TyreDOT" length="4" name="TyreDOT" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgnYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgnoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2006" label="TyreWarehouseID" length="4" name="TyreWarehouseID" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgn4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgoIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2007" label="TyreBlockedFlag" length="1" name="TyreBlockedFlag" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgoYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgooB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2008" label="TyreClaimedFlag" length="1" name="TyreClaimedFlag" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgo4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgpIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2009" label="TyreInsertedAt" length="16" name="TyreInsertedAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OSgpYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgpoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2010" label="TyreUpdatedAt" length="16" name="TyreUpdatedAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OSgp4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgqIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2011" label="TyreStatusID" length="3" name="TyreStatusID" sourceType="TINYINT" talendType="id_Short" xmi:id="_2OSgqYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgqoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2012" label="TyreInboundDocument" length="10" name="TyreInboundDocument" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgq4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgrIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2013" label="TyreIsScrap" length="1" name="TyreIsScrap" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgrYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgroB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2014" label="TyreIsGround" length="1" name="TyreIsGround" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgr4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgsIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2015" label="TyreLocationCode" length="18" name="TyreLocationCode" sourceType="CHAR" talendType="id_String" xmi:id="_2OSgsYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgsoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2016" label="TyreParentBarCode" length="10" name="TyreParentBarCode" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgs4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgtIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2017" label="TyreSGTIN96" length="32" name="TyreSGTIN96" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgtYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgtoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2018" label="WithPNCS" length="1" name="WithPNCS" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgt4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSguIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2019" label="WithSensor" length="1" name="WithSensor" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSguYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSguoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2020" label="IsColored" length="1" name="IsColored" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgu4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgvIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2021" label="WithQR" length="1" name="WithQR" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgvYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgvoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2022" label="ModifiedBy3pl" length="1" name="ModifiedBy3pl" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgv4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgwIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2023" label="CuringProcess" length="20" name="CuringProcess" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgwYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgwoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2024" label="TyreQrCodeInside" length="280" name="TyreQrCodeInside" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgw4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgxIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2025" label="TyreQrCodeOutside" length="280" name="TyreQrCodeOutside" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgxYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgxoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2026" label="IsOEBlocked" length="1" name="IsOEBlocked" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgx4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgyIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2027" label="WithRFID" length="1" name="WithRFID" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgyYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgyoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2028" label="IsPCSBlocked" length="1" name="IsPCSBlocked" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSgy4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSgzIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2029" label="SensorCode" length="90" name="SensorCode" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgzYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSgzoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2030" label="KitIpCode" length="20" name="KitIpCode" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSgz4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg0IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2031" label="SelectiveSolderingDate" length="4" name="SelectiveSolderingDate" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSg0YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg0oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2033" label="PalletID" length="23" name="PalletID" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSg04B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg1IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2035" label="PalletTypeID" length="3" name="PalletTypeID" sourceType="TINYINT" talendType="id_Short" xmi:id="_2OSg1YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg1oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2036" label="PalletNumber" length="10" name="PalletNumber" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSg14B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg2IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2037" label="PalletYear" length="5" name="PalletYear" sourceType="SMALLINT" talendType="id_Short" xmi:id="_2OSg2YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg2oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2038" label="PalletInsertedAt" length="16" name="PalletInsertedAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OSg24B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg3IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2039" label="PalletIpCode" length="7" name="PalletIpCode" sourceType="CHAR" talendType="id_String" xmi:id="_2OSg3YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg3oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2040" label="PalletDOT" length="4" name="PalletDOT" sourceType="CHAR" talendType="id_String" xmi:id="_2OSg34B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg4IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2041" label="PalletQuantity" length="3" name="PalletQuantity" sourceType="TINYINT" talendType="id_Short" xmi:id="_2OSg4YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg4oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2074" label="DocumentID" length="10" name="DocumentID" sourceType="CHAR" talendType="id_String" xmi:id="_2OSg44B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg5IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2076" label="IsReceived" length="1" name="IsReceived" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSg5YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg5oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2078" label="InboundDocumentID" length="10" name="InboundDocumentID" sourceType="CHAR" talendType="id_String" xmi:id="_2OSg54B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg6IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2079" label="WarehouseID" length="4" name="WarehouseID" sourceType="CHAR" talendType="id_String" xmi:id="_2OSg6YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg6oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2080" label="LocationCode" length="18" name="LocationCode" sourceType="VARCHAR" talendType="id_String" xmi:id="_2OSg64B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg7IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2084" label="DocumentInsertedAt" length="16" name="DocumentInsertedAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OSg7YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg7oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2085" label="DocumentReceivedAt" length="16" name="DocumentReceivedAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OSg74B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg8IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14052" label="IsUpdated" length="3" name="IsUpdated" sourceType="TINYINT" talendType="id_Short" xmi:id="_2OSg8YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg8oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2086" label="IsSentToCustomer" length="1" name="IsSentToCustomer" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSg84B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg9IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14053" label="TickCount" length="10" name="TickCount" sourceType="INT" talendType="id_Integer" xmi:id="_2OSg9YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg9oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14054" label="IpUpdated" length="1" name="IpUpdated" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OSg94B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg-IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2081" label="DocumentQuantity" length="10" name="DocumentQuantity" sourceType="INT" talendType="id_Integer" xmi:id="_2OSg-YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OSg-oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14055" label="LastSentAt" length="16" name="LastSentAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OSg-4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg_IB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2082" label="SalesOrg" length="4" name="SalesOrg" sourceType="CHAR" talendType="id_String" xmi:id="_2OSg_YB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OSg_oB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14056" label="IndIsUpdated" length="3" name="IndIsUpdated" sourceType="TINYINT" talendType="id_Short" xmi:id="_2OSg_4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OShAIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14057" label="IndLastSentAt" length="16" name="IndLastSentAt" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" sourceType="SMALLDATETIME" talendType="id_Date" xmi:id="_2OShAYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OShAoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14058" label="IndTickCount" length="10" name="IndTickCount" sourceType="INT" talendType="id_Integer" xmi:id="_2OShA4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OShBIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="2083" label="BusinessUnit" length="1" name="BusinessUnit" sourceType="CHAR" talendType="id_String" xmi:id="_2OShBYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OShBoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14059" label="FlowType" length="1" name="FlowType" sourceType="CHAR" talendType="id_String" xmi:id="_2OShB4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_2OShCIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14060" label="TyresHistoryUpdated" length="3" name="TyresHistoryUpdated" sourceType="TINYINT" talendType="id_Short" xmi:id="_2OShCYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OShCoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14061" label="DocumentStatus" length="10" name="DocumentStatus" sourceType="INT" talendType="id_Integer" xmi:id="_2OShC4B-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OShDIB-Ee2gJPcgVCuTxA"/>
+      </feature>
+      <feature id="14062" label="WithDelivery" length="1" name="WithDelivery" sourceType="BIT" talendType="id_Boolean" xmi:id="_2OShDYB-Ee2gJPcgVCuTxA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_2OShDoB-Ee2gJPcgVCuTxA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8f085f56-43d4-4de2-9491-54f8ea584871"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>C+ok37sBuQmO3CNt8O6qT7e9Kr7jGaBh3j9PtSM6jDmO/1PT6qekD6ydJR3+jWHNa2EHQH7ktyNg&#13;
+2xp8sz5feQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6689d68b-6d97-4d81-9b60-1e71c01a5b3e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sP60VX/yn0usok6vBzJ6MhbhYWk+1290mvndYXaG3h1gtfw+LhWrk89lq2fNkFCmjkW3UWSlafvU&#13;
+sBO0lE6jVg==</DigestValue></Reference></SignedInfo><SignatureValue>BPvwG9Y+o8rBB8qvG+T5jkIeT8nM0qMi5mf9DSWUIbRwhrKB437WMr4AEb3h94AMOOTqzwCmCgkw&#13;
+zxtidudQdKgii8zk6EWi8UyjC9AGz6ezT6fzHjgAs3ffJqvjInBius1va7MOWwj27tGEpfMsHzoo&#13;
+ruzlDWW78WhGT0LQfHc2Y55isFe5rLRUPSW4r9I2ltJTT+FbW6L2pKuKXdvl+QlB0SnJwIngGOD5&#13;
+vcOSfK3myq9+hEAh/exg4iSv2BK2pm81N5+pgviQ0IMIBlTwxTWbuyGtHkSiGhC6fBXe7gCERmHD&#13;
+efkUg5WkFCFbO/B/hfowk6zSaVAQfIa+pevHjg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6689d68b-6d97-4d81-9b60-1e71c01a5b3e" Target="#_8f085f56-43d4-4de2-9491-54f8ea584871"><Timestamp>2023-03-10 13:00:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
