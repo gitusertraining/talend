@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_BomPIL7lEe2F152df2Wpgg" name="testAnalysePostgres" creationDate="2023-03-10T02:43:57.919+0100">
-  <taggedValue xmi:id="_BomPIb7lEe2F152df2Wpgg" tag="Status" value="development"/>
-  <taggedValue xmi:id="_BomPIr7lEe2F152df2Wpgg" tag="Author" value="tacuserDQ@talend.com"/>
-  <taggedValue xmi:id="_BomPI77lEe2F152df2Wpgg" tag="Purpose"/>
-  <taggedValue xmi:id="_BomPJL7lEe2F152df2Wpgg" tag="Description"/>
-  <taggedValue xmi:id="_BomPJb7lEe2F152df2Wpgg" tag="Version" value="0.1"/>
-  <context xmi:id="_BomPJr7lEe2F152df2Wpgg"/>
-  <results xmi:id="_BomPJ77lEe2F152df2Wpgg">
-    <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg"/>
-  </results>
-  <parameters xmi:id="_BomPKb7lEe2F152df2Wpgg" analysisType="Multiple Column Analysis"/>
-</dataquality.analysis:Analysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_BomPIL7lEe2F152df2Wpgg" name="testAnalysePostgres" creationDate="2023-03-10T02:43:57.919+0100" defaultContext="Default">
+    <taggedValue xmi:id="_BomPIb7lEe2F152df2Wpgg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_BomPIr7lEe2F152df2Wpgg" tag="Author" value="tacuserDQ@talend.com"/>
+    <taggedValue xmi:id="_BomPI77lEe2F152df2Wpgg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_BomPJL7lEe2F152df2Wpgg" tag="Description" value=""/>
+    <taggedValue xmi:id="_BomPJb7lEe2F152df2Wpgg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_FPQz0b7lEe2F152df2Wpgg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_FPQz0r7lEe2F152df2Wpgg" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_FPQz077lEe2F152df2Wpgg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_FPT3IL7lEe2F152df2Wpgg" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_BomPJr7lEe2F152df2Wpgg">
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
+    </context>
+    <results xmi:id="_BomPJ77lEe2F152df2Wpgg">
+      <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg"/>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_MYfgUL7lEe2F152df2Wpgg" name="Email Address">
+        <parameters xmi:id="_MYfgUb7lEe2F152df2Wpgg">
+          <dataValidDomain xmi:id="_MYfgUr7lEe2F152df2Wpgg">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_MYfgU77lEe2F152df2Wpgg" name="Blank text">
+        <parameters xmi:id="_MYfgVL7lEe2F152df2Wpgg">
+          <dataValidDomain xmi:id="_MYfgVb7lEe2F152df2Wpgg">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_BomPKb7lEe2F152df2Wpgg" dataFilter="_FPUeML7lEe2F152df2Wpgg" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
+    <contextType xmi:id="_FPQz0L7lEe2F152df2Wpgg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_FPUeML7lEe2F152df2Wpgg" name="testAnalysePostgres">
+    <ranges xmi:id="_FPUeMb7lEe2F152df2Wpgg">
+      <expressions xmi:id="_FPUeMr7lEe2F152df2Wpgg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_FPUeM77lEe2F152df2Wpgg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
