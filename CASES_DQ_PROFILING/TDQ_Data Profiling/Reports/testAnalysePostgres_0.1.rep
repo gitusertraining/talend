@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_SQGiAL7nEe2Tp51Rg-mrag" name="testAnalysePostgres" creationDate="2023-03-10T03:00:08.355+0100">
+  <clientDependency href="../Analyses/testAnalysePostgres_0.1.ana#_SQIXML7nEe2Tp51Rg-mrag"/>
+  <taggedValue xmi:id="_SQGiAb7nEe2Tp51Rg-mrag" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_SQGiAr7nEe2Tp51Rg-mrag" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_SQGiA77nEe2Tp51Rg-mrag" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_SQGiBL7nEe2Tp51Rg-mrag" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_SQGiBb7nEe2Tp51Rg-mrag" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_SQGiBr7nEe2Tp51Rg-mrag" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_SQGiB77nEe2Tp51Rg-mrag" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_SQGiCL7nEe2Tp51Rg-mrag" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_SQGiCb7nEe2Tp51Rg-mrag" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_SQGiCr7nEe2Tp51Rg-mrag" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:2I4baC/kOreXSG0HnIpxC8X4dVdVojTeQi2M5A=="/>
+  <taggedValue xmi:id="_SQGiC77nEe2Tp51Rg-mrag" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_SQGiDL7nEe2Tp51Rg-mrag" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Users\nrehman\workspace801\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_SQGiDb7nEe2Tp51Rg-mrag" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_SQGiDr7nEe2Tp51Rg-mrag" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_SQGiD77nEe2Tp51Rg-mrag" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_SQGiEL7nEe2Tp51Rg-mrag" tag="Author" value="tacuserDQ@talend.com"/>
+  <analysisMap xmi:id="_SQGiEb7nEe2Tp51Rg-mrag" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/testAnalysePostgres_0.1.ana#_BomPIL7lEe2F152df2Wpgg"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
