@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_BomPIL7lEe2F152df2Wpgg" name="testAnalysePostgres" supplierDependency="_SQIXML7nEe2Tp51Rg-mrag" creationDate="2023-03-10T02:43:57.919+0100" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
     <taggedValue xmi:id="_BomPIb7lEe2F152df2Wpgg" tag="Status" value="development"/>
     <taggedValue xmi:id="_BomPIr7lEe2F152df2Wpgg" tag="Author" value="tacuserDQ@talend.com"/>
     <taggedValue xmi:id="_BomPI77lEe2F152df2Wpgg" tag="Purpose" value=""/>
@@ -10,7 +11,10 @@
     <taggedValue xmi:id="_FPQz0r7lEe2F152df2Wpgg" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_FPQz077lEe2F152df2Wpgg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_FPT3IL7lEe2F152df2Wpgg" tag="Is Use Sample Data" value="true"/>
-    <context xmi:id="_BomPJr7lEe2F152df2Wpgg"/>
+    <context xmi:id="_BomPJr7lEe2F152df2Wpgg">
+      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+    </context>
     <results xmi:id="_BomPJ77lEe2F152df2Wpgg">
       <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg" executionDate="2023-03-10T02:59:19.955+0100" executionDuration="38" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
     </results>
