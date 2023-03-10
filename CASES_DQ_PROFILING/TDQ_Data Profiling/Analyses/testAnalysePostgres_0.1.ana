@@ -17,7 +17,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/testCSV_0.1.item#_lOvDQb7lEe2F152df2Wpgg"/>
     </context>
     <results xmi:id="_BomPJ77lEe2F152df2Wpgg">
-      <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg" executionDate="2023-03-10T02:48:22.576+0100" executionDuration="25" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg" executionDate="2023-03-10T02:59:19.955+0100" executionDuration="38" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ozYMkL7lEe2F152df2Wpgg" name="Email Address" count="2" computed="true" inValidRow="true" notMatchingValueCount="2">
         <parameters xmi:id="_ozYMkb7lEe2F152df2Wpgg">
           <dataValidDomain xmi:id="_ozYMkr7lEe2F152df2Wpgg">
