@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_BomPIL7lEe2F152df2Wpgg" name="testAnalysePostgres" creationDate="2023-03-10T02:43:57.919+0100">
+  <taggedValue xmi:id="_BomPIb7lEe2F152df2Wpgg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_BomPIr7lEe2F152df2Wpgg" tag="Author" value="tacuserDQ@talend.com"/>
+  <taggedValue xmi:id="_BomPI77lEe2F152df2Wpgg" tag="Purpose"/>
+  <taggedValue xmi:id="_BomPJL7lEe2F152df2Wpgg" tag="Description"/>
+  <taggedValue xmi:id="_BomPJb7lEe2F152df2Wpgg" tag="Version" value="0.1"/>
+  <context xmi:id="_BomPJr7lEe2F152df2Wpgg"/>
+  <results xmi:id="_BomPJ77lEe2F152df2Wpgg">
+    <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg"/>
+  </results>
+  <parameters xmi:id="_BomPKb7lEe2F152df2Wpgg" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
