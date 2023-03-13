@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="TEST">
+    <contextParameter comment="" internalId="_xeL1wMH0Ee2VedXXR3WPKQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_xeL1wcH0Ee2VedXXR3WPKQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" internalId="_xeL1wsH0Ee2VedXXR3WPKQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/mnt/share/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_xeL1w8H0Ee2VedXXR3WPKQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_xeL1xMH0Ee2VedXXR3WPKQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_xeL1xcH0Ee2VedXXR3WPKQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
+    <contextParameter comment="" internalId="_xeL1xsH0Ee2VedXXR3WPKQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="" type="id_String" value="report_publicMarket_v3"/>
+  </context>
+  <context confirmationNeeded="false" name="LOCAL">
+    <contextParameter comment="" internalId="_xeL1x8H0Ee2VedXXR3WPKQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_xeL1yMH0Ee2VedXXR3WPKQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" internalId="_xeL1ycH0Ee2VedXXR3WPKQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="D:/Talend/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_xeL1ysH0Ee2VedXXR3WPKQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_xeL1y8H0Ee2VedXXR3WPKQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_xeL1zMH0Ee2VedXXR3WPKQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:\Talend\talend_data\POC_DQ_PublicMarket\OUT\"/>
+    <contextParameter comment="" internalId="_xeL1zcH0Ee2VedXXR3WPKQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
+  </context>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_xeL1zsH0Ee2VedXXR3WPKQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="" type="id_String" value="D:\Talend\talend_data\POC_DQ_PublicMarket\OUT\"/>
+    <contextParameter comment="" internalId="_xeL1z8H0Ee2VedXXR3WPKQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="" type="id_String" value="report_publicMarket_v3"/>
+    <contextParameter comment="" internalId="_xeL10MH0Ee2VedXXR3WPKQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_xeL10cH0Ee2VedXXR3WPKQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" internalId="_xeL10sH0Ee2VedXXR3WPKQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="D:/Talend/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_xeL108H0Ee2VedXXR3WPKQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_xeL11MH0Ee2VedXXR3WPKQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\n&quot;"/>
+  </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Trace"/>
@@ -44,7 +70,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:tR/2CwmsDQvoJfr2aV7/MbFmwg+JT/sRAoisMpNf"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:tBKXWsZHgI66g8gAZ/vvVXsYKYQZYy3DocwcP0Ct"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -79,7 +105,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RGQIdK2q/cGgf72ubm9AGbe/Qly4LBsIpjUoUGq9"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:D4oSLghGz1MP6wHOieau4oXujdN98NnfyxGpAigG"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,10 +144,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDqReportRun_1"/>
     <elementParameter field="REFRESH_REPORTS" name="REFRESH_REPORTS" value=""/>
     <elementParameter field="BROWSE_REPORTS" name="BROWSE_REPORTS" value=""/>
-    <elementParameter field="TEXT" name="REPORT_FILE" value="&quot;/CASES_DQ_PROFILING/TDQ_Data Profiling/Reports/publicmarket_report_v3.rep&quot;"/>
+    <elementParameter field="TEXT" name="REPORT_FILE" value="&quot;/CASES_DQ_PROFILING/TDQ_Data Profiling/Reports/publicmarket_report_v3_0.1.rep&quot;"/>
     <elementParameter field="TEXT" name="OUTPUT_FOLDER" value="&quot;C:/Users/nrehman/Downloads/&quot;"/>
     <elementParameter field="CHECK" name="TUJ_MODE" show="false" value="false"/>
-    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR">
+      <elementValue elementRef="JAR_NAME" value="postgresql-42.2.26.jar"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="PARALLEL_EXECUTION" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDqReportRun_1">
@@ -184,13 +212,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a9e6d1b4-3f3c-4b44-b092-58ceb461a6a8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>71JCBmWcc0zSUf0ai8JBEcNdIcME0Jb4xyPFXXPBWujYynCcDpsHbBIx7qZv9dZwft25FqM95Rwi&#13;
-j0TqFxDWOg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e2deea49-bd96-4b6d-a203-64baaa4f665b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>u5g9Q+ZwzaDDhjJc1dQfeCBl18AcBcXsGUElhGl8sROk+snh7jLa3ZCFdOuwrQAJsXVFLjZx49tA&#13;
-OXYmA1JJFQ==</DigestValue></Reference></SignedInfo><SignatureValue>ZpN+BsYYc0Qp4N41YcCdFzICSSA6cRtjpFEOV1JYnDqEUicfWXNmyN/uVV/EeY1+G2q5sr8XVhR1&#13;
-sqRqGX689prUt6yhdJP90CLGY7UNBKZGHw7IROjScLveLwpNUXQVo71YPH4BFGuzUIrYjK6cVu5L&#13;
-MGwaphAXSYkAX166r2zPfsuflrtEsV7CovijUES3JaqR20L6mvXuloXbvjDVTUHdQ1/zqKBNs6k9&#13;
-hOrefVglcxu6dFphK+O7gubY3RQQNsgG9nAFEO6T2PyLIZMS7XFpczj2Itvw4zgmxUcyQ5eatqjG&#13;
-TJ8NYrxvbF7T/jMqx/5bhsTY9eyg2niad2NNGw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b29676cd-23c3-420c-8bfb-68568bea5336"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ygNupRBId9UT5rALCugK102Eo4dUyjpRmXl1ox5y0fk5YQWwuxvfssKR2uajaUNucohl9L3EhbI1&#13;
+cFHjpheDCA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b9a938b5-d7ff-4845-aef2-df3d46ea4986"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MTsHnlwyvqulxdTS1Xyt5DK2RO/iH/TqKc++wVWM3MQsRGEfU4+sqmRFSotiv3+sos2kYpnUK9t7&#13;
+6JNjhVeeIA==</DigestValue></Reference></SignedInfo><SignatureValue>e0NxNYDnWt4Om+0wAhrxTXMGlMtKd5JKaYvgxug33BWBTeLBgXArKan5YGih/5+KaZYp25R9drKN&#13;
+dIhP/jv9ApJJX5hKc9Z3+f+WLxbUb4+dT4tas86Klu2rYq1Q2XMBhrsc5ufiW0fi1y0tqhIxmGK+&#13;
+Vf13vzNA8a1KJNgNMVLhysgH3OWymWesbZ8JHNW5T9HvcIQHPqbklGgCnZtfr4HwCjCildnl0u0n&#13;
+VGrL/PfeCdj3W+rElJ8Jjrj7dGBt+rMKVD0DsjN+5T9KVGXOxhZbKyIxUrKl7F4Ie1xo0siFWQv8&#13;
+IkwPb49cOVCzT91d0zGpVeW/XJZXCZw605s5/Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -212,4 +240,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e2deea49-bd96-4b6d-a203-64baaa4f665b" Target="#_a9e6d1b4-3f3c-4b44-b092-58ceb461a6a8"><Timestamp>2023-03-13 23:06:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b9a938b5-d7ff-4845-aef2-df3d46ea4986" Target="#_b29676cd-23c3-420c-8bfb-68568bea5336"><Timestamp>2023-03-13 23:14:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

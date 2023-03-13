@@ -1,0 +1,39 @@
+{
+  "itemId" : "_SP7OQKLMEe2BhtG6U4kZsg",
+  "contextList" : [ {
+    "contextName" : "TEST",
+    "repoId" : "",
+    "parameterList" : [ {
+      "id" : "_xeL1wMH0Ee2VedXXR3WPKQ",
+      "name" : "PublicMarket1_Encoding"
+    }, {
+      "id" : "_xeL1wcH0Ee2VedXXR3WPKQ",
+      "name" : "PublicMarket1_FieldSeparator"
+    }, {
+      "id" : "_xeL1wsH0Ee2VedXXR3WPKQ",
+      "name" : "PublicMarket1_File"
+    }, {
+      "id" : "_xeL1w8H0Ee2VedXXR3WPKQ",
+      "name" : "PublicMarket1_Header"
+    }, {
+      "id" : "_xeL1xMH0Ee2VedXXR3WPKQ",
+      "name" : "PublicMarket1_RowSeparator"
+    }, {
+      "id" : "_xeL1xcH0Ee2VedXXR3WPKQ",
+      "name" : "Output_Directory"
+    }, {
+      "id" : "_xeL1xsH0Ee2VedXXR3WPKQ",
+      "name" : "Output_FileName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "",
+    "parameterList" : [ {
+      "id" : "_xeL1zsH0Ee2VedXXR3WPKQ",
+      "name" : "Output_Directory"
+    }, {
+      "id" : "_xeL1z8H0Ee2VedXXR3WPKQ",
+      "name" : "Output_FileName"
+    } ]
+  } ]
+}
