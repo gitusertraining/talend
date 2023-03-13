@@ -1,25 +1,17 @@
 [ {
   "baseItem" : {
-    "id" : "_5HLq4L7oEe2Neu6i2F5NUA",
+    "id" : "_SP7OQKLMEe2BhtG6U4kZsg",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_BjQcIL7lEe2F152df2Wpgg",
+    "id" : "_PwFnIJc5Ee2MxOCnI1FdOQ",
     "version" : "Latest",
-    "type" : "report"
+    "type" : "context"
   }, {
-    "id" : "_GnHJAJWPEe2ioNrRA4S5ZQ",
+    "id" : "built-in",
     "version" : "Latest",
-    "type" : "report"
-  }, {
-    "id" : "_Lh4TUL7jEe2F152df2Wpgg",
-    "version" : "Latest",
-    "type" : "report"
-  }, {
-    "id" : "_SKFZkL7nEe2Tp51Rg-mrag",
-    "version" : "Latest",
-    "type" : "report"
+    "type" : "context"
   } ]
 }, {
   "baseItem" : {
