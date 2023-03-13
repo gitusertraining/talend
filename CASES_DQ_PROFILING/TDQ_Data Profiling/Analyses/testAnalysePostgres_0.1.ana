@@ -10,9 +10,7 @@
     <taggedValue xmi:id="_FPQz0r7lEe2F152df2Wpgg" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_FPQz077lEe2F152df2Wpgg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_FPT3IL7lEe2F152df2Wpgg" tag="Is Use Sample Data" value="true"/>
-    <context xmi:id="_BomPJr7lEe2F152df2Wpgg">
-      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
-    </context>
+    <context xmi:id="_BomPJr7lEe2F152df2Wpgg"/>
     <results xmi:id="_BomPJ77lEe2F152df2Wpgg">
       <resultMetadata xmi:id="_BomPKL7lEe2F152df2Wpgg" executionDate="2023-03-10T02:59:19.955+0100" executionDuration="38" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
     </results>
