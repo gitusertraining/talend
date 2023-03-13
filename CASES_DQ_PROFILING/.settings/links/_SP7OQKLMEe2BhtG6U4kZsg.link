@@ -20,16 +20,6 @@
       "name" : "PublicMarket1_File"
     } ]
   }, {
-    "contextName" : "TEST",
-    "repoId" : "",
-    "parameterList" : [ {
-      "id" : "_002A1cH6Ee2G7KhwCfI8QQ",
-      "name" : "Output_Directory"
-    }, {
-      "id" : "_002A1sH6Ee2G7KhwCfI8QQ",
-      "name" : "Output_FileName"
-    } ]
-  }, {
     "contextName" : "LOCAL",
     "repoId" : "_PwFnIJc5Ee2MxOCnI1FdOQ",
     "parameterList" : [ {
@@ -47,16 +37,6 @@
     }, {
       "id" : "_PwrdBZc5Ee2MxOCnI1FdOQ",
       "name" : "PublicMarket1_File"
-    } ]
-  }, {
-    "contextName" : "Default",
-    "repoId" : "",
-    "parameterList" : [ {
-      "id" : "_002A3sH6Ee2G7KhwCfI8QQ",
-      "name" : "Output_Directory"
-    }, {
-      "id" : "_002A38H6Ee2G7KhwCfI8QQ",
-      "name" : "Output_FileName"
     } ]
   }, {
     "contextName" : "Default",
