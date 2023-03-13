@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_GxIAoJWPEe2ioNrRA4S5ZQ" name="PublicMarket" supplierDependency="_FozbwJWREe2ioNrRA4S5ZQ" dataPackage="_GxIAoZWPEe2ioNrRA4S5ZQ" ContextMode="true" ContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" contextName="LOCAL" Server="Localhost 127.0.0.1" FilePath="context.PublicMarket1_File" Encoding="context.PublicMarket1_Encoding" FieldSeparatorValue="context.PublicMarket1_FieldSeparator" RowSeparatorValue="context.PublicMarket1_RowSeparator" UseHeader="true" HeaderValue="context.PublicMarket1_Header" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom UTF8">
+    <taggedValue xmi:id="_fuNfIJiWEe2kFNUFU__bbQ" tag="DB ProductName" value=""/>
+    <taggedValue xmi:id="_fuNfIZiWEe2kFNUFU__bbQ" tag="DB ProductVersion" value=""/>
+  </TalendMetadata:DelimitedFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GxIAoZWPEe2ioNrRA4S5ZQ" name="default" dataManager="_GxIAoJWPEe2ioNrRA4S5ZQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GxIAopWPEe2ioNrRA4S5ZQ" id="_6Kt5wJWOEe2ioNrRA4S5ZQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAo5WPEe2ioNrRA4S5ZQ" id="marketId" label="marketId" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_FozbwZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIApJWPEe2ioNrRA4S5ZQ" id="marketUrl" label="marketUrl" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C0JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIApZWPEe2ioNrRA4S5ZQ" id="externalId" label="externalId" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C0ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAppWPEe2ioNrRA4S5ZQ" id="applicationCode" label="applicationCode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C0pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAp5WPEe2ioNrRA4S5ZQ" id="name" label="name" length="172" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C05WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAqJWPEe2ioNrRA4S5ZQ" id="typeCode" label="typeCode" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C1JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAqZWPEe2ioNrRA4S5ZQ" id="statusCode" label="statusCode" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C1ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAqpWPEe2ioNrRA4S5ZQ" id="cpvCode" label="cpvCode" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C1pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAq5WPEe2ioNrRA4S5ZQ" id="procurementProcedureCode" label="procurementProcedureCode" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C15WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIArJWPEe2ioNrRA4S5ZQ" id="advertisingRequired" label="advertisingRequired" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C2JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIArZWPEe2ioNrRA4S5ZQ" id="advertisingLevelCode" label="advertisingLevelCode" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C2ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIArpWPEe2ioNrRA4S5ZQ" id="estimatedValue" label="estimatedValue" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C2pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAr5WPEe2ioNrRA4S5ZQ" id="duration" label="duration" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C25WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAsJWPEe2ioNrRA4S5ZQ" id="durationUnitCode" label="durationUnitCode" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C3JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAsZWPEe2ioNrRA4S5ZQ" id="durationDays" label="durationDays" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C3ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAspWPEe2ioNrRA4S5ZQ" id="socialService" label="socialService" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C3pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAs5WPEe2ioNrRA4S5ZQ" id="urgent" label="urgent" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C35WREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAtJWPEe2ioNrRA4S5ZQ" id="prioriInformationNotice" label="prioriInformationNotice" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C4JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAtZWPEe2ioNrRA4S5ZQ" id="publicationDeadlineDays" label="publicationDeadlineDays" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C4ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAtpWPEe2ioNrRA4S5ZQ" id="tendersValidityPeriodDays" label="tendersValidityPeriodDays" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C4pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAt5WPEe2ioNrRA4S5ZQ" id="marketSubjectedToDmlm" label="marketSubjectedToDmlm" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C45WREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAuJWPEe2ioNrRA4S5ZQ" id="approvedDmlm" label="approvedDmlm" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C5JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAuZWPEe2ioNrRA4S5ZQ" id="jointProcurement" label="jointProcurement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C5ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAupWPEe2ioNrRA4S5ZQ" id="repeatingMarket" label="repeatingMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C5pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAu5WPEe2ioNrRA4S5ZQ" id="renewableMarket" label="renewableMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C55WREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAvJWPEe2ioNrRA4S5ZQ" id="frameworkAgreement" label="frameworkAgreement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C6JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAvZWPEe2ioNrRA4S5ZQ" id="optionsMarket" label="optionsMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C6ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAvpWPEe2ioNrRA4S5ZQ" id="variantsMarket" label="variantsMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C6pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAv5WPEe2ioNrRA4S5ZQ" id="centralPurchasing" label="centralPurchasing" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C65WREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAwJWPEe2ioNrRA4S5ZQ" id="coFinancedMarket" label="coFinancedMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C7JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAwZWPEe2ioNrRA4S5ZQ" id="slicedMarket" label="slicedMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C7ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAwpWPEe2ioNrRA4S5ZQ" id="reservedMarket" label="reservedMarket" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C7pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Other"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAw5WPEe2ioNrRA4S5ZQ" id="managementService_id" label="managementService_id" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C75WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAxJWPEe2ioNrRA4S5ZQ" id="managementService_description1" label="managementService_description1" length="72" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C8JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAxZWPEe2ioNrRA4S5ZQ" id="contractionauthorityid" label="contractionauthorityid" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C8ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAxpWPEe2ioNrRA4S5ZQ" id="contractionauthority_description1" label="contractionauthority_description1" length="66" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C8pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAx5WPEe2ioNrRA4S5ZQ" id="department_id" label="department_id" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C85WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAyJWPEe2ioNrRA4S5ZQ" id="department_description1" label="department_description1" length="72" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C9JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAyZWPEe2ioNrRA4S5ZQ" id="lotId" label="lotId" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C9ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAypWPEe2ioNrRA4S5ZQ" id="lotExternalId" label="lotExternalId" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C9pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAy5WPEe2ioNrRA4S5ZQ" id="name1" label="name1" length="172" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C95WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAzJWPEe2ioNrRA4S5ZQ" id="lotStatusCode" label="lotStatusCode" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C-JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAzZWPEe2ioNrRA4S5ZQ" id="estimatedAmount" label="estimatedAmount" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C-ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAzpWPEe2ioNrRA4S5ZQ" id="successfullBidderBce" label="successfullBidderBce" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C-pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIAz5WPEe2ioNrRA4S5ZQ" id="successfullBidderName" label="successfullBidderName" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C-5WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA0JWPEe2ioNrRA4S5ZQ" id="jointLot" label="jointLot" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C_JWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA0ZWPEe2ioNrRA4S5ZQ" id="cpvCode1" label="cpvCode1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C_ZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA0pWPEe2ioNrRA4S5ZQ" id="guarantee" label="guarantee" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C_pWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA05WPEe2ioNrRA4S5ZQ" id="optionsLot" label="optionsLot" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0C_5WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA1JWPEe2ioNrRA4S5ZQ" id="freeOptionsAllowed" label="freeOptionsAllowed" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0DAJWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA1ZWPEe2ioNrRA4S5ZQ" id="variantsLot" label="variantsLot" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0DAZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA1pWPEe2ioNrRA4S5ZQ" id="freeVariantsAllowed" label="freeVariantsAllowed" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0DApWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA15WPEe2ioNrRA4S5ZQ" id="repeatingLot" label="repeatingLot" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0DA5WREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA2JWPEe2ioNrRA4S5ZQ" id="renewableLot" label="renewableLot" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0DBJWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GxIA2ZWPEe2ioNrRA4S5ZQ" id="awardCriteriaCode" label="awardCriteriaCode" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_Fo0DBZWREe2ioNrRA4S5ZQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dvXM0JiWEe2kFNUFU__bbQ" name="desription" id="desription" label="desription" talendType="id_String">
+        <taggedValue xmi:id="_2d1i1pjEEe2kFNUFU__bbQ" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d1S1sJiWEe2kFNUFU__bbQ" name="description1" id="description1" label="description1" talendType="id_String">
+        <taggedValue xmi:id="_2d1i3ZjEEe2kFNUFU__bbQ" tag="Content Type" value="Nominal"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_FozbwJWREe2ioNrRA4S5ZQ" kind="Usage" supplier="_GxIAoJWPEe2ioNrRA4S5ZQ">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/publicmarket_V3_0.1.ana#_kIJrXaLLEe2BhtG6U4kZsg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

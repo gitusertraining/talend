@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
   <dataquality.domain.pattern:Pattern xmi:id="_0_J_4IyeEd6Dle_8xC0lwg" name="Website validation" supplierDependency="_G5BuEMHyEe2VedXXR3WPKQ">
     <taggedValue xmi:id="_0_J_4YyeEd6Dle_8xC0lwg" tag="Author" value="Viktor Nagy"/>
     <taggedValue xmi:id="_0_J_4oyeEd6Dle_8xC0lwg" tag="Description" value="This will validate most legal websites, including ftp."/>
@@ -13,5 +13,7 @@
       <expression xmi:id="_rY68gZjHEe2kFNUFU__bbQ" body="'^https://ariane.spw.test.wallonie.be/#/marches/[0-9]{4}-[A-Z]|[0-9]|[a-z]{9}-[0-9]{4}$'" language="Java" modificationDate="2023-01-20 14:38:01"/>
     </components>
   </dataquality.domain.pattern:Pattern>
-  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_G5BuEMHyEe2VedXXR3WPKQ" kind="Usage" supplier="_0_J_4IyeEd6Dle_8xC0lwg"/>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_G5BuEMHyEe2VedXXR3WPKQ" kind="Usage" supplier="_0_J_4IyeEd6Dle_8xC0lwg">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/publicmarket_V3_0.1.ana#_kIJrXaLLEe2BhtG6U4kZsg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
