@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_kIJrXaLLEe2BhtG6U4kZsg" name="publicmarket_V3" supplierDependency="__8jmbaLLEe2BhtG6U4kZsg" creationDate="2023-02-02T08:31:09.634+0100" defaultContext="LOCAL">
     <taggedValue xmi:id="_kIJrXqLLEe2BhtG6U4kZsg" tag="Status" value="development"/>
-    <taggedValue xmi:id="_kIJrX6LLEe2BhtG6U4kZsg" tag="Author" value="geoffrey.canon.ext@spw.wallonie.be"/>
+    <taggedValue xmi:id="_kIJrX6LLEe2BhtG6U4kZsg" tag="Author" value="tacuserDQ@talend.com"/>
     <taggedValue xmi:id="_kIJrYKLLEe2BhtG6U4kZsg" tag="Purpose" value=""/>
     <taggedValue xmi:id="_kIJrYaLLEe2BhtG6U4kZsg" tag="Description" value=""/>
     <taggedValue xmi:id="_kIJrYqLLEe2BhtG6U4kZsg" tag="Version" value="0.1"/>
@@ -10,9 +10,7 @@
     <taggedValue xmi:id="_7ROd7aLLEe2BhtG6U4kZsg" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_7RPE8KLLEe2BhtG6U4kZsg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_7RPE9aLLEe2BhtG6U4kZsg" tag="Is Use Sample Data" value="false"/>
-    <context xmi:id="_kIJrY6LLEe2BhtG6U4kZsg">
-      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
-    </context>
+    <context xmi:id="_kIJrY6LLEe2BhtG6U4kZsg"/>
     <results xmi:id="_kIJrZKLLEe2BhtG6U4kZsg">
       <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-03-14T01:06:54.442+0100" executionDuration="60" message="" executionNumber="10" lastRunOk="true" lastExecutionNumberOk="10"/>
     </results>
