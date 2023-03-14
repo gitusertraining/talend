@@ -69,6 +69,7 @@
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/publicmarket_V3_0.1.rep#_ctoMYMH-Ee2G7KhwCfI8QQ"/>
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/test_0.1.rep#_QjQEwMH_Ee2G7KhwCfI8QQ"/>
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/publicmarket_report_v3_0.1.rep#_yeFBXaLGEe2BhtG6U4kZsg"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test_report_0.1.rep#_dc_JncIFEe2G7KhwCfI8QQ"/>
   </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_7RPsAKLLEe2BhtG6U4kZsg" name="publicmarket_V3">
     <ranges xmi:id="_7RPsAaLLEe2BhtG6U4kZsg">
