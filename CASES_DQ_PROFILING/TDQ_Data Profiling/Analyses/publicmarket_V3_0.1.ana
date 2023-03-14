@@ -53,7 +53,7 @@
     <contextType xmi:id="_7ROd4KLLEe2BhtG6U4kZsg" confirmationNeeded="false" name="TEST">
       <contextParameter xmi:id="_6oAkM51ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
       <contextParameter xmi:id="_6oAkMp1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
-      <contextParameter xmi:id="_6oAkNZ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/media/shared_folder/PublicMarket.csv"/>
+      <contextParameter xmi:id="_6oAkNZ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/media/sf_shared_folder/PublicMarket.csv"/>
       <contextParameter xmi:id="_6oAkMZ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
       <contextParameter xmi:id="_6oAkNJ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
     </contextType>
