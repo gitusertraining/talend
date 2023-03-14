@@ -57,6 +57,7 @@
   </dataquality.analysis:Analysis>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="__8jmbaLLEe2BhtG6U4kZsg" kind="Usage" supplier="_kIJrXaLLEe2BhtG6U4kZsg">
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/publicmarket_report_v3_0.1.rep#_yeFBXaLGEe2BhtG6U4kZsg"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/publicmarket_V3_0.1.rep#_ctoMYMH-Ee2G7KhwCfI8QQ"/>
   </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_7RPsAKLLEe2BhtG6U4kZsg" name="publicmarket_V3">
     <ranges xmi:id="_7RPsAaLLEe2BhtG6U4kZsg">
