@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_kIJrXaLLEe2BhtG6U4kZsg" name="publicmarket_V3" supplierDependency="__8jmbaLLEe2BhtG6U4kZsg" creationDate="2023-02-02T08:31:09.634+0100" defaultContext="LOCAL">
-    <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
-    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_I4ztYL7lEe2F152df2Wpgg"/>
-    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Website_validation_0.1.pattern#_G5BuEMHyEe2VedXXR3WPKQ"/>
     <taggedValue xmi:id="_kIJrXqLLEe2BhtG6U4kZsg" tag="Status" value="development"/>
     <taggedValue xmi:id="_kIJrX6LLEe2BhtG6U4kZsg" tag="Author" value="geoffrey.canon.ext@spw.wallonie.be"/>
     <taggedValue xmi:id="_kIJrYKLLEe2BhtG6U4kZsg" tag="Purpose" value=""/>
@@ -14,7 +11,6 @@
     <taggedValue xmi:id="_7RPE8KLLEe2BhtG6U4kZsg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_7RPE9aLLEe2BhtG6U4kZsg" tag="Is Use Sample Data" value="false"/>
     <context xmi:id="_kIJrY6LLEe2BhtG6U4kZsg">
-      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
     </context>
