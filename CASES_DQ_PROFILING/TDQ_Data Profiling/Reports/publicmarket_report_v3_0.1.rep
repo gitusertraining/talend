@@ -16,7 +16,7 @@
   <taggedValue xmi:id="_yeFBaqLGEe2BhtG6U4kZsg" tag="REP_DBINFO_DRIVER" value="org.postgresql.Driver"/>
   <taggedValue xmi:id="_yeFBa6LGEe2BhtG6U4kZsg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.PostgreSQLDialect"/>
   <taggedValue xmi:id="_yeFBbKLGEe2BhtG6U4kZsg" tag="REP_PASSWORD_CONTEXT" value="false"/>
-  <taggedValue xmi:id="_yeFBbaLGEe2BhtG6U4kZsg" tag="Author" value="geoffrey.canon.ext@spw.wallonie.be"/>
+  <taggedValue xmi:id="_yeFBbaLGEe2BhtG6U4kZsg" tag="Author" value="tacuserDQ@talend.com"/>
   <taggedValue xmi:id="_RlY1wKLHEe2BhtG6U4kZsg" tag="Purpose" value=""/>
   <taggedValue xmi:id="_RlY1waLHEe2BhtG6U4kZsg" tag="Description" value=""/>
   <taggedValue xmi:id="_RlY1wqLHEe2BhtG6U4kZsg" tag="Status" value="development"/>
