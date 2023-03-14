@@ -4,7 +4,7 @@
     <contextParameter comment="" internalId="_qSfDEMH_Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" internalId="_qSfDEcH_Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
     <contextParameter comment="" internalId="_qSfDEsH_Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" internalId="_qSfDE8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/mnt/share/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_qSfDE8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/media/shared_folder/PublicMarket.csv"/>
     <contextParameter comment="" internalId="_Wqo2lsH7Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
     <contextParameter comment="" internalId="_Wqo2lcH7Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
   </context>
@@ -22,7 +22,7 @@
     <contextParameter comment="" internalId="_qSfDGsH_Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" internalId="_qSfDG8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
     <contextParameter comment="" internalId="_qSfDHMH_Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" internalId="_qSfDHcH_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:\testnew\PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_qSfDHcH_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/media/shared_folder/PublicMarket.csv"/>
     <contextParameter comment="" internalId="_Wqo2n8H7Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
     <contextParameter comment="" internalId="_Wqo2nsH7Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:\Talend\talend_data\POC_DQ_PublicMarket\OUT\"/>
   </context>
@@ -69,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qjz3Xh26h26IFmnpoq8InP18ponaYeElmazUpxnA"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:4gZBLkc83aONKFiG4LWq/+A4KNetaAR19tp/G1eE"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -104,7 +104,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:DzZyaQsBoJUPh4dS77wedTIUD25Ds1QbRECf0q9q"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:fPaYkAs063o7PufgrjapjrQVyz8ajRSbTh4ifRcN"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -211,13 +211,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_30e79565-5df8-4e4b-98c2-c8f0407f18c7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9icw/fKxbuEhBPfNmChgAO6Vmjz0p42AgNLBBjzW1GjtipeKj8G5fgzgDTDRA8q0nCo+b2hA/DJO&#13;
-MgoIEDt7Hw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dd205bca-1b76-4cfd-a000-8a8baf17b7db"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zxRUo7frS//c/erXsVdet5FO2VMYf66RgykcBEmLXdg8wjSbWDRoi0mvcR9Hk/9gSAxXClhh8ZXI&#13;
-/6QcYo4wRw==</DigestValue></Reference></SignedInfo><SignatureValue>jxUHiKutfidyPyewr8no2FaiKY5ihUUI9sXQRm+1pGvqTlOIpQYSZC7mCUqd+bDmzQxs6Cly7xFV&#13;
-LeEtPz6oX7HRMchNPbhOqEzal84nE96m2Q1mSyI4M5/v9haAZocJkD+2sni1d4zKa3D+bNJuhUOX&#13;
-+zxve18uxxoDgnbwV0DIGHpvLtP+KIm7FyAB5tjYv7W79pCQRRD0gnxAlORsAmxtSzUmVVwenUhs&#13;
-kluo9GPDXMy724XC7PCte+O/TmZYJsXoUHfoXpNcP/MtdyfHl+Sx35fCkCArr+us/BGD83leTbt2&#13;
-QobA+lF9jwrCQU1YPON5GF2Bd45d7uZJMWsQzA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e3f8bd7a-8763-4b2b-8db3-b944d4a3b23c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nuPB2Ioo5P1BXQDLfxr1gi2O5fPyta7wLJts78WwYQbn9lygKPVCCEac7rO9aLzu4KEWvfyRKDDH&#13;
+p/j9IvFeXQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b67bbc8c-2d73-48b3-940f-c9ddff3988a4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aP8GnXMeAVar6MgxxuH1Q05PjyS/0sUUfCleaSFz96cK/4iqriofX1OAnY15G/x6BIT6v7C7F4Vt&#13;
+CXrh2Dfp+Q==</DigestValue></Reference></SignedInfo><SignatureValue>jQC6dYqO0WJeiykQYWoQqJNMj3SSD2M6JwoDVoJNLLazJ1WK6wvt1wbVGvwSbONfTfY8UYLvtQWj&#13;
+bEDfxF7WfRvUEFnB5yq6u/TRUoNsxIauiC+PrHTccDMMV2WEy+mY9osnW1mQLWW0KLiXQ2MSkfQo&#13;
+qzcEJ3olJTgYxy7jJU7ZjhVKekI8rRMZDgGl0XhFgpHRoI/cspMS8GtvipMQWfke4xNQlMqXejNq&#13;
+M/2BPuEbTHi0nc0Ot3BYipewd3pu5uk2xlTw0dQ7wXaOLGSb8DDw+T1cI09iIDClqBSYmVLajQf0&#13;
+ubwfud+gn04dM2adUnt7eApElm1ShsAUfZhp8w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -239,4 +239,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dd205bca-1b76-4cfd-a000-8a8baf17b7db" Target="#_30e79565-5df8-4e4b-98c2-c8f0407f18c7"><Timestamp>2023-03-14 00:44:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b67bbc8c-2d73-48b3-940f-c9ddff3988a4" Target="#_e3f8bd7a-8763-4b2b-8db3-b944d4a3b23c"><Timestamp>2023-03-14 00:48:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
