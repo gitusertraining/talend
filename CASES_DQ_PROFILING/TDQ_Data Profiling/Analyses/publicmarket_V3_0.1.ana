@@ -19,7 +19,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
     </context>
     <results xmi:id="_kIJrZKLLEe2BhtG6U4kZsg">
-      <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-03-14T01:22:21.292+0100" executionDuration="16" message="" executionNumber="11" lastRunOk="true" lastExecutionNumberOk="11"/>
+      <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-03-14T01:22:49.653+0100" executionDuration="19" message="" executionNumber="12" lastRunOk="true" lastExecutionNumberOk="12"/>
       <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_OvpOkMH-Ee2G7KhwCfI8QQ" name="Email Address" count="1" computed="true" inValidRow="true" notMatchingValueCount="1">
         <parameters xmi:id="_OvpOkcH-Ee2G7KhwCfI8QQ">
           <dataValidDomain xmi:id="_OvpOksH-Ee2G7KhwCfI8QQ">
