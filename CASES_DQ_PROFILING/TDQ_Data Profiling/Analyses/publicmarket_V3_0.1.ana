@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_kIJrXaLLEe2BhtG6U4kZsg" name="publicmarket_V3" supplierDependency="__8jmbaLLEe2BhtG6U4kZsg" creationDate="2023-02-02T08:31:09.634+0100" defaultContext="LOCAL">
+    <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_I4ztYL7lEe2F152df2Wpgg"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_LoN58L7lEe2F152df2Wpgg"/>
     <taggedValue xmi:id="_kIJrXqLLEe2BhtG6U4kZsg" tag="Status" value="development"/>
     <taggedValue xmi:id="_kIJrX6LLEe2BhtG6U4kZsg" tag="Author" value="tacuserDQ@talend.com"/>
     <taggedValue xmi:id="_kIJrYKLLEe2BhtG6U4kZsg" tag="Purpose" value=""/>
@@ -10,9 +13,31 @@
     <taggedValue xmi:id="_7ROd7aLLEe2BhtG6U4kZsg" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_7RPE8KLLEe2BhtG6U4kZsg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_7RPE9aLLEe2BhtG6U4kZsg" tag="Is Use Sample Data" value="false"/>
-    <context xmi:id="_kIJrY6LLEe2BhtG6U4kZsg"/>
+    <context xmi:id="_kIJrY6LLEe2BhtG6U4kZsg">
+      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
+    </context>
     <results xmi:id="_kIJrZKLLEe2BhtG6U4kZsg">
-      <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-03-14T01:06:54.442+0100" executionDuration="60" message="" executionNumber="10" lastRunOk="true" lastExecutionNumberOk="10"/>
+      <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-03-14T01:22:21.292+0100" executionDuration="16" message="" executionNumber="11" lastRunOk="true" lastExecutionNumberOk="11"/>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_OvpOkMH-Ee2G7KhwCfI8QQ" name="Email Address" count="1" computed="true" inValidRow="true" notMatchingValueCount="1">
+        <parameters xmi:id="_OvpOkcH-Ee2G7KhwCfI8QQ">
+          <dataValidDomain xmi:id="_OvpOksH-Ee2G7KhwCfI8QQ">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_SMjaUMH-Ee2G7KhwCfI8QQ" name="Blank text" count="1" computed="true" inValidRow="true" notMatchingValueCount="1">
+        <parameters xmi:id="_SMjaUcH-Ee2G7KhwCfI8QQ">
+          <dataValidDomain xmi:id="_SMjaUsH-Ee2G7KhwCfI8QQ">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+      </indicators>
     </results>
     <parameters xmi:id="_kIJrZqLLEe2BhtG6U4kZsg" dataFilter="_7RPsAKLLEe2BhtG6U4kZsg" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_7ROd4KLLEe2BhtG6U4kZsg" confirmationNeeded="false" name="TEST">
