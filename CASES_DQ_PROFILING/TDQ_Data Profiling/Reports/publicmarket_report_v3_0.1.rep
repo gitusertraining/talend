@@ -40,21 +40,28 @@
   </analysisMap>
   <ExecInformations xmi:id="_Sxif0KLHEe2BhtG6U4kZsg" executionDate="2023-02-02T10:20:18.033+0100" executionDuration="1820" executionNumber="8" lastRunOk="true" lastExecutionNumberOk="8"/>
   <context xmi:id="_RlaD4qLHEe2BhtG6U4kZsg" confirmationNeeded="false" name="Default">
-    <contextParameter xmi:id="_kMWFMpcTEe2MxOCnI1FdOQ" comment="" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="_kATNQJcTEe2MxOCnI1FdOQ" type="id_String" value="D:\Talend\talend_data\POC_DQ_PublicMarket\OUT\"/>
-    <contextParameter xmi:id="_kMWFMZcTEe2MxOCnI1FdOQ" comment="" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="_kATNQJcTEe2MxOCnI1FdOQ" type="id_String" value="report_publicMarket_v3"/>
+    <contextParameter xmi:id="_kMWFMpcTEe2MxOCnI1FdOQ" comment="" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:\Talend\talend_data\POC_DQ_PublicMarket\OUT\"/>
+    <contextParameter xmi:id="_kMWFMZcTEe2MxOCnI1FdOQ" comment="" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
     <contextParameter xmi:id="_PwrdA5c5Ee2MxOCnI1FdOQ" comment="" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
     <contextParameter xmi:id="_PwrdApc5Ee2MxOCnI1FdOQ" comment="" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter xmi:id="_PwrdBZc5Ee2MxOCnI1FdOQ" comment="" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="D:/Talend/talend_data/POC_DQ_PublicMarket/OUT/PublicMarket.csv"/>
+    <contextParameter xmi:id="_PwrdBZc5Ee2MxOCnI1FdOQ" comment="" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:/testnew/PublicMarket.csv"/>
     <contextParameter xmi:id="_PwrdAZc5Ee2MxOCnI1FdOQ" comment="" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
     <contextParameter xmi:id="_PwrdBJc5Ee2MxOCnI1FdOQ" comment="" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
   </context>
   <context xmi:id="_RlaD6qLHEe2BhtG6U4kZsg" confirmationNeeded="false" name="TEST">
-    <contextParameter xmi:id="_JWr5gqLIEe2BhtG6U4kZsg" comment="" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="_kATNQJcTEe2MxOCnI1FdOQ" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
-    <contextParameter xmi:id="_JWr5gaLIEe2BhtG6U4kZsg" comment="" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="_kATNQJcTEe2MxOCnI1FdOQ" type="id_String" value="report_publicMarket_v3"/>
+    <contextParameter xmi:id="_JWr5gqLIEe2BhtG6U4kZsg" comment="" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
+    <contextParameter xmi:id="_JWr5gaLIEe2BhtG6U4kZsg" comment="" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
     <contextParameter xmi:id="_6oAkM51ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
     <contextParameter xmi:id="_6oAkMp1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
     <contextParameter xmi:id="_6oAkNZ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/mnt/share/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
     <contextParameter xmi:id="_6oAkMZ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
     <contextParameter xmi:id="_6oAkNJ1ZEe2ivu0L3H-sWw" comment="" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
+  </context>
+  <context xmi:id="_-977QMH7Ee2G7KhwCfI8QQ" confirmationNeeded="false" name="LOCAL">
+    <contextParameter xmi:id="_-977QcH7Ee2G7KhwCfI8QQ" comment="" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_-977QsH7Ee2G7KhwCfI8QQ" comment="" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter xmi:id="_-977Q8H7Ee2G7KhwCfI8QQ" comment="" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_-977RMH7Ee2G7KhwCfI8QQ" comment="" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_-977RcH7Ee2G7KhwCfI8QQ" comment="" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:/testnew/PublicMarket.csv"/>
   </context>
 </dataquality.reports:TdReport>
