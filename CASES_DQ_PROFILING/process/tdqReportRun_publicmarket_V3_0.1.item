@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="TEST">
-    <contextParameter comment="" internalId="_002A0MH6Ee2G7KhwCfI8QQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
-    <contextParameter comment="" internalId="_002A0cH6Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" internalId="_002A0sH6Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
-    <contextParameter comment="" internalId="_002A08H6Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" internalId="_002A1MH6Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/mnt/share/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
-    <contextParameter comment="" internalId="_002A1cH6Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
+    <contextParameter comment="" internalId="_I1RFYMH_Ee2G7KhwCfI8QQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_I1RFYcH_Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" internalId="_I1RFYsH_Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_I1RFY8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_I1RFZMH_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="/mnt/share/talend_data/POC_DQ_PublicMarket/WORK/PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_I1RFZcH_Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
+    <contextParameter comment="" internalId="_I1RFZsH_Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="" type="id_String" value="report_publicMarket_v3"/>
     <contextParameter comment="" internalId="_002A1sH6Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
+    <contextParameter comment="" internalId="_002A1cH6Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/mnt/share/talend_data/POC_DQ_PublicMarket/OUT/"/>
   </context>
   <context confirmationNeeded="false" name="LOCAL">
-    <contextParameter comment="" internalId="_002A18H6Ee2G7KhwCfI8QQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
-    <contextParameter comment="" internalId="_002A2MH6Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" internalId="_002A2cH6Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
-    <contextParameter comment="" internalId="_002A2sH6Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" internalId="_002A28H6Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:/testnew/PublicMarket.csv"/>
-    <contextParameter comment="" internalId="_002A3MH6Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/testnew/"/>
+    <contextParameter comment="" internalId="_I1RFZ8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_I1RFaMH_Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" internalId="_I1RFacH_Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_I1RFasH_Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_I1RFa8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:/testnew/PublicMarket.csv"/>
     <contextParameter comment="" internalId="_002A3cH6Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
+    <contextParameter comment="" internalId="_002A3MH6Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/testnew/"/>
   </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_002A3sH6Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/testnew/"/>
+    <contextParameter comment="" internalId="_I1RFbMH_Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="" type="id_String" value="D:\Talend\talend_data\POC_DQ_PublicMarket\OUT\"/>
+    <contextParameter comment="" internalId="_I1RFbcH_Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="" type="id_String" value="report_publicMarket_v3"/>
+    <contextParameter comment="" internalId="_I1RFbsH_Ee2G7KhwCfI8QQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_I1RFb8H_Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" internalId="_I1RFcMH_Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_I1RFccH_Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_I1RFcsH_Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:/testnew/PublicMarket.csv"/>
     <contextParameter comment="" internalId="_002A38H6Ee2G7KhwCfI8QQ" name="Output_FileName" prompt="Output_FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="report_publicMarket_v3"/>
-    <contextParameter comment="" internalId="_002A4MH6Ee2G7KhwCfI8QQ" name="PublicMarket1_Header" prompt="PublicMarket1_Header?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_Integer" value="1"/>
-    <contextParameter comment="" internalId="_002A4cH6Ee2G7KhwCfI8QQ" name="PublicMarket1_FieldSeparator" prompt="PublicMarket1_FieldSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" internalId="_002A4sH6Ee2G7KhwCfI8QQ" name="PublicMarket1_Encoding" prompt="PublicMarket1_Encoding?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="UTF-8"/>
-    <contextParameter comment="" internalId="_002A48H6Ee2G7KhwCfI8QQ" name="PublicMarket1_RowSeparator" prompt="PublicMarket1_RowSeparator?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" internalId="_002A5MH6Ee2G7KhwCfI8QQ" name="PublicMarket1_File" prompt="PublicMarket1_File?" promptNeeded="false" repositoryContextId="_PwFnIJc5Ee2MxOCnI1FdOQ" type="id_File" value="C:/testnew/PublicMarket.csv"/>
+    <contextParameter comment="" internalId="_002A3sH6Ee2G7KhwCfI8QQ" name="Output_Directory" prompt="Output_Directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/testnew/"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
@@ -70,7 +74,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Qhn4Q/x9+jW7+j/rHVnfa4W8hH2GEOix/a972hOA"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qttAIEsAMMC9SBiEL0K1XHZy8ANoBYbASXr09ZWe"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -105,7 +109,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1QpGRGlbzMMM4+36cPFQZ+xiWp967+Q5SO0AC9ZH"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:+MeXoVTea5q635l8UoLvbpe3MfgI8iwJOlVJQASO"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -212,13 +216,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8f92213b-f66e-4773-b877-b0a90e7a6f3b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5lwAvbExNtkUOqA99B7AgeT6tc74+G/jgT+G71ST1CCR6jGvATomVQgD5yX27O7MNlWiLED349wv&#13;
-KYesyRe29g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3a2eaa34-7ae5-4a51-a5d5-53a8b96ead03"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UcB22qD4G6LtwgqPL8xyTciR7Fit4g6rJYP0V7aAOS1I39cGltZvos2wK6v68fGMGanETrMamJoT&#13;
-9hO+bIRd4g==</DigestValue></Reference></SignedInfo><SignatureValue>BOOpaib17ccU8tZBroHeNJQfp4YjpUbbfdg1p0Vh341s7vMLq+o5tpaqKMU2eKDjVUhKKT7USryf&#13;
-J89H8RgtK6bTUIZvB216YwEUMtACr24J1GzDEZzUkBjEzGyuC5RNzJCGGLVUweeHjXW0s2/TpoCn&#13;
-8Ki9IwdWd1TT0tYpNqgT+Ygnq1fTM0OdUVCYduBIqtrAdUVpo8xG4u0fWdETXnEowS/TSwVJ86kE&#13;
-zV5QeedAFbIePG8A3wQIr5H+Zts3eYyy9gG9iVC0csETTwy3GAOYzMijs1CWKA4GyfZs/G2AfiI7&#13;
-s+qneIXi9IMA/BdmJnmK6TB5+qmvOkT4YB/f7w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cef58b33-ee71-4aa6-900c-afba3a379b5b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>egMP4Bf+Wmjs6Alo4g2ePqnYy1f7G7jWVfPXSr6t/SkS4WJIchGV1+qyHUqu3uiV8x1tu1L2u1ec&#13;
+owMGyTR3jw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dbd915c5-0350-4831-902b-2e9055dd46eb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dDwzQOSMbq92gWlIuMl+6dEqr51PAdUvLPeyjlLUUFl4KnJpWaPsM+Yg+PuHa5LMz2PJ4YiKA8D4&#13;
+L2kXAa25XA==</DigestValue></Reference></SignedInfo><SignatureValue>lswPl5k+wObYKHxlTxOmamyhO4wSgqlN8CwFg/Z+u/m0w1iQrYwZk4S1EVWCbrl3Wf7GBm4G6PJr&#13;
+a5ZzZNyXkj2cdEUZDyVDGaaQJsd614jbOwIutYeLoBLtURDPWmMWhPShMVwIZiJocHFHIibg+9LD&#13;
+QkrfuDcr/2FoE+c3OJWjD8dzMT25OmdTe6HdZHw3nlBYGk0aOQllpPIL9y85A577JZyZFZBFLvZ3&#13;
+CGXV2aU3+wieT9C6orhE+H8bspMkok+rRms4TGir5DDglFXoR9Gz+v3FfR400ZBwdZUqMyEnglbU&#13;
+xfuimJxFYOCPuo3rDYm1VDEY6+6zlWGuuZl5iA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -240,4 +244,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3a2eaa34-7ae5-4a51-a5d5-53a8b96ead03" Target="#_8f92213b-f66e-4773-b877-b0a90e7a6f3b"><Timestamp>2023-03-14 00:13:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dbd915c5-0350-4831-902b-2e9055dd46eb" Target="#_cef58b33-ee71-4aa6-900c-afba3a379b5b"><Timestamp>2023-03-14 00:28:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
