@@ -19,8 +19,8 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
     </context>
     <results xmi:id="_kIJrZKLLEe2BhtG6U4kZsg">
-      <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-02-02T11:26:05.852+0100" executionDuration="73" message="" executionNumber="9" lastRunOk="true" lastExecutionNumberOk="9"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_7RPE8aLLEe2BhtG6U4kZsg" count="76" computed="true">
+      <resultMetadata xmi:id="_kIJrZaLLEe2BhtG6U4kZsg" executionDate="2023-03-14T01:06:54.442+0100" executionDuration="60" message="" executionNumber="10" lastRunOk="true" lastExecutionNumberOk="10"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_7RPE8aLLEe2BhtG6U4kZsg" count="1" computed="true">
         <parameters xmi:id="_7RPE8qLLEe2BhtG6U4kZsg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -30,7 +30,7 @@
           <sqlGenericExpression xmi:id="_7z4fA6LLEe2BhtG6U4kZsg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_7RPE86LLEe2BhtG6U4kZsg" count="76" computed="true" distinctValueCount="76">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_7RPE86LLEe2BhtG6U4kZsg" count="1" computed="true" distinctValueCount="1">
         <parameters xmi:id="_7RPE9KLLEe2BhtG6U4kZsg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -40,7 +40,7 @@
           <sqlGenericExpression xmi:id="_70Bo86LLEe2BhtG6U4kZsg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_3Xb1sKXoEe2K1d71eIXwHg" name="Email Address">
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_3Xb1sKXoEe2K1d71eIXwHg" name="Email Address" count="1" computed="true" inValidRow="true" notMatchingValueCount="1">
         <parameters xmi:id="_3Xb1saXoEe2K1d71eIXwHg">
           <dataValidDomain xmi:id="_3Xb1sqXoEe2K1d71eIXwHg">
             <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
@@ -49,7 +49,7 @@
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_04YPAKLXEe2BhtG6U4kZsg" count="76" computed="true">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_04YPAKLXEe2BhtG6U4kZsg" count="1" computed="true">
         <parameters xmi:id="_04YPAaLXEe2BhtG6U4kZsg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -59,7 +59,7 @@
           <sqlGenericExpression xmi:id="_zyZ-E6LaEe2BhtG6U4kZsg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_04YPAqLXEe2BhtG6U4kZsg" count="76" computed="true" uniqueValueCount="76">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_04YPAqLXEe2BhtG6U4kZsg" count="1" computed="true" uniqueValueCount="1">
         <parameters xmi:id="_04YPA6LXEe2BhtG6U4kZsg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -75,7 +75,7 @@
           <sqlGenericExpression xmi:id="_zzEFaaLaEe2BhtG6U4kZsg" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_04YPBKLXEe2BhtG6U4kZsg" count="76" computed="true" duplicateValueCount="0">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_04YPBKLXEe2BhtG6U4kZsg" count="1" computed="true" duplicateValueCount="0">
         <parameters xmi:id="_04YPBaLXEe2BhtG6U4kZsg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -91,7 +91,7 @@
           <sqlGenericExpression xmi:id="_zzXAWaLaEe2BhtG6U4kZsg" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_04YPBqLXEe2BhtG6U4kZsg" count="76" computed="true">
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_04YPBqLXEe2BhtG6U4kZsg" count="1" computed="true">
         <parameters xmi:id="_04YPB6LXEe2BhtG6U4kZsg"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
@@ -105,7 +105,7 @@
           <sqlGenericExpression xmi:id="_zzgxV6LaEe2BhtG6U4kZsg" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_JTOlwKLcEe2BhtG6U4kZsg" name="Website validation" count="76" computed="true" validRow="true" matchingValueCount="76">
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_JTOlwKLcEe2BhtG6U4kZsg" name="Website validation" count="1" computed="true" validRow="true" matchingValueCount="1">
         <parameters xmi:id="_JTOlwaLcEe2BhtG6U4kZsg">
           <dataValidDomain xmi:id="_JTOlwqLcEe2BhtG6U4kZsg">
             <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Website_validation_0.1.pattern#_0_J_4IyeEd6Dle_8xC0lwg"/>
