@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_Ijb1gMkFEe2Bja_gRMg3HA" name="test5" creationDate="2023-03-22T23:58:59.856+0100">
+  <clientDependency href="../Analyses/test5_0.1.ana#_IjeRwMkFEe2Bja_gRMg3HA"/>
+  <taggedValue xmi:id="_Ijb1gckFEe2Bja_gRMg3HA" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_Ijb1gskFEe2Bja_gRMg3HA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_Ijb1g8kFEe2Bja_gRMg3HA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_Ijb1hMkFEe2Bja_gRMg3HA" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_Ijb1hckFEe2Bja_gRMg3HA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_Ijb1hskFEe2Bja_gRMg3HA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_Ijb1h8kFEe2Bja_gRMg3HA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_Ijb1iMkFEe2Bja_gRMg3HA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_Ijb1ickFEe2Bja_gRMg3HA" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_Ijb1iskFEe2Bja_gRMg3HA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:yfI8WIpRQBBUiHgI4cGJafgqRFSagtkx+9/U6g=="/>
+  <taggedValue xmi:id="_Ijb1i8kFEe2Bja_gRMg3HA" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_Ijb1jMkFEe2Bja_gRMg3HA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Users\nrehman\ws801\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_Ijb1jckFEe2Bja_gRMg3HA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_Ijb1jskFEe2Bja_gRMg3HA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_Ijb1j8kFEe2Bja_gRMg3HA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_Ijb1kMkFEe2Bja_gRMg3HA" tag="Author" value="tacuserDQ@talend.com"/>
+  <analysisMap xmi:id="_Ijb1kckFEe2Bja_gRMg3HA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/test5_0.1.ana#_g_3aEMkDEe2o4P4dNY8SWg"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
