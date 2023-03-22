@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_nUezj8kDEe2o4P4dNY8SWg" name="publicmarket_V3_test5" creationDate="2023-03-22T23:48:07.358+0100">
+  <clientDependency href="../Analyses/publicmarket_V3_0.1.ana#__8jmbaLLEe2BhtG6U4kZsg"/>
+  <taggedValue xmi:id="_nUezkMkDEe2o4P4dNY8SWg" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_nUezkckDEe2o4P4dNY8SWg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_nUezkskDEe2o4P4dNY8SWg" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_nUezk8kDEe2o4P4dNY8SWg" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_nUezlMkDEe2o4P4dNY8SWg" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_nUezlckDEe2o4P4dNY8SWg" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_nUezlskDEe2o4P4dNY8SWg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_nUezl8kDEe2o4P4dNY8SWg" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_nUezmMkDEe2o4P4dNY8SWg" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_nUezmckDEe2o4P4dNY8SWg" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:ocAjcf5F/7JBzraJRvbaViN5e1GUssUlNDWjvg=="/>
+  <taggedValue xmi:id="_nUezmskDEe2o4P4dNY8SWg" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_nUezm8kDEe2o4P4dNY8SWg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Users\nrehman\ws801\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_nUeznMkDEe2o4P4dNY8SWg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_nUeznckDEe2o4P4dNY8SWg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_nUeznskDEe2o4P4dNY8SWg" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_nUezn8kDEe2o4P4dNY8SWg" tag="Author" value="tacuserDQ@talend.com"/>
+  <analysisMap xmi:id="_nUezoMkDEe2o4P4dNY8SWg" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/publicmarket_V3_0.1.ana#_kIJrXaLLEe2BhtG6U4kZsg"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
