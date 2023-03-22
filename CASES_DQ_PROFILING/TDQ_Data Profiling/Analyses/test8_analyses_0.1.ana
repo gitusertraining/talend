@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_XSZvuMkGEe2fXpf2dP8Jfg" name="test8_analyses" creationDate="2023-03-23T00:07:48.158+0100">
-  <taggedValue xmi:id="_XSZvuckGEe2fXpf2dP8Jfg" tag="Status" value="development"/>
-  <taggedValue xmi:id="_XSZvuskGEe2fXpf2dP8Jfg" tag="Author" value="tacuserDQ@talend.com"/>
-  <taggedValue xmi:id="_XSZvu8kGEe2fXpf2dP8Jfg" tag="Purpose"/>
-  <taggedValue xmi:id="_XSZvvMkGEe2fXpf2dP8Jfg" tag="Description"/>
-  <taggedValue xmi:id="_XSZvvckGEe2fXpf2dP8Jfg" tag="Version" value="0.1"/>
-  <context xmi:id="_XSZvvskGEe2fXpf2dP8Jfg"/>
-  <results xmi:id="_XSZvv8kGEe2fXpf2dP8Jfg">
-    <resultMetadata xmi:id="_XSZvwMkGEe2fXpf2dP8Jfg"/>
-  </results>
-  <parameters xmi:id="_XSZvwckGEe2fXpf2dP8Jfg" analysisType="Multiple Column Analysis"/>
-</dataquality.analysis:Analysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_XSZvuMkGEe2fXpf2dP8Jfg" name="test8_analyses" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
+    <taggedValue xmi:id="_XSZvuckGEe2fXpf2dP8Jfg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_XSZvuskGEe2fXpf2dP8Jfg" tag="Author" value="tacuserDQ@talend.com"/>
+    <taggedValue xmi:id="_XSZvu8kGEe2fXpf2dP8Jfg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_XSZvvMkGEe2fXpf2dP8Jfg" tag="Description" value=""/>
+    <taggedValue xmi:id="_XSZvvckGEe2fXpf2dP8Jfg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_b1Yx4ckGEe2fXpf2dP8Jfg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_b1Yx4skGEe2fXpf2dP8Jfg" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_b1ZY8MkGEe2fXpf2dP8Jfg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_b1ZY8ckGEe2fXpf2dP8Jfg" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_XSZvvskGEe2fXpf2dP8Jfg">
+      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
+    </context>
+    <results xmi:id="_XSZvv8kGEe2fXpf2dP8Jfg">
+      <resultMetadata xmi:id="_XSZvwMkGEe2fXpf2dP8Jfg"/>
+    </results>
+    <parameters xmi:id="_XSZvwckGEe2fXpf2dP8Jfg" dataFilter="_b7HndMkGEe2fXpf2dP8Jfg" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
+    <contextType xmi:id="_b1Yx4MkGEe2fXpf2dP8Jfg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_b7HndMkGEe2fXpf2dP8Jfg" name="test8_analyses">
+    <ranges xmi:id="_b7HndckGEe2fXpf2dP8Jfg">
+      <expressions xmi:id="_b7HndskGEe2fXpf2dP8Jfg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_b7Hnd8kGEe2fXpf2dP8Jfg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
