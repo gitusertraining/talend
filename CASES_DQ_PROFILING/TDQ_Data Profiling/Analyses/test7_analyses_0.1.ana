@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_67dHcMkFEe2fXpf2dP8Jfg" name="test7_analyses" creationDate="2023-03-23T00:04:37.947+0100">
-  <taggedValue xmi:id="_67dHcckFEe2fXpf2dP8Jfg" tag="Status" value="development"/>
-  <taggedValue xmi:id="_67dHcskFEe2fXpf2dP8Jfg" tag="Author" value="tacuserDQ@talend.com"/>
-  <taggedValue xmi:id="_67dHc8kFEe2fXpf2dP8Jfg" tag="Purpose"/>
-  <taggedValue xmi:id="_67dHdMkFEe2fXpf2dP8Jfg" tag="Description"/>
-  <taggedValue xmi:id="_67dHdckFEe2fXpf2dP8Jfg" tag="Version" value="0.1"/>
-  <context xmi:id="_67dHdskFEe2fXpf2dP8Jfg"/>
-  <results xmi:id="_67dHd8kFEe2fXpf2dP8Jfg">
-    <resultMetadata xmi:id="_67dHeMkFEe2fXpf2dP8Jfg"/>
-  </results>
-  <parameters xmi:id="_67dHeckFEe2fXpf2dP8Jfg" analysisType="Multiple Column Analysis"/>
-</dataquality.analysis:Analysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.analysis:Analysis xmi:id="_67dHcMkFEe2fXpf2dP8Jfg" name="test7_analyses" supplierDependency="_9x_PsMkFEe2fXpf2dP8Jfg" creationDate="2023-03-23T00:04:37.947+0100">
+    <taggedValue xmi:id="_67dHcckFEe2fXpf2dP8Jfg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_67dHcskFEe2fXpf2dP8Jfg" tag="Author" value="tacuserDQ@talend.com"/>
+    <taggedValue xmi:id="_67dHc8kFEe2fXpf2dP8Jfg" tag="Purpose"/>
+    <taggedValue xmi:id="_67dHdMkFEe2fXpf2dP8Jfg" tag="Description"/>
+    <taggedValue xmi:id="_67dHdckFEe2fXpf2dP8Jfg" tag="Version" value="0.1"/>
+    <context xmi:id="_67dHdskFEe2fXpf2dP8Jfg">
+      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
+    </context>
+    <results xmi:id="_67dHd8kFEe2fXpf2dP8Jfg">
+      <resultMetadata xmi:id="_67dHeMkFEe2fXpf2dP8Jfg"/>
+    </results>
+    <parameters xmi:id="_67dHeckFEe2fXpf2dP8Jfg" analysisType="Multiple Column Analysis"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_9x_PsMkFEe2fXpf2dP8Jfg" kind="Usage" supplier="_67dHcMkFEe2fXpf2dP8Jfg">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test7_analyses_0.1.rep#_9x9awskFEe2fXpf2dP8Jfg"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>
