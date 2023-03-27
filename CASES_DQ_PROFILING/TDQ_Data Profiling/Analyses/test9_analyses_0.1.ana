@@ -10,7 +10,9 @@
     <taggedValue xmi:id="_YdmtJ8x8Ee2oSvQi0aBfmg" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <taggedValue xmi:id="_YdmtKMx8Ee2oSvQi0aBfmg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_YdmtKcx8Ee2oSvQi0aBfmg" tag="Is Use Sample Data" value="false"/>
-    <context xmi:id="_YdmtKsx8Ee2oSvQi0aBfmg"/>
+    <context xmi:id="_YdmtKsx8Ee2oSvQi0aBfmg">
+      <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
+    </context>
     <results xmi:id="_YdmtK8x8Ee2oSvQi0aBfmg">
       <resultMetadata xmi:id="_YdmtLMx8Ee2oSvQi0aBfmg"/>
     </results>
@@ -26,5 +28,6 @@
   </dataquality.domain:Domain>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_8XRfIMx8Ee2wy-ODcGyZEw" kind="Usage" supplier="_YdmtIMx8Ee2oSvQi0aBfmg">
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/test9_analyses_0.1.rep#_8XPp8Mx8Ee2wy-ODcGyZEw"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test91_analyses_0.1.rep#_ryMUgMyCEe24wNIzJkQNTA"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
