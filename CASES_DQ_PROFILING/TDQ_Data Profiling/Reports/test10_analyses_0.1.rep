@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_vHg2e8yDEe2GnLR3Bh6mXw" name="test10_analyses" creationDate="2023-03-27T11:42:48.663+0200">
+  <clientDependency href="../Analyses/test10_analyses_0.1.ana#_vHhcIMyDEe2GnLR3Bh6mXw"/>
+  <taggedValue xmi:id="_vHg2fMyDEe2GnLR3Bh6mXw" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_vHg2fcyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_vHg2fsyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_vHg2f8yDEe2GnLR3Bh6mXw" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_vHg2gMyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_vHg2gcyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_vHg2gsyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_vHg2g8yDEe2GnLR3Bh6mXw" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_vHg2hMyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_vHg2hcyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:+s8LHvtSVGVt6PCeu+mNoxVmox+9pyG/zLSlsw=="/>
+  <taggedValue xmi:id="_vHg2hsyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_vHg2h8yDEe2GnLR3Bh6mXw" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Users\nrehman\ws801\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_vHg2iMyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_vHg2icyDEe2GnLR3Bh6mXw" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_vHg2isyDEe2GnLR3Bh6mXw" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_vHg2i8yDEe2GnLR3Bh6mXw" tag="Author" value="tacuserDQ@talend.com"/>
+  <analysisMap xmi:id="_vHg2jMyDEe2GnLR3Bh6mXw" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/test10_analyses_0.1.ana#_lbk7QMyDEe2GnLR3Bh6mXw"/>
+  </analysisMap>
+</dataquality.reports:TdReport>

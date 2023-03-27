@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_lbk7QMyDEe2GnLR3Bh6mXw" name="test10_analyses" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_lbk7QMyDEe2GnLR3Bh6mXw" name="test10_analyses" supplierDependency="_vHhcIMyDEe2GnLR3Bh6mXw" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
     <taggedValue xmi:id="_lbk7QcyDEe2GnLR3Bh6mXw" tag="Status" value="development"/>
     <taggedValue xmi:id="_lbk7QsyDEe2GnLR3Bh6mXw" tag="Author" value="tacuserDQ@talend.com"/>
@@ -29,4 +29,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_vHhcIMyDEe2GnLR3Bh6mXw" kind="Usage" supplier="_lbk7QMyDEe2GnLR3Bh6mXw">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test10_analyses_0.1.rep#_vHg2e8yDEe2GnLR3Bh6mXw"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
