@@ -23,5 +23,6 @@
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/testAnalysePostgres_0.1.ana#_BomPIL7lEe2F152df2Wpgg"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/publicmarket_V3_0.1.ana#_kIJrXaLLEe2BhtG6U4kZsg"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/test8_analyses_0.1.ana#_XSZvuMkGEe2fXpf2dP8Jfg"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../../TDQ_Data Profiling/Analyses/test9_analyses_0.1.ana#_YdmtIMx8Ee2oSvQi0aBfmg"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
