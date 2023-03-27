@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_lbk7QMyDEe2GnLR3Bh6mXw" name="test10_analyses" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
+    <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
     <taggedValue xmi:id="_lbk7QcyDEe2GnLR3Bh6mXw" tag="Status" value="development"/>
     <taggedValue xmi:id="_lbk7QsyDEe2GnLR3Bh6mXw" tag="Author" value="tacuserDQ@talend.com"/>
     <taggedValue xmi:id="_lbk7Q8yDEe2GnLR3Bh6mXw" tag="Purpose" value=""/>
@@ -12,6 +13,8 @@
     <taggedValue xmi:id="_lbk7ScyDEe2GnLR3Bh6mXw" tag="Is Use Sample Data" value="false"/>
     <context xmi:id="_lbk7SsyDEe2GnLR3Bh6mXw">
       <connection href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAoJWPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIApJWPEe2ioNrRA4S5ZQ"/>
     </context>
     <results xmi:id="_lbk7S8yDEe2GnLR3Bh6mXw">
       <resultMetadata xmi:id="_lbk7TMyDEe2GnLR3Bh6mXw"/>
@@ -19,7 +22,7 @@
     <parameters xmi:id="_lbk7TcyDEe2GnLR3Bh6mXw" dataFilter="_lbk7T8yDEe2GnLR3Bh6mXw" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_lbk7TsyDEe2GnLR3Bh6mXw" confirmationNeeded="false" name="Default"/>
   </dataquality.analysis:Analysis>
-  <dataquality.domain:Domain xmi:id="_lbk7T8yDEe2GnLR3Bh6mXw" name="Analysis Data Filter">
+  <dataquality.domain:Domain xmi:id="_lbk7T8yDEe2GnLR3Bh6mXw" name="test10_analyses">
     <ranges xmi:id="_lbk7UMyDEe2GnLR3Bh6mXw">
       <expressions xmi:id="_lbk7UcyDEe2GnLR3Bh6mXw">
         <expression xsi:type="relational:TdExpression" xmi:id="_lbk7UsyDEe2GnLR3Bh6mXw" body="" language="SQL"/>
