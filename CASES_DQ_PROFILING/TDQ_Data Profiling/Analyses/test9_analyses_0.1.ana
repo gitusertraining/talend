@@ -2,7 +2,6 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_YdmtIMx8Ee2oSvQi0aBfmg" name="test9_analyses" supplierDependency="_8XRfIMx8Ee2wy-ODcGyZEw" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
-    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_I4ztYL7lEe2F152df2Wpgg"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/IPv6_Address_0.1.pattern#_L4vSgMkHEe2fXpf2dP8Jfg"/>
     <taggedValue xmi:id="_YdmtIcx8Ee2oSvQi0aBfmg" tag="Status" value="development"/>
     <taggedValue xmi:id="_YdmtIsx8Ee2oSvQi0aBfmg" tag="Author" value="tacuserDQ@talend.com"/>
@@ -20,15 +19,6 @@
     </context>
     <results xmi:id="_YdmtK8x8Ee2oSvQi0aBfmg">
       <resultMetadata xmi:id="_YdmtLMx8Ee2oSvQi0aBfmg"/>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_YdmtLcx8Ee2oSvQi0aBfmg" name="Email Address">
-        <parameters xmi:id="_YdmtLsx8Ee2oSvQi0aBfmg">
-          <dataValidDomain xmi:id="_YdmtL8x8Ee2oSvQi0aBfmg">
-            <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
-          </dataValidDomain>
-        </parameters>
-        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/PublicMarket_0.2.item#_GxIAo5WPEe2ioNrRA4S5ZQ"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
-      </indicators>
       <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_YdmtMMx8Ee2oSvQi0aBfmg" name="IPv6 Address">
         <parameters xmi:id="_YdmtMcx8Ee2oSvQi0aBfmg">
           <dataValidDomain xmi:id="_YdmtMsx8Ee2oSvQi0aBfmg">
@@ -42,7 +32,7 @@
     <parameters xmi:id="_YdmtM8x8Ee2oSvQi0aBfmg" dataFilter="_YdmtNcx8Ee2oSvQi0aBfmg" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_YdmtNMx8Ee2oSvQi0aBfmg" confirmationNeeded="false" name="Default"/>
   </dataquality.analysis:Analysis>
-  <dataquality.domain:Domain xmi:id="_YdmtNcx8Ee2oSvQi0aBfmg" name="Analysis Data Filter">
+  <dataquality.domain:Domain xmi:id="_YdmtNcx8Ee2oSvQi0aBfmg" name="test9_analyses">
     <ranges xmi:id="_YdmtNsx8Ee2oSvQi0aBfmg">
       <expressions xmi:id="_YdmtN8x8Ee2oSvQi0aBfmg">
         <expression xsi:type="relational:TdExpression" xmi:id="_YdmtOMx8Ee2oSvQi0aBfmg" body="" language="SQL"/>
