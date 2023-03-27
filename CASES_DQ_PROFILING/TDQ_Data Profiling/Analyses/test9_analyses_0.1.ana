@@ -29,5 +29,6 @@
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_8XRfIMx8Ee2wy-ODcGyZEw" kind="Usage" supplier="_YdmtIMx8Ee2oSvQi0aBfmg">
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/test9_analyses_0.1.rep#_8XPp8Mx8Ee2wy-ODcGyZEw"/>
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/test91_analyses_0.1.rep#_ryMUgMyCEe24wNIzJkQNTA"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test92_analyses_0.1.rep#_BBFUIMyDEe24wNIzJkQNTA"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
