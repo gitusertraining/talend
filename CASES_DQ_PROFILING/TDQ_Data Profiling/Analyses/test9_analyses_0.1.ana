@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_YdmtIMx8Ee2oSvQi0aBfmg" name="test9_analyses" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_YdmtIMx8Ee2oSvQi0aBfmg" name="test9_analyses" supplierDependency="_8XRfIMx8Ee2wy-ODcGyZEw" creationDate="2023-03-23T00:07:48.158+0100" defaultContext="Default">
     <clientDependency href="../../metadata/fileDelimited/PublicMarket_0.2.item#_FozbwJWREe2ioNrRA4S5ZQ"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_I4ztYL7lEe2F152df2Wpgg"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/IPv6_Address_0.1.pattern#_L4vSgMkHEe2fXpf2dP8Jfg"/>
@@ -49,4 +49,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_8XRfIMx8Ee2wy-ODcGyZEw" kind="Usage" supplier="_YdmtIMx8Ee2oSvQi0aBfmg">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test9_analyses_0.1.rep#_8XPp8Mx8Ee2wy-ODcGyZEw"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
