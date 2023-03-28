@@ -1,0 +1,202 @@
+{
+  "itemId" : "_mkBHkJJ7Ee2ZXOAcqBSC7g",
+  "contextList" : [ {
+    "contextName" : "nonProd",
+    "repoId" : "__1k_wHs-Eeu6CaP9prtBNw",
+    "parameterList" : [ {
+      "id" : "_oEZMUeiIEeuHLKvTQ9wVOg",
+      "name" : "endRecupDate"
+    }, {
+      "id" : "_MbROEMqVEeurmbvMkLKLnA",
+      "name" : "mostRecentDatePromiseString"
+    }, {
+      "id" : "_NsCNMcg2EeuVn7wd5F_zvA",
+      "name" : "nombreDeJoursRecup"
+    }, {
+      "id" : "_oEZMUOiIEeuHLKvTQ9wVOg",
+      "name" : "startRecupDate"
+    } ]
+  }, {
+    "contextName" : "nonProd",
+    "repoId" : "_tpU9QMR-Eey0wuLoIfOw6w",
+    "parameterList" : [ {
+      "id" : "_uojxQsg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_AdditionalParams"
+    }, {
+      "id" : "_uojxRcg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Database"
+    }, {
+      "id" : "_uojxR8g5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Login"
+    }, {
+      "id" : "_uojxQ8g5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Password"
+    }, {
+      "id" : "_uojxQcg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Port"
+    }, {
+      "id" : "_uojxRMg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Schema"
+    }, {
+      "id" : "_uojxRsg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Server"
+    } ]
+  }, {
+    "contextName" : "nonProd",
+    "repoId" : "_tpU9QcR-Eey0wuLoIfOw6w",
+    "parameterList" : [ {
+      "id" : "_E4dpUsg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_AdditionalParams"
+    }, {
+      "id" : "_E4dpVcg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Database"
+    }, {
+      "id" : "_E4dpV8g3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Login"
+    }, {
+      "id" : "_E4dpU8g3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Password"
+    }, {
+      "id" : "_E4dpUcg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Port"
+    }, {
+      "id" : "_E4dpVMg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Schema"
+    }, {
+      "id" : "_E4dpVsg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Server"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "__1k_wHs-Eeu6CaP9prtBNw",
+    "parameterList" : [ {
+      "id" : "_oEZMU-iIEeuHLKvTQ9wVOg",
+      "name" : "endRecupDate"
+    }, {
+      "id" : "_MbROEcqVEeurmbvMkLKLnA",
+      "name" : "mostRecentDatePromiseString"
+    }, {
+      "id" : "_NsCNM8g2EeuVn7wd5F_zvA",
+      "name" : "nombreDeJoursRecup"
+    }, {
+      "id" : "_oEZMUuiIEeuHLKvTQ9wVOg",
+      "name" : "startRecupDate"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_tpU9QMR-Eey0wuLoIfOw6w",
+    "parameterList" : [ {
+      "id" : "_uojxSsg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_AdditionalParams"
+    }, {
+      "id" : "_uojxTcg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Database"
+    }, {
+      "id" : "_uojxT8g5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Login"
+    }, {
+      "id" : "_uojxS8g5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Password"
+    }, {
+      "id" : "_uojxScg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Port"
+    }, {
+      "id" : "_uojxTMg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Schema"
+    }, {
+      "id" : "_uojxTsg5EeuVn7wd5F_zvA",
+      "name" : "connection_datamart_Server"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_tpU9QcR-Eey0wuLoIfOw6w",
+    "parameterList" : [ {
+      "id" : "_E4dpWsg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_AdditionalParams"
+    }, {
+      "id" : "_E4dpXcg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Database"
+    }, {
+      "id" : "_E4dpX8g3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Login"
+    }, {
+      "id" : "_E4dpW8g3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Password"
+    }, {
+      "id" : "_E4dpWcg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Port"
+    }, {
+      "id" : "_E4dpXMg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Schema"
+    }, {
+      "id" : "_E4dpXsg3EeuVn7wd5F_zvA",
+      "name" : "connection_warehouse_Server"
+    } ]
+  }, {
+    "contextName" : "uat",
+    "repoId" : "__1k_wHs-Eeu6CaP9prtBNw",
+    "parameterList" : [ {
+      "id" : "_Y-T4BaxzEe2Wne9CPCZsSQ",
+      "name" : "endRecupDate"
+    }, {
+      "id" : "_Y-T4A6xzEe2Wne9CPCZsSQ",
+      "name" : "mostRecentDatePromiseString"
+    }, {
+      "id" : "_Y-T4AaxzEe2Wne9CPCZsSQ",
+      "name" : "nombreDeJoursRecup"
+    }, {
+      "id" : "_Y-T4BKxzEe2Wne9CPCZsSQ",
+      "name" : "startRecupDate"
+    } ]
+  }, {
+    "contextName" : "uat",
+    "repoId" : "_tpU9QMR-Eey0wuLoIfOw6w",
+    "parameterList" : [ {
+      "id" : "_3mOQUqCdEe27moY0pabcXg",
+      "name" : "connection_datamart_AdditionalParams"
+    }, {
+      "id" : "_3mOQVaCdEe27moY0pabcXg",
+      "name" : "connection_datamart_Database"
+    }, {
+      "id" : "_3mOQV6CdEe27moY0pabcXg",
+      "name" : "connection_datamart_Login"
+    }, {
+      "id" : "_3mOQU6CdEe27moY0pabcXg",
+      "name" : "connection_datamart_Password"
+    }, {
+      "id" : "_3mOQUaCdEe27moY0pabcXg",
+      "name" : "connection_datamart_Port"
+    }, {
+      "id" : "_3mOQVKCdEe27moY0pabcXg",
+      "name" : "connection_datamart_Schema"
+    }, {
+      "id" : "_3mOQVqCdEe27moY0pabcXg",
+      "name" : "connection_datamart_Server"
+    } ]
+  }, {
+    "contextName" : "uat",
+    "repoId" : "_tpU9QcR-Eey0wuLoIfOw6w",
+    "parameterList" : [ {
+      "id" : "_uUlF0qCdEe27moY0pabcXg",
+      "name" : "connection_warehouse_AdditionalParams"
+    }, {
+      "id" : "_uUlF1aCdEe27moY0pabcXg",
+      "name" : "connection_warehouse_Database"
+    }, {
+      "id" : "_uUlF16CdEe27moY0pabcXg",
+      "name" : "connection_warehouse_Login"
+    }, {
+      "id" : "_uUlF06CdEe27moY0pabcXg",
+      "name" : "connection_warehouse_Password"
+    }, {
+      "id" : "_uUlF0aCdEe27moY0pabcXg",
+      "name" : "connection_warehouse_Port"
+    }, {
+      "id" : "_uUlF1KCdEe27moY0pabcXg",
+      "name" : "connection_warehouse_Schema"
+    }, {
+      "id" : "_uUlF1qCdEe27moY0pabcXg",
+      "name" : "connection_warehouse_Server"
+    } ]
+  } ]
+}

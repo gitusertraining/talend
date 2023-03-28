@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_uojxSMg5EeuVn7wd5F_zvA">
+    <contextParameter comment="" name="connection_datamart_Port" prompt="connection_datamart_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_uojxScg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_AdditionalParams" prompt="connection_datamart_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_uojxSsg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Password" prompt="connection_datamart_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:qjQ3Y0ocwj4cJNXBdRM2cgS49yxlUWfG+YaN1y2OdN9GPyOnW9Bqe9SouEo4wAAhm8OPbfJLTMFRRXNv" xmi:id="_uojxS8g5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Schema" prompt="connection_datamart_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public" xmi:id="_uojxTMg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Database" prompt="connection_datamart_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="datamart" xmi:id="_uojxTcg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Server" prompt="connection_datamart_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.100.114.248" xmi:id="_uojxTsg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Login" prompt="connection_datamart_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend" xmi:id="_uojxT8g5EeuVn7wd5F_zvA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="uat_prd" xmi:id="_w5AEsKbPEe21yvpiFEC2MA">
+    <contextParameter comment="" name="connection_datamart_Port" prompt="connection_datamart_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_w5AEsabPEe21yvpiFEC2MA"/>
+    <contextParameter comment="" name="connection_datamart_AdditionalParams" prompt="connection_datamart_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_w5AEsqbPEe21yvpiFEC2MA"/>
+    <contextParameter comment="" name="connection_datamart_Password" prompt="connection_datamart_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:36JuW4QZw9HlRXhsENzMDKu8OFHBSmDTn15C6/UYsrGsZOxkzFStiep4X8WSJYodlKa9Pst8NeLfIlvg" xmi:id="_w5AEs6bPEe21yvpiFEC2MA"/>
+    <contextParameter comment="" name="connection_datamart_Schema" prompt="connection_datamart_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uat" xmi:id="_w5AEtKbPEe21yvpiFEC2MA"/>
+    <contextParameter comment="" name="connection_datamart_Database" prompt="connection_datamart_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="datamart" xmi:id="_w5AEtabPEe21yvpiFEC2MA"/>
+    <contextParameter comment="" name="connection_datamart_Server" prompt="connection_datamart_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.100.114.248" xmi:id="_w5AEtqbPEe21yvpiFEC2MA"/>
+    <contextParameter comment="" name="connection_datamart_Login" prompt="connection_datamart_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend" xmi:id="_w5AEt6bPEe21yvpiFEC2MA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="nonProd" xmi:id="_uojxQMg5EeuVn7wd5F_zvA">
+    <contextParameter comment="" name="connection_datamart_Port" prompt="connection_datamart_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_uojxQcg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_AdditionalParams" prompt="connection_datamart_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_uojxQsg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Password" prompt="connection_datamart_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:DS/WhkX9bK88YihbkIkdo/R24VBLXQzsJ3PYldln643n8wCTLEMvUt8Hl+B+dq74mJyms26XYVAE+6i/" xmi:id="_uojxQ8g5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Schema" prompt="connection_datamart_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ppd" xmi:id="_uojxRMg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Database" prompt="connection_datamart_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="datamart" xmi:id="_uojxRcg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Server" prompt="connection_datamart_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.100.114.58" xmi:id="_uojxRsg5EeuVn7wd5F_zvA"/>
+    <contextParameter comment="" name="connection_datamart_Login" prompt="connection_datamart_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend" xmi:id="_uojxR8g5EeuVn7wd5F_zvA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="uat" xmi:id="_3mOQUKCdEe27moY0pabcXg">
+    <contextParameter comment="" name="connection_datamart_Port" prompt="connection_datamart_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_3mOQUaCdEe27moY0pabcXg"/>
+    <contextParameter comment="" name="connection_datamart_AdditionalParams" prompt="connection_datamart_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3mOQUqCdEe27moY0pabcXg"/>
+    <contextParameter comment="" name="connection_datamart_Password" prompt="connection_datamart_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:N8/gI28MWAKow4Cep0/DFPsLtDmLlCU1p4WvmanCqCbarTqHFSmaBy0j+nWd0viFb/2wc7Ir2uFmmwFv" xmi:id="_3mOQU6CdEe27moY0pabcXg"/>
+    <contextParameter comment="" name="connection_datamart_Schema" prompt="connection_datamart_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uat" xmi:id="_3mOQVKCdEe27moY0pabcXg"/>
+    <contextParameter comment="" name="connection_datamart_Database" prompt="connection_datamart_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="datamart" xmi:id="_3mOQVaCdEe27moY0pabcXg"/>
+    <contextParameter comment="" name="connection_datamart_Server" prompt="connection_datamart_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.100.114.58" xmi:id="_3mOQVqCdEe27moY0pabcXg"/>
+    <contextParameter comment="" name="connection_datamart_Login" prompt="connection_datamart_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend" xmi:id="_3mOQV6CdEe27moY0pabcXg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_842c885f-a27b-4bad-97ed-eb38c79abf3b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1d2ShEHniauDRT24PGxnUUnvR3KRAaMUFffGrGu+HmR093F/dT8KPEebdmagpQi9MSWanEq7MXbu&#13;
+8hRumd0LYg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_840c1662-f543-44dc-a390-0af819cb93c3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KdrBwyfqZcJTQZ6zd5iurKRUZ19VmaiRgkGQEfNy4bxscgDnXZBVb4SNgdn/ilGGdXo6iMCVLNVf&#13;
+8x96TgE/ig==</DigestValue></Reference></SignedInfo><SignatureValue>FXjsHDFS35BzKMW6Mg8w2gdhmXFbyzCMFC0JhsS6sBRJovCKAfd4oxiC6EWVWI6m8RdyflpZPwX2&#13;
+QEmwxwGj87yj0Hxs2CF3Uiw7qJV4Dgp3XKIoY/jUzrfKHC0v4UspqPy3O+AWBHR10xxBZcCak9ab&#13;
+VH6Xt64tEGJS/UJZq1d9W1idJumFzGVD2MI7G2xjyGAHLv/1RLuA2jtYgCmRCF5YbObXqgN3QYax&#13;
+ftEyOHYF0T9NlYwUEmvDw9/EVh2cyTdKH/CCVY/jLEB2+FUDIRx/vwTkqS2qT/jEmG7FwEhhReQe&#13;
+uTgz811KBPaDTw9Sw7Owz1U+nMSr1yLXeEjCsA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_840c1662-f543-44dc-a390-0af819cb93c3" Target="#_842c885f-a27b-4bad-97ed-eb38c79abf3b"><Timestamp>2023-03-28 21:03:01</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
