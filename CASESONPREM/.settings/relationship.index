@@ -82,6 +82,37 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_gcGvwCASEeGcz7LQVWZhpA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_efM-MCASEeGcz7LQVWZhpA - _elcwICASEeGcz7LQVWZhpA - _eldXMCASEeGcz7LQVWZhpA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_gcGvwCASEeGcz7LQVWZhpA",
+    "version" : "0.1",
+    "type" : "services"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_mkBHkJJ7Ee2ZXOAcqBSC7g",
     "version" : "0.1",
     "type" : "job"
@@ -106,6 +137,29 @@
     "id" : "_xr4UkKzrEeud-bdunKTlLw",
     "version" : "Latest",
     "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_rFr1sFreEeWN2JopMxQv4A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
@@ -398,5 +452,38 @@
     "id" : "DqStringHandling",
     "version" : "Latest",
     "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_i6vKUFraEeWN2JopMxQv4A",
+    "version" : "0.1",
+    "type" : "test_case"
+  },
+  "relatedItems" : [ {
+    "id" : "_gcGvwCASEeGcz7LQVWZhpA",
+    "version" : "0.1",
+    "type" : "test_case"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pv1AkFrfEeWN2JopMxQv4A",
+    "version" : "0.1",
+    "type" : "test_case"
+  },
+  "relatedItems" : [ {
+    "id" : "_gcGvwCASEeGcz7LQVWZhpA",
+    "version" : "0.1",
+    "type" : "test_case"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_rFr1sFreEeWN2JopMxQv4A",
+    "version" : "0.1",
+    "type" : "test_case"
+  },
+  "relatedItems" : [ {
+    "id" : "_gcGvwCASEeGcz7LQVWZhpA",
+    "version" : "0.1",
+    "type" : "test_case"
   } ]
 } ]
