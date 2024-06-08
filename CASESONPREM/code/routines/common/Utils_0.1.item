@@ -1,0 +1,255 @@
+package routines;
+
+import java.util.Base64;
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
+
+import org.apache.commons.lang3.StringUtils;
+import org.apache.ibatis.jdbc.SQL;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class Utils {
+
+	/**
+	 * Check if the string is blank or not.
+	 *
+	 * {talendTypes} String | String
+	 *
+	 * {Category} StringUtils
+	 *
+	 * {param} String value: String value
+	 * 
+	 */
+	public static boolean isBlank(String value) {
+		return StringUtils.isBlank(value);
+	}
+
+	/**
+	 * Trim string value.
+	 *
+	 * {talendTypes} String | String
+	 *
+	 * {Category} StringUtils
+	 *
+	 * {param} String value: String value
+	 * 
+	 */
+	public static String trim(String value) {
+		return isBlank(value) ? value : value.trim();
+	}
+
+	/**
+	 * Concat string array.
+	 * 
+	 * {talendTypes} String | String
+	 *
+	 * {Category} StringUtils
+	 *
+	 * {param} Object values: Object values
+	 *
+	 */
+	public static String concat(Object... values) {
+		return StringUtils.join(values, " ");
+	}
+
+	/**
+	 *
+	 * {talendTypes} String | String
+	 *
+	 * {Category} StringUtils
+	 *
+	 * {param} String value: String value
+	 * 
+	 */
+	public static String base64Encode(String string) {
+		return isBlank(string) ? StringUtils.EMPTY : Base64.getEncoder().encodeToString(string.getBytes());
+	}
+
+	/**
+	 * Construct KV object
+	 * 
+	 * @param key
+	 * @param value
+	 * @return
+	 */
+	public static KV buildKV(String key, Object value) {
+		if (value != null && value instanceof String) {
+			value = ((String) value).replaceAll("['\"\\\\]", "");
+		}
+
+		return new KV(key.replaceAll("['\"\\\\]", ""), value);
+	}
+
+	/**
+	 * Construct Request Object
+	 * 
+	 * @param selection
+	 * @param page
+	 * @param size
+	 * @param sort
+	 * @param kvs
+	 * @return
+	 */
+	public static RequestObject buildRequestObject(String selection, int page, int size, String sort, KV... kvs) {
+		RequestObject ro = new RequestObject();
+		ro.setSelection(selection);
+		ro.setPage(page);
+		ro.setSize(size);
+		ro.setFilters(kvs);
+
+		if (!isBlank(sort)) {
+			sort = sort.replaceAll("['\"\\\\]", "");
+		}
+		ro.setSort(sort);
+
+		return ro;
+	}
+
+	/**
+	 * Construct Request Object
+	 * 
+	 * @param selection
+	 * @param limit
+	 * @param sort
+	 * @param kvs
+	 * @return
+	 */
+	public static RequestObject buildRequestObject(String selection, int limit, String sort, KV... kvs) {
+		RequestObject ro = new RequestObject();
+		ro.setSelection(selection);
+		ro.setLimit(limit);
+		ro.setSort(sort);
+		ro.setFilters(kvs);
+		return ro;
+	}
+
+	/**
+	 * Build Count SQL based on request object.
+	 * 
+	 * @param schema
+	 * @param source
+	 * @param ro
+	 * @return
+	 */
+	public static String buildCountSqlFluent(String schema, String source, RequestObject ro) {
+		return new SQL() {
+			{
+				SELECT("COUNT(0)");
+				FROM(schema + "." + source);
+
+				if (ro.getFilters() != null) {
+					for (KV kv : ro.getFilters()) {
+						if (kv == null || kv.getValue() == null) {
+							continue;
+						}
+
+						WHERE(concat(kv.getKey(), "=", "'" + kv.getValue() + "'"));
+					}
+				}
+			}
+		}.toString();
+	}
+
+	/**
+	 * Build Select SQL without Pagination and Sorting based on request object.
+	 * 
+	 * @param schema
+	 * @param source
+	 * @param ro
+	 * @return
+	 */
+	public static String buildSimpleSelectSql(String schema, String source, RequestObject ro) {
+		if (isBlank(schema) || isBlank(source)) {
+			return null;
+		}
+
+		return new SQL() {
+			{
+				SELECT("*");
+				FROM(schema + "." + source);
+				if (ro.getFilters() != null) {
+					for (KV kv : ro.getFilters()) {
+						if (kv == null || kv.getValue() == null) {
+							continue;
+						}
+
+						WHERE(concat(kv.getKey(), "=", "'" + kv.getValue() + "'"));
+					}
+				}
+				if (!isBlank(ro.getSort())) {
+					ORDER_BY(ro.getSort());
+				}
+
+				if (ro.getLimit() > 0) {
+					FETCH_FIRST_ROWS_ONLY(ro.getLimit());
+				}
+			}
+		}.toString();
+	}
+
+	/**
+	 * Build Select SQL with Pagination and Sorting based on request object.
+	 * 
+	 * @param schema
+	 * @param source
+	 * @param ro
+	 * @return
+	 */
+	public static String buildSelectSqlFluent(String schema, String source, RequestObject ro) {
+		if (isBlank(schema) || isBlank(source)) {
+			return null;
+		}
+
+		String subSql = buildSimpleSelectSql(schema, source, ro);
+		String sql = "SELECT temp.* FROM " + "		(SELECT k.*, rownum as rn FROM " + "			(" + subSql + " )k"
+				+ "	WHERE rownum<=" + ro.getSize() * ro.getPage() + ")temp where  temp.rn>"
+				+ ro.getSize() * (ro.getPage() - 1);
+
+		return sql;
+	}
+
+	/**
+	 * Parse Selection fields
+	 * 
+	 * @param selection
+	 * @return
+	 */
+	public static Optional<Set<String>> parseSelection(String selection) {
+		if (isBlank(selection)) {
+			return Optional.empty();
+		}
+
+		Set<String> selectionSet = new HashSet<String>();
+		for (String str : selection.split(",")) {
+			if (isBlank(str)) {
+				continue;
+			}
+			selectionSet.add(str.toUpperCase());
+		}
+		return Optional.of(selectionSet);
+	}
+
+	public static void main(String[] args) {
+		String testFilter = "mat\"[d]nr eq '3842529361'";
+		testFilter = testFilter.replaceAll("['\"\\\\]", "");
+		System.out.println(testFilter);
+	}
+}

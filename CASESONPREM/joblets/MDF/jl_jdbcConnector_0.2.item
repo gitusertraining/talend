@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" framework="" jobType="Standard">
+    <context confirmationNeeded="false" name="Default"/>
+    <parameters>
+      <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/cxh2sgh/Applications/TalendStudio/workspace/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:QyB5hT/Ryz6rkj9mRGt6+8XkZNNg9NmGC5/lb4LB"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+      <routinesParameter id="_VPU7IB3kEe2UH62gwQ9u5g" name="DQTechnical"/>
+      <routinesParameter id="_VO8goB3kEe2UH62gwQ9u5g" name="DataMasking"/>
+      <routinesParameter id="_VL83AB3kEe2UH62gwQ9u5g" name="DataOperation"/>
+      <routinesParameter id="_VPHfwB3kEe2UH62gwQ9u5g" name="DataQualityDependencies"/>
+      <routinesParameter id="_VPCnQB3kEe2UH62gwQ9u5g" name="DataQuality"/>
+      <routinesParameter id="_VPQpsB3kEe2UH62gwQ9u5g" name="DqStringHandling"/>
+      <routinesParameter id="_VOOu8B3kEe2UH62gwQ9u5g" name="Mathematical"/>
+      <routinesParameter id="_VOTAYB3kEe2UH62gwQ9u5g" name="Numeric"/>
+      <routinesParameter id="_VOYf8B3kEe2UH62gwQ9u5g" name="Relational"/>
+      <routinesParameter id="_VO2aAB3kEe2UH62gwQ9u5g" name="SQLike"/>
+      <routinesParameter id="_VOdYcB3kEe2UH62gwQ9u5g" name="StringHandling"/>
+      <routinesParameter id="_VOiQ8B3kEe2UH62gwQ9u5g" name="TalendDataGenerator"/>
+      <routinesParameter id="_VOnwgB3kEe2UH62gwQ9u5g" name="TalendDate"/>
+      <routinesParameter id="_VOw6cB3kEe2UH62gwQ9u5g" name="TalendStringUtil"/>
+      <routinesParameter id="_VOsB8B3kEe2UH62gwQ9u5g" name="TalendString"/>
+      <routinesParameter id="_BF7AMMJkEe2XAozccvCBMg" name="DBConnector"/>
+      <routinesParameter id="_UFlgoBU4Ee2Sl9c-txG_zQ" name="Utils"/>
+      <routinesParameter id="_CCMmMCz-Ee2KG4-5MpfhYQ" name="LogUtils"/>
+      <routinesParameter id="_ORmXMMPsEe2Nn7oXkN0Bkw" name="SQLBuilder"/>
+    </parameters>
+    <node componentName="JDBCConnection" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+      <elementParameter field="TEXT" name="LABEL" value="JDBCConnection"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0Connection"/>
+      <elementParameter field="PASSWORD" name="configuration.password" value="(String)globalMap.get(&quot;decryptedPwd&quot;)"/>
+      <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" value="&quot;jl_jdbc_connection&quot;"/>
+      <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
+      <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="(String)globalMap.get(&quot;driverClass&quot;)"/>
+      <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
+      <elementParameter field="TEXT" name="configuration.dataSourceAlias" value="&quot;jl_jdbc_connection&quot;"/>
+      <elementParameter field="TEXT" name="configuration.userId" value="(String)globalMap.get(&quot;username&quot;)"/>
+      <elementParameter field="CHECK" name="configuration.useAutoCommit" value="false"/>
+      <elementParameter field="TEXT" name="configuration.jdbcUrl" value="(String)globalMap.get(&quot;connectionStr&quot;)"/>
+      <elementParameter field="CHECK" name="configuration.autoCommit" value="false"/>
+      <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
+      <elementParameter field="TABLE" name="configuration.jdbcDriver">
+        <elementValue elementRef="configuration.jdbcDriver[].path" value="&quot;mvn:com.oracle.ojdbc/ojdbc8/19.3.0.0/jar&quot;"/>
+        <elementValue elementRef="configuration.jdbcDriver[].path" value="&quot;mvn:mysql/mysql-connector-java/5.1.49/jar&quot;"/>
+      </elementParameter>
+    </node>
+    <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_1"/>
+      <elementParameter field="RADIO" name="DEV_LOG" value="true"/>
+      <elementParameter field="RADIO" name="BUSINESS_LOG" value="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;=====&gt; Loading single data&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="20000"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJobLog_1"/>
+    </node>
+    <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="192">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_2"/>
+      <elementParameter field="RADIO" name="DEV_LOG" value="true"/>
+      <elementParameter field="RADIO" name="BUSINESS_LOG" value="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;=====&gt; Counting total records&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="20000"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJobLog_2"/>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="String databaseConnectionKey = &quot;conn_&quot; + currentComponent.replace(&quot;tJava_1&quot;, &quot;tDBConnection_1&quot;);&#10;Connection databaseConnection = (Connection) globalMap.get(databaseConnectionKey);&#10;//Class.forName((String)globalMap.get(&quot;driverClass&quot;));&#10;//Connection databaseConnection = DriverManager.getConnection((String)globalMap.get(&quot;connectionStr&quot;),(String)globalMap.get(&quot;username&quot;),&quot;password&quot;);&#10;&#10;List&lt;ResourcePathFilter&gt; filters = new ArrayList&lt;&gt;();&#10;String sqlStatement = SQLBuilder.buildCountSQLFromSubQuery(globalMap, filters);&#10;LogUtils.info(&quot;=====&gt; Count SQL: {}&quot;, sqlStatement);&#10;row2.counts = DBConnector.countJDBC(databaseConnection, sqlStatement, filters);"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.util.List;&#10;import java.util.ArrayList;&#10;import java.sql.Connection;&#10;import routines.ResourcePathFilter;&#10;import routines.SQLBuilder;"/>
+      <elementParameter field="TEXT" name="LABEL" value="JDBCCount"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_1">
+        <column key="false" length="0" name="counts" nullable="false" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="int size = (int)globalMap.get(&quot;reqSize&quot;);&#10;int page = (int)globalMap.get(&quot;reqPage&quot;);&#10;&#10;double temp = (double)input_row.counts/size;&#10;int pages = (int)Math.ceil(temp);&#10;&#10;globalMap.put(&quot;totalCount&quot;, input_row.counts);&#10;globalMap.put(&quot;totalPage&quot;, pages);&#10;&#10;LogUtils.info(&quot;=====&gt; Total Count: {}, Total Page: {}, Current Page: {}&quot;, input_row.counts, pages, page);"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import org.slf4j.Logger;&#10;import org.slf4j.LoggerFactory;"/>
+      <elementParameter field="TEXT" name="LABEL" value="RowsHandler"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaRow_1"/>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="String databaseConnectionKey = &quot;conn_&quot; + currentComponent.replace(&quot;tJava_2&quot;, &quot;tDBConnection_1&quot;);&#10;Connection databaseConnection = (Connection) globalMap.get(databaseConnectionKey);&#10;&#10;List&lt;ResourcePathFilter&gt; filters = new ArrayList&lt;&gt;();&#10;String sqlStatement = SQLBuilder.buildLimitSQL(globalMap, filters);&#10;LogUtils.info(&quot;=====&gt; Limit Query SQL: {}&quot;, sqlStatement);&#10;Object modelMapping = globalMap.get(&quot;modelMapping&quot;);&#10;&#10;row1.body = DBConnector.queryJDBCByColumnIndex(databaseConnection, sqlStatement, filters, modelMapping == null ? null : (Map&lt;String, ResourceProperty&gt;)modelMapping, (Integer)globalMap.get(&quot;reqColumnIndex&quot;));&#10;&#10;if(databaseConnection != null){&#10;&#9;databaseConnection.close();&#10;}"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.util.List;&#10;import java.util.ArrayList;&#10;import java.sql.Connection;&#10;import routines.ResourcePathFilter;&#10;import routines.ResourceProperty;"/>
+      <elementParameter field="TEXT" name="LABEL" value="JDBCQuery"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_2">
+        <column key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTResponse_1"/>
+      <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_String"/>
+      <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="200"/>
+      <elementParameter field="TEXT" name="CUSTOM_STATUS_CODE" show="false" value="200"/>
+      <elementParameter field="TABLE" name="RESPONSE_HEADERS"/>
+      <elementParameter field="CHECK" name="UNWRAP_JSON_RESPONSE" value="false"/>
+      <elementParameter field="TEXT" name="JSON_ARRAY_KEYS" value=""/>
+      <elementParameter field="TEXT" name="LABEL" value="ResultResponse"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tRESTResponse_1">
+        <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_3"/>
+      <elementParameter field="RADIO" name="DEV_LOG" value="false"/>
+      <elementParameter field="RADIO" name="BUSINESS_LOG" value="true"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;=====&gt; Resource collection is empty by filter&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="30000"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJobLog_3"/>
+    </node>
+    <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="544">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_4"/>
+      <elementParameter field="RADIO" name="DEV_LOG" value="false"/>
+      <elementParameter field="RADIO" name="BUSINESS_LOG" value="true"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;=====&gt; Request page exceeds resource size&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="30000"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJobLog_4"/>
+    </node>
+    <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_5"/>
+      <elementParameter field="RADIO" name="DEV_LOG" value="true"/>
+      <elementParameter field="RADIO" name="BUSINESS_LOG" value="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;=====&gt; Loading pagination data&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="20000"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJobLog_5"/>
+    </node>
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1344" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="&#9;&#9;&#9;  String databaseConnectionKey = &quot;conn_&quot; + currentComponent.replace(&quot;tJava_3&quot;, &quot;tDBConnection_1&quot;);&#10;&#9;&#9;&#9;//String databaseConnectionKey = &quot;conn_&quot; + &quot;tDBConnection_1&quot;;&#10;&#9;&#9;&#9;Connection databaseConnection = (Connection) globalMap.get(databaseConnectionKey);&#10;&#10;&#10;&#9;&#9;&#9;List&lt;ResourcePathFilter&gt; filters = new ArrayList&lt;&gt;();&#10;&#9;&#9;&#9;String sqlStatement = SQLBuilder.buildPaginationSQL(globalMap, filters);&#10;&#9;&#9;&#9;LogUtils.info(&quot;=====&gt; Pagination Query SQL: {}&quot;, sqlStatement);&#10;&#9;&#9;&#9;Object modelMapping = globalMap.get(&quot;modelMapping&quot;);&#10;&#10;&#9;&#9;&#9;row3.body = DBConnector.queryJDBCByColumnIndex(databaseConnection, sqlStatement, filters, modelMapping == null ? null : (Map&lt;String, ResourceProperty&gt;)modelMapping, (Integer)globalMap.get(&quot;reqColumnIndex&quot;));&#10;&#10;&#9;&#9;&#9;row3.totalPages = (int)globalMap.get(&quot;totalPage&quot;);&#10;&#9;&#9;&#9;row3.totalCount = (int)globalMap.get(&quot;totalCount&quot;);&#10;&#9;&#9;&#9;row3.currentPage = (int)globalMap.get(&quot;reqPage&quot;);&#10;&#9;&#9;&#9;row3.currentSize = (int)globalMap.get(&quot;reqSize&quot;);&#10;&#10;&#9;&#9;&#9;if(databaseConnection != null){&#10;&#9;&#9;&#9;&#9;databaseConnection.close();&#10;&#9;&#9;&#9;}"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.util.List;&#10;import java.util.ArrayList;&#10;import java.sql.Connection;&#10;import routines.ResourcePathFilter;&#10;import routines.ResourceProperty;"/>
+      <elementParameter field="TEXT" name="LABEL" value="JDBCPaginationQuery"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJava_3">
+        <column key="false" length="0" name="body" nullable="false" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="totalPages" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="totalCount" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="currentPage" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="currentSize" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWriteJSONField_1"/>
+      <elementParameter field="COLUMN_LIST" name="JSONFIELD" value="body"/>
+      <elementParameter field="TABLE" name="ROOT" show="false">
+        <elementValue elementRef="PATH" value="/result"/>
+        <elementValue elementRef="COLUMN" value=""/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="main"/>
+        <elementValue elementRef="ORDER" value="1"/>
+        <elementValue elementRef="PATH" value="/result/pagination"/>
+        <elementValue elementRef="COLUMN" value=""/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="2"/>
+        <elementValue elementRef="PATH" value="/result/pagination/totalCount"/>
+        <elementValue elementRef="COLUMN" value="totalCount"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="3"/>
+        <elementValue elementRef="PATH" value="/result/pagination/totalPages"/>
+        <elementValue elementRef="COLUMN" value="totalPages"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="4"/>
+        <elementValue elementRef="PATH" value="/result/pagination/currentPage"/>
+        <elementValue elementRef="COLUMN" value="currentPage"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="5"/>
+        <elementValue elementRef="PATH" value="/result/pagination/sizePerPage"/>
+        <elementValue elementRef="COLUMN" value="currentSize"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="6"/>
+      </elementParameter>
+      <elementParameter field="TABLE" name="GROUP" show="false"/>
+      <elementParameter field="TABLE" name="LOOP" show="false">
+        <elementValue elementRef="PATH" value="/result/items"/>
+        <elementValue elementRef="COLUMN" value="body"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="main"/>
+        <elementValue elementRef="ORDER" value="7"/>
+      </elementParameter>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="TABLE" name="GROUPBYS"/>
+      <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
+      <elementParameter field="CHECK" name="COMPACT_FORMAT" show="false" value="true"/>
+      <elementParameter field="CHECK" name="QUOTE_ALL_VALUES" value="false"/>
+      <elementParameter field="CHECK" name="QUOTE_NULL_VALUES" show="false" value="true"/>
+      <elementParameter field="CHECK" name="ALLOW_EMPTY_STRINGS" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="PaginationJsonWriter"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="USE_SCIENTIFIC_NOTATION" value="true"/>
+      <metadata connector="FLOW" name="tWriteJSONField_1">
+        <column key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="total_page" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="total_num" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1760" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTResponse_2"/>
+      <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+      <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_String"/>
+      <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="200"/>
+      <elementParameter field="TEXT" name="CUSTOM_STATUS_CODE" show="false" value="200"/>
+      <elementParameter field="TABLE" name="RESPONSE_HEADERS"/>
+      <elementParameter field="CHECK" name="UNWRAP_JSON_RESPONSE" value="false"/>
+      <elementParameter field="TEXT" name="JSON_ARRAY_KEYS" value=""/>
+      <elementParameter field="TEXT" name="LABEL" value="PaginationResponse"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tRESTResponse_2">
+        <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="jl_204_emptyResultResponse" componentVersion="0.2" offsetLabelX="0" offsetLabelY="0" posX="1376" posY="352">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="jl_204_emptyResultResponse_1"/>
+      <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+      <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="0.2"/>
+      <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+      <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tJobLog_3"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </node>
+    <node componentName="jl_203_exceedPageResponse" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1376" posY="544">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="jl_203_exceedPageResponse_1"/>
+      <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+      <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="0.1"/>
+      <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+      <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tJobLog_4"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </node>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="TRIGGER_INPUT_1" offsetLabelX="0" offsetLabelY="0" source="TRIGGER_INPUT_1" target="tDBConnection_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk8"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="-9" outputId="1" source="tDBConnection_1" target="tJobLog_2">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="&quot;pagination&quot;.equals((String)globalMap.get(&quot;routePath&quot;))"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If6"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tDBConnection_1" target="tJobLog_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="&quot;limit&quot;.equals((String)globalMap.get(&quot;routePath&quot;))"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If7"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJobLog_1" offsetLabelX="0" offsetLabelY="0" source="tJobLog_1" target="tJava_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk9"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJobLog_2" offsetLabelX="0" offsetLabelY="0" source="tJobLog_2" target="tJava_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk10"/>
+    </connection>
+    <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJava_1" offsetLabelX="-1" offsetLabelY="0" source="tJava_1" target="tJavaRow_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJavaRow_1" target="tJobLog_3">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="(int)globalMap.get(&quot;totalCount&quot;) == 0"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If8"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tJavaRow_1" target="tJobLog_4">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="(int)globalMap.get(&quot;reqPage&quot;) &gt; (int)globalMap.get(&quot;totalPage&quot;) &amp;&amp; (int)globalMap.get(&quot;totalCount&quot;) != 0"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If9"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_1" offsetLabelX="13" offsetLabelY="50" outputId="3" source="tJavaRow_1" target="tJobLog_5">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="(int)globalMap.get(&quot;totalCount&quot;) &gt; 0 &amp;&amp; ((int)globalMap.get(&quot;reqPage&quot;) &lt;=(int)globalMap.get(&quot;totalPage&quot;))"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If10"/>
+    </connection>
+    <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tRESTResponse_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJobLog_3" offsetLabelX="0" offsetLabelY="0" source="tJobLog_3" target="jl_204_emptyResultResponse_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk11"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJobLog_4" offsetLabelX="0" offsetLabelY="0" source="tJobLog_4" target="jl_203_exceedPageResponse_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk12"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJobLog_5" offsetLabelX="0" offsetLabelY="0" source="tJobLog_5" target="tJava_3">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk13"/>
+    </connection>
+    <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tWriteJSONField_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="totalCount"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="totalPages"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="currentSize"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="currentPage"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+    </connection>
+    <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tWriteJSONField_1" offsetLabelX="0" offsetLabelY="0" source="tWriteJSONField_1" target="tRESTResponse_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row11"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_2"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_3"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_4"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_5"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="jl_204_emptyResultResponse_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="jl_203_exceedPageResponse_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="TRIGGER_INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_178f0873-ffea-4368-aa20-855a97cc0ed8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YxfppQoEl1uvNsYvlynGDoJIg3GFFuquCCRiimSG/HFqb9ufy7cypGqmwHqBbXO3LB+ULJvDtaAs&#13;
+0WKvCVAr8A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d3b42504-ee96-4737-8c6f-e58b13956ecf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YLa6AyW2q5z85VuH3MT7QEiG/9Wo1zHvqIs8H1T8ZxAA3EdrEWPwd+bLOBFXCoLZnZ+ILO1BKZxU&#13;
+p8QuA6sGvw==</DigestValue></Reference></SignedInfo><SignatureValue>JNDI/OGVnkIh3/R0dwm7+Vke66dQYVcQzzsFpOzcqm+PT1Aoc116LiPkKn3Ij5jdqqwHwyDmPHu6&#13;
+KmWJvl3ArCPhozrIUeOtxjnF2/xWv4PrUP7fT8oU4QSY0kurcMxiM3qiIGVpfmPeh4vwBMWFmwx1&#13;
+ln3xh0jx2jE92IpMyBNn3e/GJswWpiTj4V2GKLn6PoZ9Mm85yUN7WVnQ7SrvuyVF+2joZzSObQG7&#13;
+xG6+Qr+r5YVxshrzhDq2M3RikE+JKY7DQe4F42gBmBhkUJ6UJsrjrpTMCpxNkPTsFBpP+KIbpfby&#13;
+OWNTYs4ciljUvcjz40F0g2w/kGYIwz7366ebew==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d3b42504-ee96-4737-8c6f-e58b13956ecf" Target="#_178f0873-ffea-4368-aa20-855a97cc0ed8"><Timestamp>2024-06-08 16:47:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

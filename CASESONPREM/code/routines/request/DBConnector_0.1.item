@@ -1,0 +1,259 @@
+package routines;
+
+import java.sql.Blob;
+import java.sql.Clob;
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.sql.Types;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class DBConnector {
+	final static Logger logger = LoggerFactory.getLogger(DBConnector.class.getName());
+
+	public static int countJDBC(Connection conn, String sql, List<ResourcePathFilter> filters) {
+		int record = 0;
+		try (PreparedStatement pstm = conn.prepareStatement(sql)) {
+			if (filters != null) {
+				for (ResourcePathFilter filter : filters) {
+					setParameters(pstm, filter);
+				}
+			}
+
+			ResultSet rs = pstm.executeQuery();
+			while (rs.next()) {
+				record = rs.getInt(1);
+			}
+		} catch (SQLException e) {
+			logger.error(e.getMessage(), e);
+		}
+
+		return record;
+	}
+
+	public static String queryJDBC(Connection conn, String sql, List<ResourcePathFilter> filters,
+			Map<String, ResourceProperty> modelMapping) {
+		return query(conn, sql, filters, modelMapping, null);
+	}
+
+	public static String queryJDBCByColumnIndex(Connection conn, String sql, List<ResourcePathFilter> filters,
+			Map<String, ResourceProperty> modelMapping, Integer columnIndex) {
+		return query(conn, sql, filters, modelMapping, columnIndex);
+	}
+
+	public static String query(Connection conn, String sql, List<ResourcePathFilter> filters,
+			Map<String, ResourceProperty> modelMapping, Integer columnIndex) {
+		String result = StringUtils.EMPTY;
+		Gson gson = new Gson();
+		try (PreparedStatement pstm = conn.prepareStatement(sql)) {
+			if (filters != null) {
+				for (ResourcePathFilter filter : filters) {
+					setParameters(pstm, filter);
+				}
+			}
+
+			ResultSet rs = pstm.executeQuery();
+			if (columnIndex == null || columnIndex <= 0 || columnIndex > rs.getMetaData().getColumnCount()) {
+				List<LinkedHashMap<String, Object>> map = parseResultSet(rs, modelMapping);
+				result = gson.toJson(map, new TypeToken<List<LinkedHashMap<String, Object>>>() {
+				}.getType());
+			} else {
+				List<Object> list = parseResultSetSingleColumn(rs, modelMapping, columnIndex);
+				result = gson.toJson(list, new TypeToken<List<Object>>() {
+				}.getType());
+			}
+		} catch (SQLException e) {
+			logger.error(e.getMessage(), e);
+		}
+
+		return result;
+	}
+
+	private static List<LinkedHashMap<String, Object>> parseResultSet(ResultSet rs,
+			Map<String, ResourceProperty> modelMapping) throws SQLException {
+		List<LinkedHashMap<String, Object>> list = new ArrayList<>();
+		ResultSetMetaData metadata = rs.getMetaData();
+		while (rs.next()) {
+			LinkedHashMap<String, Object> map = new LinkedHashMap<String, Object>();
+			for (int i = 1; i <= metadata.getColumnCount(); i++) {
+				String columnName = metadata.getColumnName(i).toUpperCase();
+				if (Utils.isBlank(columnName) || columnName.equalsIgnoreCase("RNUM")) {
+					continue;
+				}
+
+				if (modelMapping != null && modelMapping.size() > 0) {
+					if (modelMapping.containsKey(columnName)) {
+						ResourceProperty prop = modelMapping.get(columnName);
+						map.put(prop.getName(), getValueByPropertyType(rs, prop.getType(), i));
+					}
+				} else {
+					map.put(columnName, getValueByDatabaseType(rs, metadata, i));
+				}
+			}
+
+			list.add(map);
+		}
+
+		return list;
+	}
+
+	private static List<Object> parseResultSetSingleColumn(ResultSet rs, Map<String, ResourceProperty> modelMapping,
+			int columnIndex) throws SQLException {
+		List<Object> list = new ArrayList<>();
+		ResultSetMetaData metadata = rs.getMetaData();
+		while (rs.next()) {
+			Object value = "";
+			String columnName = metadata.getColumnName(columnIndex).toUpperCase();
+			if (modelMapping != null && modelMapping.size() > 0) {
+				if (modelMapping.containsKey(columnName)) {
+					ResourceProperty prop = modelMapping.get(columnName);
+					value = getValueByPropertyType(rs, prop.getType(), columnIndex);
+				}
+			} else {
+				value = getValueByDatabaseType(rs, metadata, columnIndex);
+			}
+
+			list.add(value);
+		}
+
+		return list;
+	}
+
+	private static Object getValueByPropertyType(ResultSet rs, String type, int index) {
+		try {
+			if (FIELD_TYPE_STRING.equalsIgnoreCase(type)) {
+				String val = rs.getString(index);
+				return val == null ? StringUtils.EMPTY : val;
+			} else if (FIELD_TYPE_TIMESTAMP.equalsIgnoreCase(type)) {
+				Timestamp val = rs.getTimestamp(index);
+				return val == null ? StringUtils.EMPTY : val.toString();
+			} else if (FIELD_TYPE_DATE.equalsIgnoreCase(type)) {
+				Date val = rs.getDate(index);
+				return val == null ? StringUtils.EMPTY : val.toString();
+			} else if (FIELD_TYPE_BLOB.equalsIgnoreCase(type)) {
+				Blob blob = rs.getBlob(index);
+				if (blob == null) {
+					return StringUtils.EMPTY;
+				} else {
+					byte[] bytes = blob.getBytes(1, (int) blob.length());
+					return new String(bytes);
+				}
+			} else if (FIELD_TYPE_CLOB.equalsIgnoreCase(type)) {
+				Clob clob = rs.getClob(index);
+				if (clob == null) {
+					return StringUtils.EMPTY;
+				} else {
+					return clob.getSubString(1, (int) clob.length());
+				}
+			} else {
+				Object val = rs.getObject(index);
+				return val == null ? StringUtils.EMPTY : val;
+			}
+		} catch (Exception e) {
+			logger.warn("Parse result set error: {}", e);
+			return StringUtils.EMPTY;
+		}
+
+	}
+
+	private static Object getValueByDatabaseType(ResultSet rs, ResultSetMetaData metadata, int index) {
+		try {
+			if (Types.TIMESTAMP == metadata.getColumnType(index)
+					|| Types.TIMESTAMP_WITH_TIMEZONE == metadata.getColumnType(index)) {
+				Timestamp val = rs.getTimestamp(index);
+				return val == null ? StringUtils.EMPTY : val.toString();
+			}else if(Types.DATE == metadata.getColumnType(index)) {
+				Date val = rs.getDate(index);
+				return val == null ? StringUtils.EMPTY : val.toString();
+			}else if (Types.BLOB == metadata.getColumnType(index)) {
+				Blob blob = rs.getBlob(index);
+				if (blob == null) {
+					return StringUtils.EMPTY;
+				} else {
+					byte[] bytes = blob.getBytes(1, (int) blob.length());
+					return new String(bytes);
+				}
+			} else if (Types.CLOB == metadata.getColumnType(index)) {
+				Clob clob = rs.getClob(index);
+				if (clob == null) {
+					return StringUtils.EMPTY;
+				} else {
+					return clob.getSubString(1, (int) clob.length());
+				}
+			} else {
+				String columnTypeName = metadata.getColumnTypeName(index);
+				if ("TIMESTAMP WITH TIME ZONE".equalsIgnoreCase(columnTypeName)
+						|| "INTERVALDS".equalsIgnoreCase(columnTypeName)) {
+					String val = rs.getString(index);
+					return val == null ? StringUtils.EMPTY : val;
+				} else {
+					Object val = rs.getObject(index);
+					return val == null ? StringUtils.EMPTY : val;
+				}
+			}
+		} catch (Exception e) {
+			logger.warn("Parse result set error: {}", e);
+			return StringUtils.EMPTY;
+		}
+
+	}
+
+	private static void setParameters(PreparedStatement pstm, ResourcePathFilter filter) throws SQLException {
+		if (filter == null) {
+			return;
+		}
+		LogUtils.info("=====> Prepared Statement index[{}], value[{}]", filter.getIndex(), filter.getValue());
+
+		if (FIELD_TYPE_STRING.equalsIgnoreCase(filter.getType())) {
+			pstm.setString(filter.getIndex(), (String) filter.getValue());
+		} else if (FIELD_TYPE_NUMBER.equalsIgnoreCase(filter.getType())) {
+			pstm.setInt(filter.getIndex(), Integer.parseInt((String) filter.getValue()));
+		} else if (FIELD_TYPE_DATE.equalsIgnoreCase(filter.getType())) {
+			pstm.setDate(filter.getIndex(), Date.valueOf((String) filter.getValue()));
+		} else if (FIELD_TYPE_TIMESTAMP.equalsIgnoreCase(filter.getType())) {
+			pstm.setTimestamp(filter.getIndex(), Timestamp.valueOf((String) filter.getValue()));
+		} else {
+			pstm.setObject(filter.getIndex(), filter.getValue());
+		}
+	}
+
+	public static final String FIELD_TYPE_STRING = "STRING";
+	public static final String FIELD_TYPE_NUMBER = "NUMBER";
+	public static final String FIELD_TYPE_DATE = "DATE";
+	public static final String FIELD_TYPE_TIMESTAMP = "TIMESTAMP";
+	public static final String FIELD_TYPE_BLOB = "BLOB";
+	public static final String FIELD_TYPE_CLOB = "CLOB";
+	public static final String FIELD_TYPE_LIST = "LIST";
+}

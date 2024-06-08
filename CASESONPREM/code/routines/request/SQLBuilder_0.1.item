@@ -1,0 +1,290 @@
+package routines;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.regex.Pattern;
+
+import org.apache.commons.lang3.StringUtils;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class SQLBuilder {
+	private static final Pattern FILTER_PATTERN = Pattern.compile("\\{#[\\w\\.]+\\}");
+
+	public static String buildCountSQL(Map<String, Object> globalMap, List<ResourcePathFilter> list) {
+		StringBuilder countSQLBuilder = new StringBuilder();
+
+		String withClause = getWithClause(globalMap);
+		if (!Utils.isBlank(withClause)) {
+			countSQLBuilder.append(withClause).append(" ");
+		}
+		countSQLBuilder.append("SELECT COUNT(1) FROM ").append(getSourceObject(globalMap));
+		countSQLBuilder.append(getWhereClause(globalMap, list));
+		return countSQLBuilder.toString();
+	}
+	
+	public static String buildCountSQLFromSubQuery(Map<String, Object> globalMap, List<ResourcePathFilter> list) {
+		StringBuilder countSQLBuilder = new StringBuilder();
+
+		String withClause = getWithClause(globalMap);
+		if (!Utils.isBlank(withClause)) {
+			countSQLBuilder.append(withClause).append(" ");
+		}
+		
+		StringBuilder bizSqlBuilder = new StringBuilder().append("SELECT ").append(getResourceFields(globalMap)).append(" FROM ")
+				.append(getSourceObject(globalMap));
+		bizSqlBuilder.append(getWhereClause(globalMap, list));
+		
+		countSQLBuilder.append("SELECT COUNT(1) FROM (").append(bizSqlBuilder).append(")");
+		return countSQLBuilder.toString();
+	}
+
+	public static String buildSelectSQL(Map<String, Object> globalMap, List<ResourcePathFilter> list) {
+		StringBuilder selectSQLBuilder = new StringBuilder();
+
+		String withClause = getWithClause(globalMap);
+		if (!Utils.isBlank(withClause)) {
+			selectSQLBuilder.append(withClause).append(" ");
+		}
+		selectSQLBuilder.append("SELECT ").append(getResourceFields(globalMap)).append(" FROM ")
+				.append(getSourceObject(globalMap));
+		selectSQLBuilder.append(getWhereClause(globalMap, list));
+		selectSQLBuilder.append(getSortExpression(globalMap));
+		return selectSQLBuilder.toString();
+	}
+
+	public static String buildPaginationSQL(Map<String, Object> globalMap, List<ResourcePathFilter> list) {
+		int minPage = (int)globalMap.get("reqSize") *  ((int)globalMap.get("reqPage") - 1);
+		int maxPage = (int)globalMap.get("reqSize") *  (int)globalMap.get("reqPage");
+		
+		StringBuilder selectSQLBuilder = new StringBuilder();
+		String withClause = getWithClause(globalMap);
+		if (!Utils.isBlank(withClause)) {
+			selectSQLBuilder.append(withClause).append(" ");
+		}
+		
+		StringBuilder bizSqlBuilder = new StringBuilder().append("SELECT ").append(getResourceFields(globalMap)).append(" FROM ")
+				.append(getSourceObject(globalMap));
+		bizSqlBuilder.append(getWhereClause(globalMap, list));
+		bizSqlBuilder.append(getSortExpression(globalMap));
+		
+		// @formatter:off
+		selectSQLBuilder.append("SELECT temp.* FROM ")
+						.append("    (SELECT biz.*, ROWNUM RNUM FROM ")
+						.append("        (").append(bizSqlBuilder).append(") biz ")
+						.append("    WHERE ROWNUM <= " + maxPage + ")temp ")
+						.append("WHERE temp.RNUM > " + minPage);
+		// @formatter:on
+	
+		return selectSQLBuilder.toString();
+	}
+	
+
+
+	public static String buildLimitSQL(Map<String, Object> globalMap, List<ResourcePathFilter> list) {
+		int limit = (int)globalMap.get("reqLimit");
+		
+		StringBuilder selectSQLBuilder = new StringBuilder();
+		String withClause = getWithClause(globalMap);
+		if (!Utils.isBlank(withClause)) {
+			selectSQLBuilder.append(withClause).append(" ");
+		}
+		
+		StringBuilder bizSqlBuilder = new StringBuilder().append("SELECT ").append(getResourceFields(globalMap)).append(" FROM ")
+				.append(getSourceObject(globalMap));
+		bizSqlBuilder.append(getWhereClause(globalMap, list));
+		bizSqlBuilder.append(getSortExpression(globalMap));
+		
+		// @formatter:off
+		selectSQLBuilder.append("SELECT biz.* FROM ")
+						.append("	(").append(bizSqlBuilder).append(") biz ")
+						.append("WHERE ROWNUM <= " + limit);
+		// @formatter:on
+	
+		return selectSQLBuilder.toString();
+	}
+
+	public static Object parseFilterValue(List<String> values, String type) {
+		if (DBConnector.FIELD_TYPE_LIST.equalsIgnoreCase(type)) {
+			List<String> temp = new ArrayList<String>();
+			for (String val : values) {
+				if (Utils.isBlank(val)) {
+					continue;
+				}
+
+				for (String str : val.split(",")) {
+					temp.add(str == null ? StringUtils.EMPTY : str.trim());
+				}
+			}
+			return temp;
+		} else {
+			String str = values.get(0);
+			return str == null ? StringUtils.EMPTY : str.trim();
+		}
+
+	}
+
+	private static String getWithClause(Map<String, Object> globalMap) {
+		return getStringValue(globalMap, "withClause");
+	}
+
+	private static String getSourceObject(Map<String, Object> globalMap) {
+		return getStringValue(globalMap, "sourceObjects");
+	}
+
+	private static String getResourceFields(Map<String, Object> globalMap) {
+		Object obj = globalMap.get("resourceFields");
+		return obj == null ? "*" : (String) obj;
+	}
+
+	private static String getSortExpression(Map<String, Object> globalMap) {
+		Object obj = globalMap.get("sortExpression");
+		return obj == null ? StringUtils.EMPTY : " ORDER BY " + obj;
+	}
+
+	private static String getStringValue(Map<String, Object> globalMap, String key) {
+		Object obj = globalMap.get(key);
+		return obj == null ? StringUtils.EMPTY : (String) obj;
+	}
+
+	private static String getWhereClause(Map<String, Object> globalMap, List<ResourcePathFilter> list) {
+		int index = 1;
+		StringBuilder whereCluaseBuilder = new StringBuilder(" WHERE 1=1");
+
+		Object reqIdentity = globalMap.get("reqIdentity");
+		Object resIdentity = globalMap.get("resIdentity");
+		if (reqIdentity != null && resIdentity != null) {
+			whereCluaseBuilder.append(" AND ").append(resIdentity).append(" = ?");
+			list.add(new ResourcePathFilter("reqIdentity", reqIdentity, DBConnector.FIELD_TYPE_STRING, index++));
+		}
+		
+		whereCluaseBuilder.append(getFilterExpressions(globalMap, list, index));
+		return whereCluaseBuilder.toString();
+	}
+
+	@SuppressWarnings("unchecked")
+	private static String getFilterExpressions(Map<String, Object> globalMap, List<ResourcePathFilter> list,
+			int index) {
+		Object filterExpressions = globalMap.get("filterExpressions");
+		if (filterExpressions == null) {
+			return StringUtils.EMPTY;
+		}
+
+		StringBuilder builder = new StringBuilder();
+		Object tempObj = globalMap.get("PARSED_FILTERS");
+		Map<String, ResourcePathFilter> parsedFilters = (tempObj == null ? null : (Map<String, ResourcePathFilter>)tempObj);
+		for (KV kv : (List<KV>) filterExpressions) {
+			String expression = (String)kv.getValue();
+			if(Utils.isBlank(kv.getKey())) {
+				and(builder, expression);
+			}else {
+				// Handler Dynamic filter
+				String filterName = kv.getKey().toUpperCase();
+				// Filter is not specified in request
+				if (parsedFilters == null || !parsedFilters.containsKey(filterName)) {
+					continue;
+				}
+				
+				// Find request path parameter
+				ResourcePathFilter filter = parsedFilters.get(filterName);
+				if (DBConnector.FIELD_TYPE_LIST.equals(filter.getType())) {
+					// Handler List parameters
+					List<String> values = (List<String>) filter.getValue();
+					if (values == null || values.size() <= 0) {
+						continue;
+					}
+
+					and(builder, expression.replace("?", buildPlaceholderForList(values.size())));
+					for (String value : values) {
+						list.add(new ResourcePathFilter(filterName, value, DBConnector.FIELD_TYPE_STRING, index++));
+					}
+				} else {
+					and(builder, expression);
+					list.add(new ResourcePathFilter(filterName, filter.getValue(), filter.getType(), index++));
+				}
+			}
+		}
+		return builder.toString();
+	}
+
+	@SuppressWarnings("unchecked")
+	@Deprecated
+	private static String getDynamicFilterExpressions(Map<String, Object> globalMap, List<ResourcePathFilter> list,
+			int index) {
+		Object dynamicFilterExpressions = globalMap.get("dynamicFilterExpressions");
+		if (dynamicFilterExpressions == null) {
+			return StringUtils.EMPTY;
+		}
+
+		StringBuilder builder = new StringBuilder();
+		Map<String, ResourcePathFilter> parsedFilters = (Map<String, ResourcePathFilter>) globalMap
+				.get("PARSED_FILTERS");
+		for (Entry<String, String> entry : ((Map<String, String>) dynamicFilterExpressions).entrySet()) {
+			String filterName = entry.getKey().toUpperCase();
+			if (!parsedFilters.containsKey(filterName)) {
+				continue;
+			}
+
+			ResourcePathFilter filter = parsedFilters.get(filterName);
+			if (DBConnector.FIELD_TYPE_LIST.equals(filter.getType())) {
+				List<String> values = (List<String>) filter.getValue();
+				if (values == null || values.size() <= 0) {
+					continue;
+				}
+
+				and(builder, entry.getValue().replace("?", buildPlaceholderForList(values.size())));
+				for (String value : values) {
+					list.add(new ResourcePathFilter(filterName, value, DBConnector.FIELD_TYPE_STRING, index++));
+				}
+			} else {
+				and(builder, entry.getValue());
+				list.add(new ResourcePathFilter(filterName, filter.getValue(), filter.getType(), index++));
+			}
+		}
+		return builder.toString();
+	}
+
+	private static void and(StringBuilder builder, String expression) {
+		builder.append(" AND ").append(expression);
+	}
+
+	private static String buildPlaceholderForList(int size) {
+		if (size <= 0) {
+			return StringUtils.EMPTY;
+		}
+
+		StringBuilder builder = new StringBuilder();
+		for (int i = 0; i < size; i++) {
+			builder.append("?,");
+		}
+		return builder.substring(0, builder.length() - 1);
+	}
+
+//	private static String transformExpression(Map<String, Object> globalMap, String expression) {
+//		Matcher matcher = FILTER_PATTERN.matcher(expression);
+//		return matcher.replaceAll(new Function<MatchResult, String>() {
+//			@Override
+//			public String apply(MatchResult t) {
+//				return "?";
+//			}
+//		});
+//	}
+}
