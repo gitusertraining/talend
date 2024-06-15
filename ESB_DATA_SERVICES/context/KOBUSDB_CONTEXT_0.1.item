@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_wttnIIViEeuR8ao90gCuXw">
+    <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_wttnIYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_wttnIoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_login" prompt="db_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres" xmi:id="_wttnI4ViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:aWIi1MvO2vVyerW5heQw+1OLFxc8pOtCdrXTHPC7NUFEBAzU+WF8Aig=" xmi:id="_wttnJIViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus" xmi:id="_wttnJYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_wttnJoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_sharedConnection" prompt="db_sharedConnection?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;KOBUS_SHARED_CONNECTION&quot;" xmi:id="_wttnJ4ViEeuR8ao90gCuXw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_wttnKIViEeuR8ao90gCuXw">
+    <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SL06P023.cl.corp.local" xmi:id="_wttnKYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_wttnKoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_login" prompt="db_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus" xmi:id="_wttnK4ViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:knm61HFAV5Da/8Qa+D98VKzk+lGwo9LEsi7Kwlqief/qrtjSsTfXa3oAiY1M5Men" xmi:id="_wttnLIViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus" xmi:id="_wttnLYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_wttnLoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_sharedConnection" prompt="db_sharedConnection?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;KOBUS_SHARED_CONNECTION&quot;" xmi:id="_wttnL4ViEeuR8ao90gCuXw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="int" xmi:id="_wttnMIViEeuR8ao90gCuXw">
+    <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.6.30.132" xmi:id="_wttnMYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432" xmi:id="_wttnMoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_login" prompt="db_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus_int" xmi:id="_wttnM4ViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:b5ceJN+eq8LX7aiTzcjelkCaa/wmsJzu22qsEyLUZ+Te9hupigfRJSZx/4km" xmi:id="_wttnNIViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus_int" xmi:id="_wttnNYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_wttnNoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_sharedConnection" prompt="db_sharedConnection?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;KOBUS_SHARED_CONNECTION&quot;" xmi:id="_wttnN4ViEeuR8ao90gCuXw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="rec" xmi:id="_wttnOIViEeuR8ao90gCuXw">
+    <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.6.30.134" xmi:id="_wttnOYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="6432" xmi:id="_wttnOoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_login" prompt="db_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus_rec" xmi:id="_wttnO4ViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:HYzJNbL9gJ0suHB9Ct9uQ/1Lkp2lV/UVNGqjR138xppg7y8Ip5evYBIXaQ==" xmi:id="_wttnPIViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus_rec" xmi:id="_wttnPYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_wttnPoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_sharedConnection" prompt="db_sharedConnection?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;KOBUS_SHARED_CONNECTION&quot;" xmi:id="_wttnP4ViEeuR8ao90gCuXw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_wttnQIViEeuR8ao90gCuXw">
+    <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.6.30.134" xmi:id="_wttnQYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="6432" xmi:id="_wttnQoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_login" prompt="db_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus" xmi:id="_wttnQ4ViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:y1nVKW3TnR3FG7ta7pWnQ/cNqMUqBkmA4BETTqSyxyeWoo5vj0TJXIaQnvf1" xmi:id="_wttnRIViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="kobus" xmi:id="_wttnRYViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_wttnRoViEeuR8ao90gCuXw"/>
+    <contextParameter comment="" name="db_sharedConnection" prompt="db_sharedConnection?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;KOBUS_SHARED_CONNECTION&quot;" xmi:id="_wttnR4ViEeuR8ao90gCuXw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b2518dd8-8347-47d6-98a0-7c759c1a7f2c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3q2ICWyD2Wt9dj7ULeniQnZ4B8re4ytGiuEureED5eb+gdqhqoZlXV8NqrGQBJl2C8pNW0iY+1d+&#13;
+e5cTirV+TA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_273ed9f9-bb5e-4f91-a061-731651dbfc55"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BfP5W+iz/hu0kbXzV+o1OG+GBwlqRHw+KOZgjcCNDWcz8kLRYc5X+Cteq5UaXAX/yYAknnWYAh8x&#13;
+SdFZOPiWSg==</DigestValue></Reference></SignedInfo><SignatureValue>MFOIxuG+k7cfanIQMUrbekXN7W/dGpV52lsy9kbBHtMAGG7MG1S1PjZbn95L4zSbAWQ4zlTWgSaF&#13;
+oab3hpUga2PDLtEKVnhmE+DoM3rijW3kVQpZPAdMzMLVvkrtztQEZP63AvFh04J/nQg+2FL+KKdx&#13;
+6qgRwNPOn/v+gfdu4J8HH0GH7WnBHycQEEhBxaAK8YsJC2I+xNcEa8i31UypjsbplUAbiNWbtlbd&#13;
+pZJd3VGf1CbU3qwUmHAsOb/YiD3V2Aa8UOttEt2koS/gv5M/WweMbfKm3fZMH3ttU4CM+4lT6QtR&#13;
+l6nQxVZemDk9iQHZMRUl0yYEgh9mCgMRF9mMRQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_273ed9f9-bb5e-4f91-a061-731651dbfc55" Target="#_b2518dd8-8347-47d6-98a0-7c759c1a7f2c"><Timestamp>2024-06-15 22:15:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
